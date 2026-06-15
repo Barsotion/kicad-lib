@@ -1,0 +1,5972 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "Antenna_IPEX"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Connector Receptacle IPEX Male Pin 50Ω Surface Mount"
+			(at -1.27 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:Conn_IPEX_ANTENNA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Receptacle IPEX Male Pin 50Ω Surface Mount"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRS"
+			(at -1.27 -8.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "U.FL-R-SMT-1(80)"
+			(at -1.27 -8.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C88374.html"
+			(at -1.27 -8.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "IPEX Antenna"
+			(at -1.27 -8.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*Conn_IPEX_ANTENNA*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Antenna_IPEX_1_0"
+			(polyline
+				(pts
+					(xy 5 -5) (xy 8 -5) (xy 8 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 7 5) (xy 7 4.1715) (xy 7.4477 3.5) (xy 8 3.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 8 6.5) (xy 7.4477 6.5) (xy 7 5.8284) (xy 7 5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8 3.5) (xy 8 -2.5) (xy 5 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 8 3.5) (xy 8.5522 3.5) (xy 9 4.1715) (xy 9 5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 9 5) (xy 9 5.8284) (xy 8.5522 6.5) (xy 8 6.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.5 12) (xy 13 7) (xy 15.5 12)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13 12) (xy 13 7)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13 7) (xy 13 5) (xy 5 5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 5 0)
+				(length 5)
+				(name "Antenna"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_AH3"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Connector Header 4 position 1.25mm Pitch"
+			(at -1.27 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CONN_JST_GH_SM04B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header 4 position 1.25mm Pitch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CJT(Changjiang Connectors)"
+			(at -1.27 -25.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "A1257WR-S-4P"
+			(at -1.27 -25.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C225127.html"
+			(at -1.27 -25.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "\"AH3 conn.\""
+			(at -1.27 -25.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*CONN_JST_GH_SM04B*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_AH3_1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 35 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 35 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -17.5) (xy 35 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -22.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -22.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "SDA"
+				(at 25 0 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "SCL"
+				(at 25 -5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 25 -10 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "+3,3В"
+				(at 25 -15 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Mount"
+				(at 25 -20 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_Battery"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "\"Батарея 3.7В\""
+			(at 5 -12.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.24 2.24)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CONN_BATTERY_3V7_V2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Battery connector for cable soldering"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*CONN_BATTERY_3V7_V2*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_Battery_1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -7.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "+3.7 В"
+				(at 25 0 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 25 -5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_JST_XH_B2B-XH-A_1x02_"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "*"
+			(at -1.27 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CONN_JST_XH_B2B-XH-A_1x02_P2.50mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-pin through-hole connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*CONN_JST_XH_B2B-XH-A_1x02_P2.50mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_JST_XH_B2B-XH-A_1x02__1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -7.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_JST_XH_B3B-XH-A_1x03_"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "*"
+			(at -1.27 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CONN_JST_XH_B3B-XH-A_1x03_P2.50mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3-pin through-hole connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*CONN_JST_XH_B3B-XH-A_1x03_P2.50mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_JST_XH_B3B-XH-A_1x03__1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 35 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -12.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_JTAG_10"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 5 7.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${VALUEMANUFACTURERPARTNUMBER}"
+			(at -1.27 -1.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CONN_5x10_1.27мм_NO_SOLDERING"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Edge-board JTAG connector including TRST"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HelpURL" "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-EH-A-LF-SN/455-1611-ND/926520"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ValueManufacturerPartNumber" "${TYPECONNECTOR}, ${MULTICHANNEL}, ${PITCH}, ${VOLTAGEMAX}, ${CURRENTMAX}"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TypeConnector" "Connector"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PartNumber" "B2B-EH-A"
+			(at 5 -16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VoltageMax" "250V"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" "2.5 mm"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CurrentMax" "3A"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Multichannel" "2pin"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CommentText" "\"JTAG разъем\""
+			(at 5 -52.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*CONN_5x10_1.27мм_NO_SOLDERING*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_JTAG_10_1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 35 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 35 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -17.5) (xy 35 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -22.5) (xy 35 -22.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -27.5) (xy 35 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -32.5) (xy 35 -32.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -37.5) (xy 35 -37.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -42.5) (xy 35 -42.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -47.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -47.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "+3.3 В"
+				(at 25 0 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 25 -5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 25 -10 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "RXD"
+				(at 25 -15 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TXD"
+				(at 25 -20 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TRSTN"
+				(at 25 -25 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TDI"
+				(at 25 -30 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TDO"
+				(at 25 -35 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TCK"
+				(at 25 -40 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TMS"
+				(at 25 -45 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_JTAG_7"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 5 7.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${VALUEMANUFACTURERPARTNUMBER}"
+			(at -1.27 -1.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CONN_7x1.27мм_NO_SOLDERING"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Edge-board JTAG connector including TRST"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HelpURL" "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-EH-A-LF-SN/455-1611-ND/926520"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ValueManufacturerPartNumber" "${TYPECONNECTOR}, ${MULTICHANNEL}, ${PITCH}, ${VOLTAGEMAX}, ${CURRENTMAX}"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TypeConnector" "Connector"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PartNumber" "B2B-EH-A"
+			(at 5 -16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VoltageMax" "250V"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" "2.5 mm"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CurrentMax" "3A"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Multichannel" "2pin"
+			(at -0.508 -6.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CommentText" "\"JTAG разъем\""
+			(at 5 -37.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*CONN_7x1.27мм_NO_SOLDERING*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_JTAG_7_1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 35 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 35 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -17.5) (xy 35 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -22.5) (xy 35 -22.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -27.5) (xy 35 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -32.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -32.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "+3.3 В"
+				(at 25 0 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 25 -5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TCK"
+				(at 25 -10 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TMS"
+				(at 25 -15 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TDI"
+				(at 25 -20 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TDO"
+				(at 25 -25 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TRST"
+				(at 25 -30 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_OV5640"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -12.5 2.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FFC/FPC Connector 24 Position 0.5mm Pitch Bottom Contact Surface Mount, Right Angle -25℃~+85℃"
+			(at -10 -5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:OV5640_CONNECTOR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "kinghelm"
+			(at -12.5 -125.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "KH-FG0.5-H2.0-24PIN"
+			(at -12.5 -125.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "OV5640"
+			(at -12.5 -125.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C2797213.html"
+			(at -12.5 -125.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*OV5640_CONNECTOR*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_OV5640_1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 35 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 35 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -17.5) (xy 35 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -22.5) (xy 35 -22.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -27.5) (xy 35 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -32.5) (xy 35 -32.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -37.5) (xy 35 -37.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -42.5) (xy 35 -42.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -47.5) (xy 35 -47.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -52.5) (xy 35 -52.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -57.5) (xy 35 -57.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -62.5) (xy 35 -62.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -67.5) (xy 35 -67.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -72.5) (xy 35 -72.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -77.5) (xy 35 -77.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -82.5) (xy 35 -82.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -87.5) (xy 35 -87.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -92.5) (xy 35 -92.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -97.5) (xy 35 -97.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -102.5) (xy 35 -102.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -107.5) (xy 35 -107.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -112.5) (xy 35 -112.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -117.5) (xy 35 -117.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -122.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -122.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Shield"
+				(at 25 0 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "NC"
+				(at 25 -5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "NC"
+				(at 25 -10 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y4"
+				(at 25 -15 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y3"
+				(at 25 -20 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y5"
+				(at 25 -25 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y2"
+				(at 25 -30 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y6"
+				(at 25 -35 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "PCLK"
+				(at 25 -40 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y7"
+				(at 25 -45 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "DGND"
+				(at 25 -50 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y8"
+				(at 25 -55 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "XCLK"
+				(at 25 -60 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Y9"
+				(at 25 -65 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "DOVDD"
+				(at 25 -70 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "DVDD"
+				(at 25 -75 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "HREF"
+				(at 25 -80 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "PWDN"
+				(at 25 -85 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "VSYNC"
+				(at 25 -90 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "RESET"
+				(at 25 -95 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "SIO_C"
+				(at 25 -100 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "AVDD"
+				(at 25 -105 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "SIO_D"
+				(at 25 -110 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "AGND"
+				(at 25 -115 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "NC"
+				(at 25 -120 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "0"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -75 0)
+				(length 5)
+				(name "15"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -80 0)
+				(length 5)
+				(name "16"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -85 0)
+				(length 5)
+				(name "17"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -90 0)
+				(length 5)
+				(name "18"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -95 0)
+				(length 5)
+				(name "19"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -100 0)
+				(length 5)
+				(name "20"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -105 0)
+				(length 5)
+				(name "21"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -110 0)
+				(length 5)
+				(name "22"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -115 0)
+				(length 5)
+				(name "23"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -120 0)
+				(length 5)
+				(name "24"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_RJ45"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 5 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${VALUEMANUFACTURERPARTNUMBER}"
+			(at -1.27 -1.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CON: HR911105A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HelpURL" "https://www.digikey.com/product-detail/en/w-rth-elektronik/615008137421/732-2112-ND/2060608"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ValueManufacturerPartNumber" "${TYPECONNECTOR}"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TypeConnector" "Etherner RJ-45 connector"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PartNumber" "615008137421"
+			(at 5 -16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "AnalogComponent" "DS1128-09-S8B8S (Connfly)"
+			(at -0.508 -96.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CommentText" "\"Ethernet RJ-45\""
+			(at 5 -93.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*CON:{space}HR911105A*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_RJ45_1_0"
+			(polyline
+				(pts
+					(xy 5 -65) (xy 30 -65) (xy 30 -55) (xy 5 -55)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -75) (xy 30 -75) (xy 30 -85) (xy 5 -85)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -7.5) (xy 5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -10) (xy 32.5 -10)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -12.5) (xy 5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -15) (xy 32.5 -15)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -17.5) (xy 5 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -20) (xy 32.5 -20)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -22.5) (xy 5 -22.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -25) (xy 32.5 -25)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -27.5) (xy 5 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -30) (xy 32.5 -30)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -32.5) (xy 5 -32.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -35) (xy 32.5 -35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -37.5) (xy 5 -37.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -40) (xy 32.5 -40)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 -42.5) (xy 5 -42.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -5) (xy 15 -45)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18 -53) (xy 18 -57) (xy 22 -55) (xy 18 -53)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18 -73) (xy 18 -77) (xy 22 -75) (xy 18 -73)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 21 -50.5) (xy 23.5 -48)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 21 -70.5) (xy 23.5 -68)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22 -57) (xy 22 -53)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22 -77) (xy 22 -73)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.5 -52) (xy 25 -49.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.5 -72) (xy 25 -69.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24 -47.5) (xy 22 -49) (xy 22.5 -49.5) (xy 24 -47.5)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 3 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24 -67.5) (xy 22 -69) (xy 22.5 -69.5) (xy 24 -67.5)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 3 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.5 -49) (xy 23.5 -50.5) (xy 24 -51) (xy 25.5 -49)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 3 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.5 -69) (xy 23.5 -70.5) (xy 24 -71) (xy 25.5 -69)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+					(color 3 0 0 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 32.5 -5)
+				(end 10 -45)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 37.5 0)
+				(end 5 -90)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 11.5 -9.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "2"
+				(at 11.5 -14.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "3"
+				(at 11.5 -19.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "4"
+				(at 11.5 -24.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "5"
+				(at 11.5 -29.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "6"
+				(at 11.5 -34.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "7"
+				(at 11.5 -39.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "8"
+				(at 11.5 -44.5 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "\"Зеленый\""
+				(at 14.5 -61 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "\"Желтый\""
+				(at 14.5 -81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "D1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -85 0)
+				(length 5)
+				(name "D3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -75 0)
+				(length 5)
+				(name "D4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_UART_4"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 5 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "\"Разъем UART\""
+			(at 5 -22.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CONN_4x1.27мм_NO_SOLDERING"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*CONN_4x1.27мм_NO_SOLDERING*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_UART_4_1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 35 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 35 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -17.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "+3.3 В"
+				(at 25 0 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 25 -5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "RXD"
+				(at 25 -10 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "TXD"
+				(at 25 -15 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Connector_USB_Type_C"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 3 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount"
+			(at -1.27 -1.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:CON_TYPE-C-31-M-12"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16-pin USB-C connector, surface mount"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HDGC"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C7395062.html"
+			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "TYPE C-DB-116PWB"
+			(at 5 -16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CommentText" "\"USB Type C\""
+			(at 18 -68.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.24 2.24)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ki_fp_filters" "*CON:{space}TYPE-C-31-M-12*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_USB_Type_C_1_0"
+			(polyline
+				(pts
+					(xy 20 0) (xy 20 -65)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 30 0)
+				(end 0 -65)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -5) (xy 0 -5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -10) (xy 0 -10)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -15) (xy 0 -15)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -20) (xy 0 -20)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -25) (xy 0 -25)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -30) (xy 0 -30)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -35) (xy 0 -35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -40) (xy 0 -40)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -45) (xy 0 -45)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -50) (xy 0 -50)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -55) (xy 0 -55)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -60) (xy 0 -60)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Цепь"
+				(at 10 -2.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "VBUS"
+				(at 10 -7.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "VBUS"
+				(at 10 -12.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "USB-DP1"
+				(at 10 -17.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "USB-DP2"
+				(at 10 -22.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "USB-DN1"
+				(at 10 -27.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "USB-DN2"
+				(at 10 -32 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "SBU1"
+				(at 10 -37.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "SBU2"
+				(at 10 -42.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "CC1"
+				(at 10 -47.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "CC2"
+				(at 10 -52.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 10 -57.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "GND"
+				(at 10 -62.5 0)
+				(effects
+					(font
+						(face "GOST type B")
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Конт."
+				(at 25 -2.5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -57.5 180)
+				(length 5)
+				(name "A1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -7.5 180)
+				(length 5)
+				(name "A4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -47.5 180)
+				(length 5)
+				(name "A5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -17.5 180)
+				(length 5)
+				(name "A6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -27.5 180)
+				(length 5)
+				(name "A7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -37.5 180)
+				(length 5)
+				(name "A8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -62.5 180)
+				(length 5)
+				(name "B1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -12.5 180)
+				(length 5)
+				(name "B4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -52.5 180)
+				(length 5)
+				(name "B5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -22.5 180)
+				(length 5)
+				(name "B6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -32.5 180)
+				(length 5)
+				(name "B7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35 -42.5 180)
+				(length 5)
+				(name "B8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "HR911130A"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HR911130A"
+			(at -1.27 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:HR911130A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Розетка 8P8C до 1 ГБит со встроенным трансформатором"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr.Part" "*"
+			(at -1.27 -75.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "HanRun"
+			(at -1.27 -75.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "HR911130A"
+			(at -1.27 -75.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*HR911130A*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "HR911130A_1_0"
+			(polyline
+				(pts
+					(xy 5 2.5) (xy 35 2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 35 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 35 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 35 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -17.5) (xy 35 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -22.5) (xy 35 -22.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -27.5) (xy 35 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -32.5) (xy 35 -32.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -37.5) (xy 35 -37.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -42.5) (xy 35 -42.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -47.5) (xy 35 -47.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -52.5) (xy 35 -52.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -57.5) (xy 35 -57.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -62.5) (xy 35 -62.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -67.5) (xy 35 -67.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -72.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 35 7.5)
+				(end 5 -72.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 24.5 5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "P1"
+				(at 25 0 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 0+"
+				(at 25 -5 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 0-"
+				(at 25 -10 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 1+"
+				(at 25 -15 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 2+"
+				(at 25 -20 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 2-"
+				(at 25 -25 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 1-"
+				(at 25 -30 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 3+"
+				(at 25 -35 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "MDI 3-"
+				(at 25 -40 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "P10"
+				(at 25 -45 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Зел. А"
+				(at 25 -50 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Зел. К"
+				(at 25 -55 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Желт. А"
+				(at 25 -60 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Желт. К"
+				(at 25 -65 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(text "Корпус"
+				(at 25 -70 0)
+				(effects
+					(font
+						(size 2.24 2.24)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "15"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
