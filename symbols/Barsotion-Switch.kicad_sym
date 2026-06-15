@@ -37,7 +37,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion_PcbLib.PcbLib:Switch_1TS009xxxx-xxxx-xxxx"
+		(property "Footprint" "Barsotion:Switch_1TS009xxxx-xxxx-xxxx"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -275,7 +275,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion_PcbLib.PcbLib:Button_4.2x2.3mm"
+		(property "Footprint" "Barsotion:Button_4.2x2.3mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
