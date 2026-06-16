@@ -1,0 +1,6141 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "eMMC_H26M51002KPR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 30 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:eMMC_13x11.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема eMMC, 16ГБ, FBGA-153 13x11.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "FBGA-153"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8034 1.8034)
+				)
+			)
+		)
+		(property "Manufacturer" "HYNIX"
+			(at -10 -75.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "H26M51002KPR"
+			(at -10 -75.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Comment" "16GB eMMC 5.1 FBGA-153 Memory (ICs) RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8034 1.8034)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C3002775.html"
+			(at -11.5 -77.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*eMMC_13x11.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "eMMC_H26M51002KPR_1_0"
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -40) (xy 15 -40)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -57.5) (xy 15 -57.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -7.5) (xy 5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -25) (xy 5 -25)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 20 2.5)
+				(end 15 -72.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -2.5) (xy 30 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -25) (xy 30 -25)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 30 2.5)
+				(end 5 -72.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 35 -5 180)
+				(length 5)
+				(name "DAT0"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -7.5 180)
+				(length 5)
+				(name "DAT1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -10 180)
+				(length 5)
+				(name "DAT2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -12.5 180)
+				(length 5)
+				(name "DAT3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -15 180)
+				(length 5)
+				(name "DAT4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -17.5 180)
+				(length 5)
+				(name "DAT5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -20 180)
+				(length 5)
+				(name "DAT6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -22.5 180)
+				(length 5)
+				(name "DAT7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "VDDI"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 0 180)
+				(length 5)
+				(name "DS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "RST_N"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -27.5 180)
+				(length 5)
+				(name "CMD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_H26M51002KPR_2_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_H26M51002KPR_3_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_H26M51002KPR_4_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_H26M51002KPR_5_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "eMMC_S40FC004"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 25 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:eMMC_9x7.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема ПЗУ типа eMMC, 4ГБ, FBGA-153 9x7.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SkyHigh Memory"
+			(at -10 -75.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "S40FC004C1B2I00300"
+			(at -10 -75.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "FBGA-153"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "eMMC 4GB e.MMC5.1 BGA 9.0 x 7.5 x 0.8 mm STDF/W with reel packing "
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*eMMC_9x7.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "eMMC_S40FC004_1_0"
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 15 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -12.5) (xy 15 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -40) (xy 15 -40)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -57.5) (xy 15 -57.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -7.5) (xy 5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 -25) (xy 5 -25)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 20 2.5)
+				(end 15 -72.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -2.5) (xy 30 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -25) (xy 30 -25)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 30 2.5)
+				(end 5 -72.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 35 -5 180)
+				(length 5)
+				(name "DAT0"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -7.5 180)
+				(length 5)
+				(name "DAT1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -10 180)
+				(length 5)
+				(name "DAT2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -12.5 180)
+				(length 5)
+				(name "DAT3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -15 180)
+				(length 5)
+				(name "DAT4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -17.5 180)
+				(length 5)
+				(name "DAT5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -20 180)
+				(length 5)
+				(name "DAT6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -22.5 180)
+				(length 5)
+				(name "DAT7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "VDDI"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 0 180)
+				(length 5)
+				(name "DS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "RST_N"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35 -27.5 180)
+				(length 5)
+				(name "CMD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "VCCQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_S40FC004_2_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "B14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_S40FC004_3_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "C14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "D14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "E14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "F14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_S40FC004_4_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "G14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "H14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "J14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "K14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "L14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "eMMC_S40FC004_5_0"
+			(rectangle
+				(start 12.5 2.5)
+				(end 5 -75)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "M14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -47.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "N14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -55 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -60 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -65 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -67.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -70 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "P14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

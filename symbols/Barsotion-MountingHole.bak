@@ -9,10 +9,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -25,7 +25,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -121,10 +121,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -137,7 +137,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3_ISO14580_Pad"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233,10 +233,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -249,7 +249,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -345,10 +345,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -361,7 +361,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -457,10 +457,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -473,7 +473,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -569,10 +569,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -585,7 +585,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -681,10 +681,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -697,7 +697,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -793,10 +793,10 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at -1.27 1.27 0)
@@ -809,7 +809,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "MountingHole_3.2mm_M3_Pad_Via"
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -932,7 +932,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion_PcbLib.PcbLib:MountingHole_Valoitus_3.2_5mm"
+		(property "Footprint" "Barsotion-MountingHole:MountingHole_Valoitus_3.2_5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

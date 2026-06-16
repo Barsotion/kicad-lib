@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "HL"
-			(at -1.27 1.27 0)
+			(at 5 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,11 +19,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Blue 1 100mW Common Anode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
-			(at -1.27 -3.81 0)
+		(property "Value" "${MFR.PART}"
+			(at 13 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -76,8 +75,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "GS2011AB-G"
-			(at -1.27 -22.54 0)
+		(property "Mfr.Part" "GS2011AB-G"
+			(at 9 3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -86,6 +85,28 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Package" "SMD,10x6.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Blue 1 100mW Common Anode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C22462631.html"
@@ -93,17 +114,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mfr.Part" "GS2011AB-G"
-			(at 9 3 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -123,6 +133,18 @@
 			)
 		)
 		(symbol "GS2011AB-G_1_0"
+			(rectangle
+				(start 5 2.5)
+				(end 20 -20)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy 12.5 -5) (xy 15 -5)
@@ -157,18 +179,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(rectangle
-				(start 20 2.5)
-				(end 5 -20)
-				(stroke
-					(width 0.508)
-					(type solid)
-					(color 128 0 0 1)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(pin passive line
@@ -361,7 +371,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "HL"
-			(at -1.27 1.27 0)
+			(at 5 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -371,11 +381,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Yellow Green 1 100mW Common Anode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
-			(at -1.27 -3.81 0)
+		(property "Value" "${MFR.PART}"
+			(at 11 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -428,8 +437,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "GS2011AG-G"
-			(at -1.27 -22.54 0)
+		(property "Mfr.Part" "GS2011AG-G"
+			(at 9 3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -438,6 +447,28 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Package" "SMD 10x6.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Yellow Green 1 100mW Common Anode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C22462633.html"
@@ -445,17 +476,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mfr.Part" "GS2011AG-G"
-			(at 9 3 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -713,7 +733,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "HL"
-			(at -1.27 1.27 0)
+			(at 5 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -723,11 +743,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Blue 1 100mW Common Cathode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
-			(at -1.27 -3.81 0)
+		(property "Value" "${MFR.PART}"
+			(at 13.5 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -780,8 +799,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "GS2011CB-G"
-			(at -1.27 -22.54 0)
+		(property "Mfr.Part" "GS2011CB-G"
+			(at 9 3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -790,6 +809,28 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Package" "SMD 10x6.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Blue 1 100mW Common Cathode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C22462632.html"
@@ -797,17 +838,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mfr.Part" "GS2011CB-G"
-			(at 9 3 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1065,7 +1095,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "HL"
-			(at -1.27 1.27 0)
+			(at 5 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1075,11 +1105,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Yellow Green 1 100mW Common Cathode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
-			(at -1.27 -3.81 0)
+		(property "Value" "${MFR.PART}"
+			(at 13 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1132,8 +1161,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "GS2011CG-G"
-			(at -1.27 -22.54 0)
+		(property "Mfr.Part" "GS2011CG-G"
+			(at 9 3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1142,6 +1171,28 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Package" "SMD 10x6.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Yellow Green 1 100mW Common Cathode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C22462634.html"
@@ -1149,17 +1200,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mfr.Part" "GS2011CG-G"
-			(at 9 3 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1417,7 +1457,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "HL"
-			(at -1.27 1.27 0)
+			(at 5 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1427,11 +1467,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Red 1 100mW Common Cathode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
-			(at -1.27 -3.81 0)
+		(property "Value" "${MFR.PART}"
+			(at 14.5 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1484,8 +1523,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "GS2011CR-G"
-			(at -1.27 -22.54 0)
+		(property "Mfr.Part" "GS2011CR-G"
+			(at 9 3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1494,6 +1533,28 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Package" "SMD 10x6.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Red 1 100mW Common Cathode 0.2 SMD,10x6.9mm LED Character and Numeric RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C22462630.html"
@@ -1501,17 +1562,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mfr.Part" "GS2011CR-G"
-			(at 9 3 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1774,7 +1824,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "VD"
+		(property "Reference" "HL"
 			(at -7.5 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1789,7 +1839,6 @@
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1830,18 +1879,6 @@
 				)
 			)
 		)
-		(property "Mfr.Part" "XL-1608UGC-04"
-			(at -1.27 -5.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Manufacturer" "XINGLIGHT"
 			(at -1.27 -5.294 0)
 			(show_name no)
@@ -1854,8 +1891,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "HelpURL" "https://www.lcsc.com/product-detail/C965804.html"
-			(at -10 -5.04 0)
+		(property "Mfr.Part" "XL-1608UGC-04"
+			(at -1.27 -5.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1866,10 +1903,33 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "LED"
-			(at -10 -2.5 0)
+		(property "Package" "0603"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Emerald Green 525nm LED Indication - Discrete 3.3V 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C965804.html"
+			(at -10 -5.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1988,7 +2048,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "VD"
+		(property "Reference" "HL"
 			(at -7.5 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2003,7 +2063,6 @@
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2044,18 +2103,6 @@
 				)
 			)
 		)
-		(property "Mfr.Part" "A-SP192GB1D-A02-4T"
-			(at -1.27 -5.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Manufacturer" "Amicc"
 			(at -1.27 -5.294 0)
 			(show_name no)
@@ -2068,8 +2115,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "HelpURL" "https://www.lcsc.com/product-detail/C5355458.html"
-			(at -10 -5.04 0)
+		(property "Mfr.Part" "A-SP192GB1D-A02-4T"
+			(at -1.27 -5.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2080,10 +2127,33 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "LED"
-			(at -10 -2.5 0)
+		(property "Package" "0603"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Ice Blue LED Indication - Discrete 2.8V~3.3V 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C5355458.html"
+			(at -10 -5.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2202,7 +2272,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "VD"
+		(property "Reference" "HL"
 			(at -7.5 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2217,7 +2287,6 @@
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2258,18 +2327,6 @@
 				)
 			)
 		)
-		(property "Mfr.Part" "XL-1608SURC-06"
-			(at -1.27 -5.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Manufacturer" "XINGLIGHT"
 			(at -1.27 -5.294 0)
 			(show_name no)
@@ -2282,8 +2339,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "HelpURL" "https://www.lcsc.com/product-detail/C965799.html"
-			(at -10 -5.04 0)
+		(property "Mfr.Part" "XL-1608SURC-06"
+			(at -1.27 -5.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2294,10 +2351,33 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "LED"
-			(at -10 -2.5 0)
+		(property "Package" "0603"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Red 625nm LED Indication - Discrete 2.3V 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C965799.html"
+			(at -10 -5.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2431,7 +2511,6 @@
 			(at -1.27 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2472,18 +2551,6 @@
 				)
 			)
 		)
-		(property "Mfr.Part" "TZ0603W3G-001/2#"
-			(at -1.27 -5.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Manufacturer" "TUOZHAN"
 			(at -1.27 -5.294 0)
 			(show_name no)
@@ -2496,8 +2563,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "HelpURL" "https://www.lcsc.com/product-detail/C3011232.html"
-			(at -10 -5.04 0)
+		(property "Mfr.Part" "TZ0603W3G-001/2#"
+			(at -1.27 -5.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2508,10 +2575,33 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "LED"
-			(at -10 -2.5 0)
+		(property "Package" "0603"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "451nm LED Indication - Discrete 2.9V 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C3011232.html"
+			(at -10 -5.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)

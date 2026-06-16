@@ -1,0 +1,595 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "NRF24L01P-R"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at -12 26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 0 26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:QFN-20_4x4mm_None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема радио-приемопередатчика 2.4 ГГц, QFN-20 4x4mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nordic Semicomductor"
+			(at -18.008 -25.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "NRF24L01P-R"
+			(at -18.008 -25.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "QFN-20 (4x4)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "IC RF TXRX ISM 2400MHz~2525MHz QFN-20-EP(4x4)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C8791.html"
+			(at -18.008 -27.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*QFN-20_4x4mm_None*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "NRF24L01P-R_1_0"
+			(polyline
+				(pts
+					(xy -12.5 12.5) (xy -5 12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.5 5) (xy -5 5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.5 0) (xy -5 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 25)
+				(end -5 -25)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 20) (xy 10 20)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10 25)
+				(end -12.5 -25)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 15) (xy 0 15)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 10) (xy 0 10)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -17.5 22.5 0)
+				(length 5)
+				(name "CE"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 20 0)
+				(length 5)
+				(name "CSN"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 17.5 0)
+				(length 5)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 15 0)
+				(length 5)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 22.5 180)
+				(length 5)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 17.5 180)
+				(length 5)
+				(name "IRQ"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 -2.5 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 -15 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 10 0)
+				(length 5)
+				(name "XC2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 7.5 0)
+				(length 5)
+				(name "XC1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 0 180)
+				(length 5)
+				(name "VDD_PA"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 5 180)
+				(length 5)
+				(name "ANT1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 7.5 180)
+				(length 5)
+				(name "ANT2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 -17.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 -5 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 2.5 0)
+				(length 5)
+				(name "IREF"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 -20 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 -7.5 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15 12.5 180)
+				(length 5)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.5 -22.5 0)
+				(length 5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
