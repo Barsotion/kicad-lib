@@ -2322,7 +2322,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion_PcbLib.PcbLib:ICM-42688-P_LGA-14_3x2.5mm"
+		(property "Footprint" "Barsotion:ICM-45686_LGA-14_3x2.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

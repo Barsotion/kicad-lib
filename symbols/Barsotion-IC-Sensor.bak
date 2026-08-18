@@ -2,4 +2,3532 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "BMP388"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 25 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:BMP388_LGA-10_2x2mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема интегрального барометра, LGA-10 2x2mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bosch"
+			(at -0.508 -30.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "BMP388"
+			(at -0.508 -30.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "LGA-10"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "30Kpa~1.25bar LGA-10(2x2) Pressure Sensors, Transducers RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C779278.html"
+			(at -0.508 -30.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*BMP388_LGA-10_2x2mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BMP388_1_0"
+			(polyline
+				(pts
+					(xy 5 -5) (xy 12.5 -5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.5 -12.5) (xy 5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 17.5 2.5)
+				(end 12.5 -27.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25 2.5)
+				(end 5 -27.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 5)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10 0)
+				(length 5)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "CSB"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BMP388_1_1"
+			(pin input line
+				(at 30 0 180)
+				(length 5.0038)
+				(name "INT"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BMP390"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 25 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion:BMP390_LGA-10_2x2mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема интегрального барометра, LGA-10 2x2mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bosch"
+			(at -0.508 -30.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "BMP390"
+			(at -0.508 -30.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "LGA-10"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "30Kpa~1.25bar LGA-10(2x2) Pressure Sensors, Transducers RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C5124834.html"
+			(at -0.508 -30.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*BMP390_LGA-10_2x2mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BMP390_1_0"
+			(polyline
+				(pts
+					(xy 5 -5) (xy 12.5 -5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.5 -12.5) (xy 5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 17.5 2.5)
+				(end 12.5 -27.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25 2.5)
+				(end 5 -27.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 5)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10 0)
+				(length 5)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "CSB"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 0 180)
+				(length 5)
+				(name "INT"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ICM-40609-D"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 14.5 5.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 14 7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:ICM-40609-D_LGA-24_3x3mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема интегрального гироскопа-акселерометра (IMU), LGA-24 3x3mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at -0.508 -67.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "ICM-40609-D"
+			(at -0.508 -67.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "LGA-24 (3x3)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "LGA24-3x3 IMUs (Inertial Measurement Units) RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" ""
+			(at -0.508 -67.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*ICM-40609-D_LGA-24_3x3mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ICM-40609-D_1_0"
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 12.5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -47.5) (xy 12.5 -47.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.5 -12.5) (xy 5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.5 -55) (xy 5 -55)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 17.5 2.5)
+				(end 12.5 -65)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.5 -2.5) (xy 25 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25 2.5)
+				(end 5 -65)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -60 0)
+				(length 5)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30 0 180)
+				(length 5)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30 -5 180)
+				(length 5)
+				(name "INT1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -57.5 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -37.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -42.5 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -62.5 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "FSYNC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -52.5 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45 0)
+				(length 5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 5)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 5)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ICM-42688-P"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 14 5.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 20 5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:ICM-42688-P_LGA-14_3x2.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема интегрального гироскопа-акселерометра (IMU), LGA-14 3x2.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at -33.77 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "ICM-42688-P"
+			(at -33.77 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "LGA-14 (2.5x3)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "LGA-14(2.5x3) IMUs (Inertial Measurement Units) RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" ""
+			(at -0.508 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*ICM-42688-P_LGA-14_3x2.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ICM-42688-P_1_0"
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 12.5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -27.5) (xy 12.5 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.5 -12.5) (xy 5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 17.5 2.5)
+				(end 12.5 -37.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.5 -2.5) (xy 25 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25 2.5)
+				(end 5 -37.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 30 0 180)
+				(length 5)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30 -5 180)
+				(length 5)
+				(name "INT1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -35 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -30 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "FSYNC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 5)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 5)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ICM-42688-V"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 14 5.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 19.5 6.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:ICM-42688-V_LGA-14_3x2.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема интегрального гироскопа-акселерометра (IMU), LGA-14 3x2.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at -33.77 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "ICM-42688-V"
+			(at -33.77 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "LGA-14 (2.5x3)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "LGA-14(2.5x3) Accelerometers RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" ""
+			(at -0.508 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*ICM-42688-V_LGA-14_3x2.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ICM-42688-V_1_0"
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 12.5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -27.5) (xy 12.5 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.5 -12.5) (xy 5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 17.5 2.5)
+				(end 12.5 -37.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.5 -2.5) (xy 25 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25 2.5)
+				(end 5 -37.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 30 0 180)
+				(length 5)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30 -5 180)
+				(length 5)
+				(name "INT1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -35 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -30 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "FSYNC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 5)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 5)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ICM-45686"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 14 5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 22 5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:ICM-42688-P_LGA-14_3x2.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема интегрального гироскопа-акселерометра (IMU), LGA-14 3x2.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at -33.77 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "ICM-45686"
+			(at -33.77 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "LGA-14 (2.5x3)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "High Performance Dual-Interface (UI + AUX) 6-Axis MEMS MotionTracking Device"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" ""
+			(at -0.508 -40.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*ICM-42688-P_LGA-14_3x2.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ICM-45686_1_0"
+			(polyline
+				(pts
+					(xy 5 -7.5) (xy 12.5 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -27.5) (xy 12.5 -27.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.5 -12.5) (xy 5 -12.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 17.5 2.5)
+				(end 12.5 -37.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.5 -2.5) (xy 25 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25 2.5)
+				(end 5 -37.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 30 0 180)
+				(length 5)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30 -5 180)
+				(length 5)
+				(name "INT1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -32.5 0)
+				(length 5)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -35 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -30 0)
+				(length 5)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10 0)
+				(length 5)
+				(name "FSYNC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25 0)
+				(length 5)
+				(name "RESV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 5)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 5)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA226"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 12 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:VSSOP-10_INA226"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема датчика тока со встроенным 16-бит АЦП"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at -20.508 -35.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "INA226AIDGSR"
+			(at -20.508 -35.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "VSOP-10"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "300mV~40V 2.5uV 10nA VSOP-10 Current Regulation/Management RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C49851.html"
+			(at -1.27 -27.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*VSSOP-10_INA226*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "INA226_1_0"
+			(rectangle
+				(start 20 2.5)
+				(end 5 -22.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 0 -10 0)
+				(length 5)
+				(name "A1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.5 0)
+				(length 5)
+				(name "A0"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 25 -7.5 180)
+				(length 5)
+				(name "Alert"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 25 -2.5 180)
+				(length 5)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 25 0 180)
+				(length 5)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "VS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5 0)
+				(length 5)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA3221"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${MFR.PART}"
+			(at 16 3.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion_PcbLib.PcbLib:QFN16_4x4mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Микросхема трехканального амперметра-вольтметра"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at -1.27 -25.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mfr.Part" "INA3221AIRGVR"
+			(at -1.27 -25.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Package" "QFN-16 (4x4)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "-300mV~26V 500nV 10uA 3 QFN-16-EP(4x4) Current Regulation/Management RoHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C181255.html"
+			(at -15 -35.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_fp_filters" "*QFN16_4x4mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "INA3221_1_0"
+			(rectangle
+				(start 5 2.5)
+				(end 22.5 -32.5)
+				(stroke
+					(width 0.508)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -17.5 0)
+				(length 5)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -17.5 180)
+				(length 5)
+				(name "IN-3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -15 180)
+				(length 5)
+				(name "IN+3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30 0)
+				(length 5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.5 0)
+				(length 5)
+				(name "VS"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.5 0)
+				(length 5)
+				(name "A0"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.5 0)
+				(length 5)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -22.5 180)
+				(length 5)
+				(name "Warning"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -25 180)
+				(length 5)
+				(name "Critical"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -27.5 180)
+				(length 5)
+				(name "PV"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -2.5 180)
+				(length 5)
+				(name "IN-1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 0 180)
+				(length 5)
+				(name "IN+1"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -30 180)
+				(length 5)
+				(name "TC"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -10 180)
+				(length 5)
+				(name "IN-2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -7.5 180)
+				(length 5)
+				(name "IN+2"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.5 0)
+				(length 5)
+				(name "VPU"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
