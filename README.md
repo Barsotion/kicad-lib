@@ -13,3 +13,7 @@ kilm setup
 git pull
 kilm setup
 ```
+
+## Look also at manual to prepare KiCad for working
+
+- [KiCad_preparing_for_work.md](./KiCad_preparing_for_work.md)
