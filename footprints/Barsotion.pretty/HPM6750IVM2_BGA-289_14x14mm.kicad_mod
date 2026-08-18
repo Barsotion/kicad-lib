@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 6.225045 -1.875 0)
 		(layer "F.SilkS")
-		(uuid "ad0d5f23-c2fb-4498-87fd-e1ad192538cc")
+		(uuid "299d9071-cdd1-4955-a735-114a73b77694")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "HPM6750IVM2_BGA-289_14x14mm"
 		(at 6.225045 14.325 0)
 		(layer "F.Fab")
-		(uuid "8dbe9e09-d8a6-4569-ad17-56c0c00e7132")
+		(uuid "5834c099-8061-4f79-b3eb-b9ccd270d3cd")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d852722a-9c70-4b58-8a70-9cd2f30e0faa")
+		(uuid "0525fe86-6832-41f9-bad2-d48821a22d6d")
 		(effects
 			(font
 				(size 1 1)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6e0edbe6-32ff-4af9-b452-31278ae26619")
+		(uuid "094d96a0-0856-4017-ad3d-a02918b627bd")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ccf3cc79-90b9-4764-a7a9-fd917179db6b")
+		(uuid "a634edd3-7341-46af-aad5-7f7084bc1e1d")
 	)
 	(fp_line
 		(start -1.1 0)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c51af771-da9d-49e3-9535-349f55599b8e")
+		(uuid "1acecc25-98d2-4437-97b9-6231f9f6cb1b")
 	)
 	(fp_line
 		(start -0.75 -0.72513)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5327227c-0a8c-4c11-b1d7-738264126b68")
+		(uuid "14dfdfa2-bcc0-4c8d-8cd2-37951e1f1e39")
 	)
 	(fp_line
 		(start -0.75 13.55)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "10b052c5-3abf-4cee-a04d-497218130599")
+		(uuid "8b8a8690-e8aa-41c3-85b8-a579a24c1486")
 	)
 	(fp_line
 		(start -0.75 13.55)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "60c19b51-491b-479d-993e-d10751385a26")
+		(uuid "575d32cb-8d0a-4c05-b3b5-37860cccac19")
 	)
 	(fp_line
 		(start 13.55009 13.55)
@@ -108,47 +108,47 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ad8273aa-e94c-4bb7-9f90-2a5ffbc5af2f")
+		(uuid "86a066ee-9717-4a8b-be40-962580c4b14b")
 	)
 	(fp_line
 		(start -0.625 -0.6)
 		(end 13.425 -0.6)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "User.13")
-		(uuid "f60c0d57-9597-4d1e-91ed-1cd5ebae3d69")
+		(layer "F.CrtYd")
+		(uuid "710cf822-af9a-41a8-8654-caf85a95093f")
 	)
 	(fp_line
 		(start -0.625 13.425)
 		(end -0.625 -0.6)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "User.13")
-		(uuid "ca607f80-10a7-4d50-8e05-29b9c7ec6c90")
+		(layer "F.CrtYd")
+		(uuid "d0674d8a-46c0-4c0d-a8b5-db3aa10098f8")
 	)
 	(fp_line
 		(start -0.625 13.425)
 		(end 13.425 13.425)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "User.13")
-		(uuid "632fef73-226f-4fc4-9c25-923280771014")
+		(layer "F.CrtYd")
+		(uuid "673cf82c-7f33-42e7-ba2d-17d3c256cf38")
 	)
 	(fp_line
 		(start 13.425 13.425)
 		(end 13.425 -0.6)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "User.13")
-		(uuid "05d70eba-0134-494d-9257-60fef82f2fd8")
+		(layer "F.CrtYd")
+		(uuid "198d4d6a-0f1f-424b-b1c7-2ffee7ef4e6f")
 	)
 	(pad "A1" smd circle
 		(at 0 0)
@@ -156,7 +156,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "252e05e3-788b-4703-8d02-2fc09b94a0f6")
+		(uuid "08cae0d0-80d2-4cbb-96dc-f500cbed2200")
 	)
 	(pad "A2" smd circle
 		(at 0.8 0)
@@ -164,7 +164,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ccd141db-2459-4d6b-93f6-88c087cd2dfd")
+		(uuid "bed13795-f12b-4f7e-9bd1-cd1b6ce0c40c")
 	)
 	(pad "A3" smd circle
 		(at 1.6 0)
@@ -172,7 +172,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "450a1526-f1aa-4e4d-beb5-285343fbdbfc")
+		(uuid "40589e33-7d90-4e97-b9a7-1f5882a106bc")
 	)
 	(pad "A4" smd circle
 		(at 2.4 0)
@@ -180,7 +180,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a459e36b-a5a4-4a0f-b49c-f3c2bad8a448")
+		(uuid "f0a0bc0d-7428-4a9a-9e61-cbe7632e0c90")
 	)
 	(pad "A5" smd circle
 		(at 3.2 0)
@@ -188,7 +188,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0a7c49e4-4cca-4970-b42e-f196e4d3c1b0")
+		(uuid "d45e9e88-2362-4440-8dca-9442ee35476b")
 	)
 	(pad "A6" smd circle
 		(at 4 0)
@@ -196,7 +196,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3ab85d62-1afb-4131-b51e-9745bdf27c83")
+		(uuid "9b253748-3d61-4f9d-8005-eebd4aa36390")
 	)
 	(pad "A7" smd circle
 		(at 4.8 0)
@@ -204,7 +204,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "063cee1f-0212-42b4-82ee-9f02f47525a8")
+		(uuid "1a949925-cf58-4fff-a7c3-3fbfff627b43")
 	)
 	(pad "A8" smd circle
 		(at 5.6 0)
@@ -212,7 +212,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "85483779-8165-4e81-9ee1-479a378cfb8f")
+		(uuid "c12cb082-06d1-4ba6-956a-0520acec569a")
 	)
 	(pad "A9" smd circle
 		(at 6.4 0)
@@ -220,7 +220,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "b20f4aeb-b303-4b5e-8e07-44368f3f8b02")
+		(uuid "e29be0fd-5b7b-4d7c-a422-d1cc4bc95c37")
 	)
 	(pad "A10" smd circle
 		(at 7.2 0)
@@ -228,7 +228,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8e052955-1615-4e1c-8f11-726c41030aae")
+		(uuid "24630e82-942f-4e44-904e-b05a77bd4dbc")
 	)
 	(pad "A11" smd circle
 		(at 8 0)
@@ -236,7 +236,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a929495f-cf3d-4e7d-807b-c91b806cabc7")
+		(uuid "3340b44d-37a4-493e-9e01-2ea5fc37979d")
 	)
 	(pad "A12" smd circle
 		(at 8.8 0)
@@ -244,7 +244,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8e2a6290-0bba-42b5-b1e6-2676e73621c8")
+		(uuid "f90d04bb-73f3-49d8-9778-7606a1444f73")
 	)
 	(pad "A13" smd circle
 		(at 9.6 0)
@@ -252,7 +252,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "aedd5c4d-c37c-45c9-bc2a-cc733acc6989")
+		(uuid "8735e2b3-88b8-4ab3-9346-e1d6a4c76755")
 	)
 	(pad "A14" smd circle
 		(at 10.4 0)
@@ -260,7 +260,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "85161015-34d7-4077-bc5e-0888478cf9f3")
+		(uuid "d8d60155-518b-4c7d-af5c-c21933162179")
 	)
 	(pad "A15" smd circle
 		(at 11.2 0)
@@ -268,7 +268,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "786a755b-e2c7-41d2-9c2b-ef6db8a5dfc0")
+		(uuid "e0d96760-a579-4fa9-95ae-12d46ed01d0f")
 	)
 	(pad "A16" smd circle
 		(at 12 0)
@@ -276,7 +276,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5f70c07d-945b-4aa2-b4cb-1989f0a1bf8f")
+		(uuid "ecf28f0d-3225-43e0-9b62-aaea556ac7c6")
 	)
 	(pad "A17" smd circle
 		(at 12.8 0)
@@ -284,7 +284,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "427242fa-379d-4319-a930-eb63d8cc3e7f")
+		(uuid "cccaa725-96ad-4381-8f6d-c37bc0ce46f7")
 	)
 	(pad "B1" smd circle
 		(at 0 0.8)
@@ -292,7 +292,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a18a2e69-0426-4a7b-a3e1-3e29ba1bc9c5")
+		(uuid "59514332-8920-4c6f-9537-bf44171ccfd2")
 	)
 	(pad "B2" smd circle
 		(at 0.8 0.8)
@@ -300,7 +300,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d31c81dd-5397-4807-bf36-85ef7584d01a")
+		(uuid "c98ab95d-f8a5-49c0-aad8-12b3c6f49fff")
 	)
 	(pad "B3" smd circle
 		(at 1.6 0.8)
@@ -308,7 +308,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c13f1c10-1f58-4869-be00-2619081ab98f")
+		(uuid "999af2f3-79de-4483-bfd0-c1fc95793586")
 	)
 	(pad "B4" smd circle
 		(at 2.4 0.8)
@@ -316,7 +316,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "083335f0-b536-475e-8aa2-99d41c632e48")
+		(uuid "5509361c-b638-4b8d-aa3a-f3ff5d06b52a")
 	)
 	(pad "B5" smd circle
 		(at 3.2 0.8)
@@ -324,7 +324,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "797fbbce-aee5-460e-b393-e86625314842")
+		(uuid "ac108180-53e1-49e0-8fe2-6c8c37d24a2a")
 	)
 	(pad "B6" smd circle
 		(at 4 0.8)
@@ -332,7 +332,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "92f23f69-6621-4dab-bc74-aec6b09c9db4")
+		(uuid "86996745-611a-476d-a80c-76f91de86cdb")
 	)
 	(pad "B7" smd circle
 		(at 4.8 0.8)
@@ -340,7 +340,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7d7d9251-e5a3-463b-b9e9-ea85952758b7")
+		(uuid "c2fd7955-9a38-48d4-83e0-4f51f36a5dc5")
 	)
 	(pad "B8" smd circle
 		(at 5.6 0.8)
@@ -348,7 +348,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2ef0073c-97c6-4b55-a4ae-2cab9e0b42cc")
+		(uuid "ef3f15a2-8e2c-4450-af6c-da0534e18732")
 	)
 	(pad "B9" smd circle
 		(at 6.4 0.8)
@@ -356,7 +356,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9044d1c1-8ae2-4fdd-8c7d-151e27e582a8")
+		(uuid "5fd76ffb-8988-47af-a97a-c4742fdbc3da")
 	)
 	(pad "B10" smd circle
 		(at 7.2 0.8)
@@ -364,7 +364,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "dcd640fc-4c09-4cc6-9a90-7fad826102d4")
+		(uuid "1693813f-644c-4576-803f-918ec76bb427")
 	)
 	(pad "B11" smd circle
 		(at 8 0.8)
@@ -372,7 +372,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5e0dbc99-0d23-4ce1-891f-4b457657fe92")
+		(uuid "e34f84b7-c2dc-439a-a904-11841119728b")
 	)
 	(pad "B12" smd circle
 		(at 8.8 0.8)
@@ -380,7 +380,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "34a10776-5834-44db-b303-c0347f2b5fe2")
+		(uuid "f6b41788-1f6a-4d5d-9c8e-b95b449b889d")
 	)
 	(pad "B13" smd circle
 		(at 9.6 0.8)
@@ -388,7 +388,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "531ee2aa-40c0-4cb3-82f9-3b98ba5c6e0e")
+		(uuid "50937026-ac71-44a3-8672-91ed6ba031f9")
 	)
 	(pad "B14" smd circle
 		(at 10.4 0.8)
@@ -396,7 +396,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2c739698-da83-49a9-b7d1-a05c15217086")
+		(uuid "ebcf37cd-b804-49fe-bdba-76c051c04050")
 	)
 	(pad "B15" smd circle
 		(at 11.2 0.8)
@@ -404,7 +404,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "38277b61-92bb-40c1-9de1-523b38c3663c")
+		(uuid "da120966-d2a5-4921-96fe-4f8757f1a652")
 	)
 	(pad "B16" smd circle
 		(at 12 0.8)
@@ -412,7 +412,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "84a8c82f-69b0-44ef-baf6-ff40b81b5dd2")
+		(uuid "452daf2f-a5d9-451d-abec-3a9ecab5319c")
 	)
 	(pad "B17" smd circle
 		(at 12.8 0.8)
@@ -420,7 +420,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "bb3af989-dd5e-472f-b882-8356dad992cb")
+		(uuid "9a295315-6655-4fee-9adc-85a8f5db1f03")
 	)
 	(pad "C1" smd circle
 		(at 0 1.6)
@@ -428,7 +428,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cc395de6-e077-42d0-98be-59072b8ebf0e")
+		(uuid "239f3d5c-affc-4718-8aee-26069a5ea3e0")
 	)
 	(pad "C2" smd circle
 		(at 0.8 1.6)
@@ -436,7 +436,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8ffa6fe1-7e78-4a7a-817f-24020b4c0cff")
+		(uuid "32a5885c-5fba-4ada-97ab-a3a4d43d64d1")
 	)
 	(pad "C3" smd circle
 		(at 1.6 1.6)
@@ -444,7 +444,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "511e9070-283a-4b76-90db-ceda3336926f")
+		(uuid "3da77394-40ff-4350-a1e6-b7c5ce422262")
 	)
 	(pad "C4" smd circle
 		(at 2.4 1.6)
@@ -452,7 +452,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "981eb5b1-789c-4eff-959b-247b17a1b1fb")
+		(uuid "a1050982-0523-48a4-b670-4c03b590b653")
 	)
 	(pad "C5" smd circle
 		(at 3.2 1.6)
@@ -460,7 +460,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c95518d3-0c16-487f-af41-f6a7bb971885")
+		(uuid "48ab7549-fc6e-42e7-b6cb-e0abf3c62f2e")
 	)
 	(pad "C6" smd circle
 		(at 4 1.6)
@@ -468,7 +468,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "b22572ff-8ff3-4148-97d7-702de424d6f5")
+		(uuid "92e438e4-ac3a-4a70-9bb9-905333b04011")
 	)
 	(pad "C7" smd circle
 		(at 4.8 1.6)
@@ -476,7 +476,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "38f703df-e95e-4c15-95c9-d998ddf54a01")
+		(uuid "054e6c48-4367-47eb-bb16-f5d4ae58d51c")
 	)
 	(pad "C8" smd circle
 		(at 5.6 1.6)
@@ -484,7 +484,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ee2ee6a0-71a3-48bb-ba39-76cd286b8177")
+		(uuid "c041050c-3848-4d1f-9454-7cb619abe3e5")
 	)
 	(pad "C9" smd circle
 		(at 6.4 1.6)
@@ -492,7 +492,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "6606a0b3-8c76-489b-8b29-e01a80e9d5e3")
+		(uuid "05270f25-b0c0-4962-912d-ad24ca99d043")
 	)
 	(pad "C10" smd circle
 		(at 7.2 1.6)
@@ -500,7 +500,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "bc26a0b3-0fde-4862-944a-f7da5a1eca11")
+		(uuid "46540e72-8ed9-435b-ab77-bb9fc04ebe49")
 	)
 	(pad "C11" smd circle
 		(at 8 1.6)
@@ -508,7 +508,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "1c95b74b-9796-4bad-a093-6073e0f43cc9")
+		(uuid "78eefca3-e9ff-43d8-8085-f33e8db9be2a")
 	)
 	(pad "C12" smd circle
 		(at 8.8 1.6)
@@ -516,7 +516,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0c46aaa3-9ff0-448f-892d-fca909ab4515")
+		(uuid "e8d62b4d-c663-4dfe-bc1d-1059bfdc4508")
 	)
 	(pad "C13" smd circle
 		(at 9.6 1.6)
@@ -524,7 +524,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "f4b9f9a1-ed07-437a-b21f-1f0f80f19d41")
+		(uuid "fcc43d3e-635e-44fe-80bd-76d6ecfd9c1a")
 	)
 	(pad "C14" smd circle
 		(at 10.4 1.6)
@@ -532,7 +532,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "f648dc19-03a4-4b8b-90b9-363d9b40801f")
+		(uuid "8e55433f-4e98-4870-8815-6f07a3c6c318")
 	)
 	(pad "C15" smd circle
 		(at 11.2 1.6)
@@ -540,7 +540,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "458517e4-b7b7-4b35-9b6c-d2b05a89f870")
+		(uuid "5bbcb4cb-5ee6-4427-a8d2-5bca7fc45adc")
 	)
 	(pad "C16" smd circle
 		(at 12 1.6)
@@ -548,7 +548,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cee29e42-2cdd-420d-be8f-d4c9781d8802")
+		(uuid "54a85048-375d-4bcb-865c-b2296492aa7c")
 	)
 	(pad "C17" smd circle
 		(at 12.8 1.6)
@@ -556,7 +556,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2715a72e-83e3-4826-95af-21d2534e0cd5")
+		(uuid "618f8019-7cff-46c7-93da-0336620244eb")
 	)
 	(pad "D1" smd circle
 		(at 0 2.4)
@@ -564,7 +564,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9900f8bf-8913-4b36-b9da-4f56f84046e5")
+		(uuid "f0eab4d4-93cd-4bc6-a9ec-3afc6be7b495")
 	)
 	(pad "D2" smd circle
 		(at 0.8 2.4)
@@ -572,7 +572,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7b562c8f-cd26-4547-84c6-f9bc4eb8bc5e")
+		(uuid "e82522f2-952b-45de-a280-943caf734366")
 	)
 	(pad "D3" smd circle
 		(at 1.6 2.4)
@@ -580,7 +580,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "927613f9-5244-4fc4-9b87-68e779b5a3e8")
+		(uuid "ed0fe23d-5b26-4148-8244-370781da1fcc")
 	)
 	(pad "D4" smd circle
 		(at 2.4 2.4)
@@ -588,7 +588,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7d795798-026f-4a14-bd6e-44257aa42cfd")
+		(uuid "2fc7b3a7-9849-46c5-b6d0-cfdb4abe46b2")
 	)
 	(pad "D5" smd circle
 		(at 3.2 2.4)
@@ -596,7 +596,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3b84f7d8-4032-40b6-af4d-e9115e18370b")
+		(uuid "af3fd34c-72f9-493e-922b-cd97e4faa632")
 	)
 	(pad "D6" smd circle
 		(at 4 2.4)
@@ -604,7 +604,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ecb177e7-fd42-415a-baef-6b4453b28ca4")
+		(uuid "2dee06d4-785e-48e4-baa0-5787c4070414")
 	)
 	(pad "D7" smd circle
 		(at 4.8 2.4)
@@ -612,7 +612,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "6c49e370-2e4b-425a-9aae-cd0e62945b3d")
+		(uuid "d9e5f223-1a27-433e-8aed-806da05b40e2")
 	)
 	(pad "D8" smd circle
 		(at 5.6 2.4)
@@ -620,7 +620,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "01be0b41-02d2-43c6-9816-69a793287fbf")
+		(uuid "54ebb48a-e42d-4df5-92a3-a50d3fcbe91c")
 	)
 	(pad "D9" smd circle
 		(at 6.4 2.4)
@@ -628,7 +628,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ba30d1c9-665c-494f-a974-358f75b92eb9")
+		(uuid "e1611f06-3a21-4f02-84b6-a4214ae57d33")
 	)
 	(pad "D10" smd circle
 		(at 7.2 2.4)
@@ -636,7 +636,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e436ef3b-0a14-4d49-863a-d5e0ed249c88")
+		(uuid "f21213e4-6523-4db0-9d09-03aa13eaf23c")
 	)
 	(pad "D11" smd circle
 		(at 8 2.4)
@@ -644,7 +644,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c8a44bf5-4b68-4aa1-9d34-081dd0915fa5")
+		(uuid "337e572c-3fdb-469a-9f92-ff0f8c86b85e")
 	)
 	(pad "D12" smd circle
 		(at 8.8 2.4)
@@ -652,7 +652,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5c812d3a-59ba-4f54-b06d-9a4feabc92c1")
+		(uuid "35eecde7-d541-476c-ab91-b251f3b8b3a2")
 	)
 	(pad "D13" smd circle
 		(at 9.6 2.4)
@@ -660,7 +660,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "811c6293-da8f-4ec6-bfb1-15cc8f2b1ea7")
+		(uuid "b6f01b92-7e5d-411b-98c7-8d394d9d98fb")
 	)
 	(pad "D14" smd circle
 		(at 10.4 2.4)
@@ -668,7 +668,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4857d946-58a8-4c76-a8bd-125d33358119")
+		(uuid "9047f515-ec22-49a9-9714-ca38ea0c7bfe")
 	)
 	(pad "D15" smd circle
 		(at 11.2 2.4)
@@ -676,7 +676,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cd8222eb-8def-46b4-8375-2ba171488bd5")
+		(uuid "710465f3-812c-449d-9afd-cdb777c56d62")
 	)
 	(pad "D16" smd circle
 		(at 12 2.4)
@@ -684,7 +684,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "494843ce-7447-42c3-9adc-83d37a5c7653")
+		(uuid "405f2938-9158-48b8-8ca2-0ee3bf5c6d7c")
 	)
 	(pad "D17" smd circle
 		(at 12.8 2.4)
@@ -692,7 +692,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "bf26dde1-5f04-4bf0-bb01-96c00e1171a9")
+		(uuid "6e80896b-a795-4481-82e3-c606a493173f")
 	)
 	(pad "E1" smd circle
 		(at 0 3.2)
@@ -700,7 +700,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "31b686fc-a5cc-408b-a9a9-24dece4ed0b9")
+		(uuid "a89e8a5a-35ae-44c6-9331-888db4d177fe")
 	)
 	(pad "E2" smd circle
 		(at 0.8 3.2)
@@ -708,7 +708,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "19cdab2f-7b5e-4288-bcc1-f1a8aaad9e92")
+		(uuid "3e52f723-6c01-4cb5-9b67-a7a0bf6bfcbf")
 	)
 	(pad "E3" smd circle
 		(at 1.6 3.2)
@@ -716,7 +716,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "374b4594-3053-44a4-b54f-f22165d10553")
+		(uuid "ddc57cea-06e4-4010-98ea-23abe586fc7c")
 	)
 	(pad "E4" smd circle
 		(at 2.4 3.2)
@@ -724,7 +724,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8e12d678-9112-46ef-90c0-da9971ebdc5b")
+		(uuid "f403a92c-832e-48bb-8d1d-f64158addb2a")
 	)
 	(pad "E5" smd circle
 		(at 3.2 3.2)
@@ -732,7 +732,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "356f8c52-f70f-40ee-a4c4-d8b39e664c18")
+		(uuid "dab4ce3b-dd44-40b0-b282-0ee5cd1fc8e0")
 	)
 	(pad "E6" smd circle
 		(at 4 3.2)
@@ -740,7 +740,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c79da751-6af5-46c0-b20d-e4e99938097a")
+		(uuid "d00d8c13-06d7-4941-bf00-52d4a1a6bd0e")
 	)
 	(pad "E7" smd circle
 		(at 4.8 3.2)
@@ -748,7 +748,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3d22bada-03d4-4242-97c7-eea2c19e83ef")
+		(uuid "3ec09da6-fcc0-4266-920c-0179aa8f88ec")
 	)
 	(pad "E8" smd circle
 		(at 5.6 3.2)
@@ -756,7 +756,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e5135e35-688a-4696-a0c2-d129c9de811f")
+		(uuid "ab531b10-9feb-4505-91f4-f2b67a65796c")
 	)
 	(pad "E9" smd circle
 		(at 6.4 3.2)
@@ -764,7 +764,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "03e064f8-233e-4752-9a04-b888b840fac4")
+		(uuid "d407265c-ed83-4686-8af4-9ea749ee3075")
 	)
 	(pad "E10" smd circle
 		(at 7.2 3.2)
@@ -772,7 +772,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "81e6c522-e52f-475a-b3a6-811cef7d4492")
+		(uuid "1ef333d6-ef1a-421f-8544-2a43819e0894")
 	)
 	(pad "E11" smd circle
 		(at 8 3.2)
@@ -780,7 +780,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0328600d-a106-4017-a9ad-83b556b6fdb7")
+		(uuid "727ce0a1-a59d-42b2-a09e-d7a34bb3058c")
 	)
 	(pad "E12" smd circle
 		(at 8.8 3.2)
@@ -788,7 +788,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cad6f088-f23d-475d-9147-472da73bce8e")
+		(uuid "6ab28506-909b-4170-819c-cfecc7aedd87")
 	)
 	(pad "E13" smd circle
 		(at 9.6 3.2)
@@ -796,7 +796,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3b045b6c-1b07-4711-b282-6cd1b36f1bdf")
+		(uuid "82f623d4-5003-49cb-8fe0-faa39d233fa1")
 	)
 	(pad "E14" smd circle
 		(at 10.4 3.2)
@@ -804,7 +804,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4497e938-ce4f-4890-884f-4e342cdaa91b")
+		(uuid "4707bc74-626f-48ce-9cbf-18713a06027f")
 	)
 	(pad "E15" smd circle
 		(at 11.2 3.2)
@@ -812,7 +812,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2267ead3-e8fe-4fc0-876c-d144e0cf73a7")
+		(uuid "bc3cf47c-c868-4117-8d15-98fb0280d515")
 	)
 	(pad "E16" smd circle
 		(at 12 3.2)
@@ -820,7 +820,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "55ee499b-8978-4a84-8719-200ddca7add9")
+		(uuid "d375ce79-e27e-4e6a-8f5c-227a93f46eaa")
 	)
 	(pad "E17" smd circle
 		(at 12.8 3.2)
@@ -828,7 +828,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0439fa6b-d9f4-4a19-a44d-ca2f5e4015e2")
+		(uuid "b0a92fed-0566-4a40-8d61-2d36151f2843")
 	)
 	(pad "F1" smd circle
 		(at 0 4)
@@ -836,7 +836,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ec7557e9-f133-4bc3-b5d7-c51ec31d54de")
+		(uuid "a633e898-16c3-4983-ba11-52630f065d22")
 	)
 	(pad "F2" smd circle
 		(at 0.8 4)
@@ -844,7 +844,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8e20d6ae-3af0-460f-9890-8950d809f3fa")
+		(uuid "2e198fa8-3ffc-4f5e-b6fe-0e96b4b4d0da")
 	)
 	(pad "F3" smd circle
 		(at 1.6 4)
@@ -852,7 +852,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d90b8907-ef8d-4ead-bb20-52516134872f")
+		(uuid "4359ae41-c2c9-4320-a92d-eea9d54d3b7f")
 	)
 	(pad "F4" smd circle
 		(at 2.4 4)
@@ -860,7 +860,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "50655c7b-d7f9-45a1-a01a-cc2cef6943e9")
+		(uuid "ce566980-b3df-47c9-be59-86ae0e91fd67")
 	)
 	(pad "F5" smd circle
 		(at 3.2 4)
@@ -868,7 +868,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c14dca68-6630-46be-bf78-767943e858f3")
+		(uuid "d5f2f08e-90b9-4ebf-ac42-691c1031cfbc")
 	)
 	(pad "F6" smd circle
 		(at 4 4)
@@ -876,7 +876,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d279f293-bd40-4434-9dee-a1cfcd10e686")
+		(uuid "29426e05-500d-44c1-8b43-0fc0f19fcdcb")
 	)
 	(pad "F7" smd circle
 		(at 4.8 4)
@@ -884,7 +884,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "15e3ce24-b7bb-4bdf-be3a-3bd00604dd6d")
+		(uuid "d5feb25f-256e-4f1e-8f7b-6ed7157ff982")
 	)
 	(pad "F8" smd circle
 		(at 5.6 4)
@@ -892,7 +892,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ec26469e-23d0-4496-90bc-758aff1aece1")
+		(uuid "deb54093-144e-41dd-a126-9b52a7e54462")
 	)
 	(pad "F9" smd circle
 		(at 6.4 4)
@@ -900,7 +900,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "eec35508-5c91-4d07-8f27-d2cc161f22f7")
+		(uuid "b7b78efd-1b4e-4ec2-82f0-d12414cb692a")
 	)
 	(pad "F10" smd circle
 		(at 7.2 4)
@@ -908,7 +908,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d9e0a0c4-8722-42b2-b9c4-496043ced1f9")
+		(uuid "b1287cf6-e451-48db-9a14-afc9acf74fa6")
 	)
 	(pad "F11" smd circle
 		(at 8 4)
@@ -916,7 +916,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "800081ad-0429-4deb-b45d-638befc74548")
+		(uuid "a54bfb15-1d9f-469f-869a-fe852ceece52")
 	)
 	(pad "F12" smd circle
 		(at 8.8 4)
@@ -924,7 +924,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "eb2b3d0d-c198-4a03-8e13-8fc8d1c402e3")
+		(uuid "f433100e-dbe2-44a5-b629-193fd4da1463")
 	)
 	(pad "F13" smd circle
 		(at 9.6 4)
@@ -932,7 +932,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "97169124-d08b-4b11-b2ac-7268ba22e8fb")
+		(uuid "d6be612f-99f0-4266-9384-bc210a89b12d")
 	)
 	(pad "F14" smd circle
 		(at 10.4 4)
@@ -940,7 +940,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3240fe10-122b-444a-a209-7f44538e5251")
+		(uuid "fe0274f0-54f9-4dae-a287-1cdf29ef8ac0")
 	)
 	(pad "F15" smd circle
 		(at 11.2 4)
@@ -948,7 +948,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "fdec4b11-e367-450c-b813-c2137290861f")
+		(uuid "1b024fa1-6c88-4bc4-85fa-f71312c8312e")
 	)
 	(pad "F16" smd circle
 		(at 12 4)
@@ -956,7 +956,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "dba6e78f-46f2-40f7-8083-375bdc575b0f")
+		(uuid "5a424e23-1a08-4a31-813c-6b94facf7cf1")
 	)
 	(pad "F17" smd circle
 		(at 12.8 4)
@@ -964,7 +964,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "73ddc4fa-cc3c-40fd-bc2b-fef61844ce2d")
+		(uuid "486fa352-7c74-4ad7-a479-8292dcedd157")
 	)
 	(pad "G1" smd circle
 		(at 0 4.8)
@@ -972,7 +972,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9677b6d4-4bf8-4326-b080-fcb0fcc4dda4")
+		(uuid "1d213a71-606d-44a3-ad6d-7ff6cbfb68cd")
 	)
 	(pad "G2" smd circle
 		(at 0.8 4.8)
@@ -980,7 +980,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ba6217df-187c-4ef3-a3bd-6a3d1dfcbbcd")
+		(uuid "0d935078-df2a-4a70-a50b-f2e05b2d3563")
 	)
 	(pad "G3" smd circle
 		(at 1.6 4.8)
@@ -988,7 +988,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "324f7272-07bd-424f-b062-67a129dc2241")
+		(uuid "9d79c742-a6c5-4a76-8c79-533ce2e5ce3f")
 	)
 	(pad "G4" smd circle
 		(at 2.4 4.8)
@@ -996,7 +996,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "be3eb284-a30c-4902-aa8f-6c1d4487e766")
+		(uuid "a41c4c7b-66e1-4e72-aa9d-dc1202ee7335")
 	)
 	(pad "G5" smd circle
 		(at 3.2 4.8)
@@ -1004,7 +1004,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e41db191-65ad-4e0f-9574-3a8d655b3638")
+		(uuid "6296ea42-3f25-4ae0-8591-0f77315cff5e")
 	)
 	(pad "G6" smd circle
 		(at 4 4.8)
@@ -1012,7 +1012,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "fb7816f5-2a81-4ec7-9ad1-132dea6e214e")
+		(uuid "f653b673-4de1-4ed9-8516-a17a842ba5f5")
 	)
 	(pad "G7" smd circle
 		(at 4.8 4.8)
@@ -1020,7 +1020,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "dd986df4-58a7-42fb-acda-7ae484f07831")
+		(uuid "f6b7f72e-1740-4a39-b41c-b47302a69faf")
 	)
 	(pad "G8" smd circle
 		(at 5.6 4.8)
@@ -1028,7 +1028,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8541f388-e51d-435e-8855-905a76d61469")
+		(uuid "e2601c9e-15a2-4a5b-a29b-e5bf2d9ca53e")
 	)
 	(pad "G9" smd circle
 		(at 6.4 4.8)
@@ -1036,7 +1036,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7dcdfe12-6a49-49f6-b37e-0da00d1a414a")
+		(uuid "0711fc1e-6412-4669-bfc6-6447915ae997")
 	)
 	(pad "G10" smd circle
 		(at 7.2 4.8)
@@ -1044,7 +1044,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4e0074eb-bc33-49ac-8ca3-2dd9e26b8939")
+		(uuid "a79c41bd-782f-4b7f-9488-aaa0b701a685")
 	)
 	(pad "G11" smd circle
 		(at 8 4.8)
@@ -1052,7 +1052,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "95949da3-b644-4b28-a043-cc33d1d6c5d7")
+		(uuid "79649dac-60ba-41c8-a5b0-0ce9625bea4d")
 	)
 	(pad "G12" smd circle
 		(at 8.8 4.8)
@@ -1060,7 +1060,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "059acf81-740f-4c86-97c9-12652d8780f8")
+		(uuid "0e933c85-46e7-4a42-aacc-fe2003459e50")
 	)
 	(pad "G13" smd circle
 		(at 9.6 4.8)
@@ -1068,7 +1068,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "afab4b06-33d4-4022-9d95-6fba23f3bcb7")
+		(uuid "fa7abea9-537c-41d3-aee9-216d0cd5e1e0")
 	)
 	(pad "G14" smd circle
 		(at 10.4 4.8)
@@ -1076,7 +1076,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a2e4cef7-9fff-4864-b85b-7d8e2a2a1606")
+		(uuid "ac0afba2-b471-452e-be26-e9aaceada49b")
 	)
 	(pad "G15" smd circle
 		(at 11.2 4.8)
@@ -1084,7 +1084,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "40679f9b-d3c9-4799-b615-449020244da8")
+		(uuid "9ae320f0-1b88-4630-b8b7-332c25a90154")
 	)
 	(pad "G16" smd circle
 		(at 12 4.8)
@@ -1092,7 +1092,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "95474f58-0f5a-40ca-ac94-8978b405d4e5")
+		(uuid "e4c25304-a138-4d3e-bef0-0d9231a516e3")
 	)
 	(pad "G17" smd circle
 		(at 12.8 4.8)
@@ -1100,7 +1100,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "818651c2-a458-48af-b755-483cbcb890e5")
+		(uuid "352f1acf-192a-4644-9c76-1b0406447aef")
 	)
 	(pad "H1" smd circle
 		(at 0 5.6)
@@ -1108,7 +1108,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "74dbd014-4bcc-450d-9206-9bee0509d7ee")
+		(uuid "0a1a7a7a-1ea8-4cf4-bba5-28fe2c7f1434")
 	)
 	(pad "H2" smd circle
 		(at 0.8 5.6)
@@ -1116,7 +1116,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "be29b4bd-cb48-4f06-a315-7fe8b9a6c0dc")
+		(uuid "47ce2be4-4347-4276-8118-142f8d884694")
 	)
 	(pad "H3" smd circle
 		(at 1.6 5.6)
@@ -1124,7 +1124,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7329644d-4ed4-4681-9d69-6eaa28a747ba")
+		(uuid "8cc738f0-0ab8-4765-8eb1-e2f72a7f5aea")
 	)
 	(pad "H4" smd circle
 		(at 2.4 5.6)
@@ -1132,7 +1132,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "1ccc9c0b-1979-485a-a82f-eb09645f070d")
+		(uuid "7b92b25b-2eb8-4845-89a8-1c8eebb70dd2")
 	)
 	(pad "H5" smd circle
 		(at 3.2 5.6)
@@ -1140,7 +1140,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ab4c6904-3424-4cf4-902b-0ab5b698e6e0")
+		(uuid "e277ca1f-3d91-410d-b53e-081a6a3ad132")
 	)
 	(pad "H6" smd circle
 		(at 4 5.6)
@@ -1148,7 +1148,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "eb9ff4d6-3e45-47ee-9a35-7969b2ef9d90")
+		(uuid "dfec39d3-55de-4071-befe-2da40ee9efc7")
 	)
 	(pad "H7" smd circle
 		(at 4.8 5.6)
@@ -1156,7 +1156,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "f4d64285-e87c-4a6d-bb1d-d8c2c21009eb")
+		(uuid "6bd36d7b-aa79-4a9d-a820-4fa58d30602e")
 	)
 	(pad "H8" smd circle
 		(at 5.6 5.6)
@@ -1164,7 +1164,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3ddc0507-08fd-4e8a-811f-56918fbff3be")
+		(uuid "1c9efa54-daf8-475d-93dc-0e92ed10a181")
 	)
 	(pad "H9" smd circle
 		(at 6.4 5.6)
@@ -1172,7 +1172,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ade9b4b0-77ba-45f3-80ee-9e716d5c25e7")
+		(uuid "fb399d88-d830-440a-9325-f24b80002a2f")
 	)
 	(pad "H10" smd circle
 		(at 7.2 5.6)
@@ -1180,7 +1180,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8fc7b16a-d8c5-4799-91a2-d62be5050bab")
+		(uuid "2d557862-e2c7-46ca-a94f-e1f2263c04d5")
 	)
 	(pad "H11" smd circle
 		(at 8 5.6)
@@ -1188,7 +1188,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e91bc101-ce9d-47d5-aed3-d6e868bbf83e")
+		(uuid "635ef398-8c70-4695-ba42-36f481203222")
 	)
 	(pad "H12" smd circle
 		(at 8.8 5.6)
@@ -1196,7 +1196,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "05a41fff-4b3c-4288-b60b-b1a976652739")
+		(uuid "c7a57048-91f2-4118-99e9-a45deb5a89f4")
 	)
 	(pad "H13" smd circle
 		(at 9.6 5.6)
@@ -1204,7 +1204,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "6684cc52-2cb9-4c48-9bd2-1662dff01f6a")
+		(uuid "9a9a1f04-fd8c-40cb-be82-27b14f2216cd")
 	)
 	(pad "H14" smd circle
 		(at 10.4 5.6)
@@ -1212,7 +1212,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "084e63ca-0185-4dad-a706-c912d8d2c732")
+		(uuid "b276959d-a977-48bf-990b-4ff61494caab")
 	)
 	(pad "H15" smd circle
 		(at 11.2 5.6)
@@ -1220,7 +1220,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "173a7351-e08f-4cbf-84e5-97fc7d01673f")
+		(uuid "edbc18dd-a74b-41c1-a20b-48e13d77a1e7")
 	)
 	(pad "H16" smd circle
 		(at 12 5.6)
@@ -1228,7 +1228,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0af0a684-d6e0-4026-9f34-c45be3891b67")
+		(uuid "48d23863-8625-4dd0-b294-dc913e78dbe2")
 	)
 	(pad "H17" smd circle
 		(at 12.8 5.6)
@@ -1236,7 +1236,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5ac501b2-7a62-4633-a43e-8bbf70a626a8")
+		(uuid "a5138fbb-ed0c-4638-9fc3-c649fb19cfba")
 	)
 	(pad "J1" smd circle
 		(at 0 6.4)
@@ -1244,7 +1244,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "b7a21cdf-f4e1-4ea5-bac4-ccd9c16ca303")
+		(uuid "fa7dc467-578f-48c9-ac37-f3f50fe46551")
 	)
 	(pad "J2" smd circle
 		(at 0.8 6.4)
@@ -1252,7 +1252,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c3eff2f5-be71-4b2b-9bc8-d6d17c2f934c")
+		(uuid "55db2860-434d-495c-9d6b-2fe53492627c")
 	)
 	(pad "J3" smd circle
 		(at 1.6 6.4)
@@ -1260,7 +1260,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d3602d8b-f650-49cc-85c0-991dfec72247")
+		(uuid "f7b35bd8-f623-4353-9107-951b257120b1")
 	)
 	(pad "J4" smd circle
 		(at 2.4 6.4)
@@ -1268,7 +1268,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8ac80d90-c6f3-48eb-ada9-8a816f40326f")
+		(uuid "ab1ed138-9a52-4e59-a46d-0af44f5c74d6")
 	)
 	(pad "J5" smd circle
 		(at 3.2 6.4)
@@ -1276,7 +1276,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ed32388a-35f7-4d3e-974f-8ac8692c628e")
+		(uuid "dd0e1745-eaaf-4a87-8add-734431300c67")
 	)
 	(pad "J6" smd circle
 		(at 4 6.4)
@@ -1284,7 +1284,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0ab922ab-aef7-474c-a4ca-6f7ff97ac400")
+		(uuid "96ebe716-61e8-422e-a209-286961eb719b")
 	)
 	(pad "J7" smd circle
 		(at 4.8 6.4)
@@ -1292,7 +1292,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "dfc04be4-9eba-4d00-9dad-23c18077d2a4")
+		(uuid "a769e05c-e70c-468d-8b73-f9ddffe94aac")
 	)
 	(pad "J8" smd circle
 		(at 5.6 6.4)
@@ -1300,7 +1300,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5de8300d-78b5-453f-b335-686330eca40e")
+		(uuid "45850525-2848-4766-a151-1af46611e4e3")
 	)
 	(pad "J9" smd circle
 		(at 6.4 6.4)
@@ -1308,7 +1308,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c20f8802-a8ec-4648-bc45-43b54ab7db5f")
+		(uuid "abafe98e-3d0d-45b4-b21a-8970a846928d")
 	)
 	(pad "J10" smd circle
 		(at 7.2 6.4)
@@ -1316,7 +1316,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cdbfcff3-4ca4-40bd-a167-76f8228cb6f7")
+		(uuid "de0e707e-3762-4801-a1e2-a3152440e242")
 	)
 	(pad "J11" smd circle
 		(at 8 6.4)
@@ -1324,7 +1324,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "b3b31733-159a-41bb-962e-acfabad35f49")
+		(uuid "f17f0a86-0e2b-4fc0-a081-6da444aaddeb")
 	)
 	(pad "J12" smd circle
 		(at 8.8 6.4)
@@ -1332,7 +1332,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "59ee447e-6d2a-4353-8799-55525bd21b0a")
+		(uuid "a4d807b0-9d3a-4d12-847a-1c86515e2d4f")
 	)
 	(pad "J13" smd circle
 		(at 9.6 6.4)
@@ -1340,7 +1340,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3b6a8109-c071-4bf9-b9cb-8a60ee789663")
+		(uuid "711c870a-d4b0-44fc-926d-308ac740c147")
 	)
 	(pad "J14" smd circle
 		(at 10.4 6.4)
@@ -1348,7 +1348,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cb3ac02e-1ee5-4892-8142-cee998f820d1")
+		(uuid "395081b1-e48e-4f95-ac25-0c7b77ed9f75")
 	)
 	(pad "J15" smd circle
 		(at 11.2 6.4)
@@ -1356,7 +1356,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ba03a565-ea2d-461d-8c57-62a1624b04b2")
+		(uuid "8d0848df-69ea-4dfd-aeb6-98dd9caea18b")
 	)
 	(pad "J16" smd circle
 		(at 12 6.4)
@@ -1364,7 +1364,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8a88290f-99e5-46c0-b5c7-65b33d803ef7")
+		(uuid "9d89986e-5f52-4e79-9bac-b5fc1214382a")
 	)
 	(pad "J17" smd circle
 		(at 12.8 6.4)
@@ -1372,7 +1372,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "38be9848-7c44-4ff7-8a6c-a823f804b4e0")
+		(uuid "a99b8e9c-37a5-45aa-b377-48c577515403")
 	)
 	(pad "K1" smd circle
 		(at 0 7.2)
@@ -1380,7 +1380,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c8e2d9f5-2c12-4fbf-a055-3303749dbf9e")
+		(uuid "b9f87d66-23eb-4bb9-b670-64cdf3a497a1")
 	)
 	(pad "K2" smd circle
 		(at 0.8 7.2)
@@ -1388,7 +1388,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8f1b7cfa-d841-4e94-8a12-0b46bfcf4433")
+		(uuid "ce2fdd9a-44f7-463a-a2f1-55dbd27ed83d")
 	)
 	(pad "K3" smd circle
 		(at 1.6 7.2)
@@ -1396,7 +1396,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "dd222b07-e59f-4074-8b21-a2fc6bb943a1")
+		(uuid "a1acc1de-12c7-47fa-a93b-1be8d0580106")
 	)
 	(pad "K4" smd circle
 		(at 2.4 7.2)
@@ -1404,7 +1404,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d8e0a5dd-10e0-4073-9a70-8c129334db53")
+		(uuid "76cc27cf-783a-47ca-ad1c-6db1b0a6012a")
 	)
 	(pad "K5" smd circle
 		(at 3.2 7.2)
@@ -1412,7 +1412,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c9db92f4-deb7-4e50-8513-bc6af3ec235a")
+		(uuid "d3999048-8c7f-4a41-85f3-3b11564a9548")
 	)
 	(pad "K6" smd circle
 		(at 4 7.2)
@@ -1420,7 +1420,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "f35b2749-fdbd-4b59-ac05-a16a72ecd1a1")
+		(uuid "dbbc8f5d-21ef-48de-8153-87e7b60aa98f")
 	)
 	(pad "K7" smd circle
 		(at 4.8 7.2)
@@ -1428,7 +1428,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e7cac739-7f11-4409-8ab7-ab3111891af4")
+		(uuid "a54b9ef3-e4f4-4107-941c-f373745b7686")
 	)
 	(pad "K8" smd circle
 		(at 5.6 7.2)
@@ -1436,7 +1436,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "822785ad-f1a1-4e4a-b1e5-2073b7a1a332")
+		(uuid "77ff1ba5-e377-4a04-b73f-de95414bbe25")
 	)
 	(pad "K9" smd circle
 		(at 6.4 7.2)
@@ -1444,7 +1444,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "b9ecf817-a45c-4e62-bfcc-10b23dec05c6")
+		(uuid "0d4f28a6-778a-4d43-9284-8cb34e7b38ff")
 	)
 	(pad "K10" smd circle
 		(at 7.2 7.2)
@@ -1452,7 +1452,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3d8d77c8-3f85-49db-89b8-4c03e412fb8c")
+		(uuid "0ad0ca1c-7966-4184-9f64-465ac68aa1cd")
 	)
 	(pad "K11" smd circle
 		(at 8 7.2)
@@ -1460,7 +1460,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4cece1bd-8550-4974-8e90-2f30c49ef5bb")
+		(uuid "b1040652-68c9-4712-a2ed-e5e852191282")
 	)
 	(pad "K12" smd circle
 		(at 8.8 7.2)
@@ -1468,7 +1468,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "dcdd43f9-5e6c-4662-a33d-cc9b30d2a6d2")
+		(uuid "8ab77e5b-1a37-4ada-a04e-0e7ed8f6018a")
 	)
 	(pad "K13" smd circle
 		(at 9.6 7.2)
@@ -1476,7 +1476,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ff58669a-97d6-452f-b495-c98ed078afba")
+		(uuid "e75c5f14-77ca-44ba-9fbd-07d46c3a9b04")
 	)
 	(pad "K14" smd circle
 		(at 10.4 7.2)
@@ -1484,7 +1484,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "fef68d0a-bd39-42dc-aaa7-dea9989564e5")
+		(uuid "cc3b856e-28bd-45e1-ba27-cae0fa617aab")
 	)
 	(pad "K15" smd circle
 		(at 11.2 7.2)
@@ -1492,7 +1492,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4b87aae4-bbbd-473d-8d97-05b4bbceffec")
+		(uuid "7a4a7907-00b1-4d6b-b4e7-98a2ff3ff8a0")
 	)
 	(pad "K16" smd circle
 		(at 12 7.2)
@@ -1500,7 +1500,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "58e77989-d883-485d-88a1-782c74dac39d")
+		(uuid "a99aa483-4db5-4d84-ac12-174f38098e5b")
 	)
 	(pad "K17" smd circle
 		(at 12.8 7.2)
@@ -1508,7 +1508,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a4f1d9bf-711b-4403-9919-26011791c26c")
+		(uuid "3e08515a-af43-4d13-aeff-2c3d77f60cb7")
 	)
 	(pad "L1" smd circle
 		(at 0 8)
@@ -1516,7 +1516,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "06d67023-1a9f-49f9-8b58-e587abeaa343")
+		(uuid "40c37bc6-2fd4-49a7-b0cc-00f178c9a883")
 	)
 	(pad "L2" smd circle
 		(at 0.8 8)
@@ -1524,7 +1524,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e6459555-e983-4bb8-b0f8-65fee6206520")
+		(uuid "38aa9a92-c0f0-4a09-a0dd-bec56eafb997")
 	)
 	(pad "L3" smd circle
 		(at 1.6 8)
@@ -1532,7 +1532,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3607ef8d-e125-495c-977a-fb4848522b97")
+		(uuid "252601fc-28c7-4d7c-87a5-a3cdda25b313")
 	)
 	(pad "L4" smd circle
 		(at 2.4 8)
@@ -1540,7 +1540,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "fa193411-5d00-4709-9f0d-e4ecb697b20e")
+		(uuid "610a0d58-23fc-4faa-aed6-420b7eb853a7")
 	)
 	(pad "L5" smd circle
 		(at 3.2 8)
@@ -1548,7 +1548,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3c491dd2-615c-45ba-960d-d6010de58fff")
+		(uuid "8ba1b1b3-355e-4a70-b83b-73ac975e5aa0")
 	)
 	(pad "L6" smd circle
 		(at 4 8)
@@ -1556,7 +1556,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "94fe3da4-164f-4a17-a7b0-94630f94fba5")
+		(uuid "64438b88-95d1-4042-a532-e1c3ade27081")
 	)
 	(pad "L7" smd circle
 		(at 4.8 8)
@@ -1564,7 +1564,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "47e56a69-609e-4c2c-82a0-d841cfedad8d")
+		(uuid "c5a54d65-3188-4b41-8fc7-783d33bbc581")
 	)
 	(pad "L8" smd circle
 		(at 5.6 8)
@@ -1572,7 +1572,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8e9c100a-b02a-405f-97f0-4c7b306c8d35")
+		(uuid "a1d5987e-e722-4790-b2cd-f0167e0c4c99")
 	)
 	(pad "L9" smd circle
 		(at 6.4 8)
@@ -1580,7 +1580,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "28bd424b-a89f-48ca-8864-cccd42f11625")
+		(uuid "1a6c4d33-7f9e-4cd8-9af7-30e577949e53")
 	)
 	(pad "L10" smd circle
 		(at 7.2 8)
@@ -1588,7 +1588,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4c3763e2-f307-44e0-b145-8340917bf1a7")
+		(uuid "6cccbb1b-096b-4ff9-b6bc-17b885ab8022")
 	)
 	(pad "L11" smd circle
 		(at 8 8)
@@ -1596,7 +1596,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a0694ef3-5f32-4eed-967c-62de727d8690")
+		(uuid "ce7a6e85-ad42-4b20-b97e-92bb3eb292aa")
 	)
 	(pad "L12" smd circle
 		(at 8.8 8)
@@ -1604,7 +1604,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8777ca8e-8ecb-43d2-855e-6392ede91982")
+		(uuid "d6b1c8ac-8157-448a-ac5e-59d4b711f2bf")
 	)
 	(pad "L13" smd circle
 		(at 9.6 8)
@@ -1612,7 +1612,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e257b621-6cf2-4089-8aeb-8879d484c68e")
+		(uuid "794fd3e1-a4a3-4437-ba3b-eae7398e68d2")
 	)
 	(pad "L14" smd circle
 		(at 10.4 8)
@@ -1620,7 +1620,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d1329f8d-cc05-4372-83f3-082727099890")
+		(uuid "46137055-0f19-47eb-8f65-b366b3e95a97")
 	)
 	(pad "L15" smd circle
 		(at 11.2 8)
@@ -1628,7 +1628,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d4ddd91d-57e3-4fb8-ab19-a3f24db59cb3")
+		(uuid "93cdf141-aa36-4711-96bc-1ad4efd4ccc1")
 	)
 	(pad "L16" smd circle
 		(at 12 8)
@@ -1636,7 +1636,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e7810e92-d29d-4d4d-b58a-d1442fcafdc9")
+		(uuid "995b4d8d-3084-43af-8fd4-efec24a3a332")
 	)
 	(pad "L17" smd circle
 		(at 12.8 8)
@@ -1644,7 +1644,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "51a895f9-12bb-4ada-9a1a-fa6503fff15e")
+		(uuid "8285a815-0cee-48e4-a343-3ac447a8e56d")
 	)
 	(pad "M1" smd circle
 		(at 0 8.8)
@@ -1652,7 +1652,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2c40bd89-c205-49e0-b975-6268c60fe298")
+		(uuid "3f7a8bf1-b695-47c0-9fbc-800768d9aeb5")
 	)
 	(pad "M2" smd circle
 		(at 0.8 8.8)
@@ -1660,7 +1660,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3665feda-470f-4e13-881a-98628043c952")
+		(uuid "00b1aa20-63b2-4903-9205-c8e72d0950a9")
 	)
 	(pad "M3" smd circle
 		(at 1.6 8.8)
@@ -1668,7 +1668,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "da73726c-6f5a-4224-89b0-06ab20bee36f")
+		(uuid "75edb958-41cb-4928-bdd3-2c64d8a1b2c8")
 	)
 	(pad "M4" smd circle
 		(at 2.4 8.8)
@@ -1676,7 +1676,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7ac39b6a-360c-4bd9-bd22-d6e7e9d61038")
+		(uuid "ed4c5bee-3f31-4916-a71d-8b6558875843")
 	)
 	(pad "M5" smd circle
 		(at 3.2 8.8)
@@ -1684,7 +1684,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "71fb9222-fa6a-4754-a5c6-bfd841ed2ff3")
+		(uuid "cb424a35-2a86-473c-9c0f-4a2bd5dc0e23")
 	)
 	(pad "M6" smd circle
 		(at 4 8.8)
@@ -1692,7 +1692,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ccc27b75-99c1-4539-9a9f-e90e84f3b6db")
+		(uuid "4d7da21d-215e-44d5-86e4-92ea126707b0")
 	)
 	(pad "M7" smd circle
 		(at 4.8 8.8)
@@ -1700,7 +1700,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e48dbfa3-9eef-43fe-a386-010f12ee10b9")
+		(uuid "c38e675c-d734-44bf-bc9a-1af250be3246")
 	)
 	(pad "M8" smd circle
 		(at 5.6 8.8)
@@ -1708,7 +1708,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0ac5e9cd-5414-4624-b843-f0b3704be8e8")
+		(uuid "f7f03f71-36ac-492b-8ee9-5c2e3fbc40c8")
 	)
 	(pad "M9" smd circle
 		(at 6.4 8.8)
@@ -1716,7 +1716,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5a093562-57fb-4138-b953-984ec67fca97")
+		(uuid "b0dbc00c-811e-4ad2-a035-f029fc2cb05f")
 	)
 	(pad "M10" smd circle
 		(at 7.2 8.8)
@@ -1724,7 +1724,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2e7229e1-3983-4d90-868d-32715cba2674")
+		(uuid "81b147cc-c7bf-493f-8588-682931ac250a")
 	)
 	(pad "M11" smd circle
 		(at 8 8.8)
@@ -1732,7 +1732,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "226f4ff5-e424-40e8-a34a-1949ed0afea6")
+		(uuid "4787d498-1c88-4fe2-91ea-4dc9caa33c78")
 	)
 	(pad "M12" smd circle
 		(at 8.8 8.8)
@@ -1740,7 +1740,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d9a11691-48c3-425f-96b9-85996fedbdf0")
+		(uuid "a708051b-7b7d-4d57-9ff6-f6ca849ac311")
 	)
 	(pad "M13" smd circle
 		(at 9.6 8.8)
@@ -1748,7 +1748,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "00876a24-a669-4be0-a1a6-69cdece1aa4a")
+		(uuid "1faea8ce-f2eb-455a-8f1c-f1b1833c351d")
 	)
 	(pad "M14" smd circle
 		(at 10.4 8.8)
@@ -1756,7 +1756,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4864bf19-fab2-4c21-b62a-4294ba643850")
+		(uuid "b9e52936-e8b9-4437-9a0e-53d981de2336")
 	)
 	(pad "M15" smd circle
 		(at 11.2 8.8)
@@ -1764,7 +1764,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "763e3b83-f8a2-4bd6-b1dc-086a0578ff55")
+		(uuid "b35153fe-83b8-48ca-897f-6c26fbbe00db")
 	)
 	(pad "M16" smd circle
 		(at 12 8.8)
@@ -1772,7 +1772,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "bd429916-810c-4452-ab4f-64a92132fcd0")
+		(uuid "9d2d5f0a-4288-47b9-8872-c6be83e27c11")
 	)
 	(pad "M17" smd circle
 		(at 12.8 8.8)
@@ -1780,7 +1780,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "075c4f6e-00e3-4808-99ac-0a5d79bc04c2")
+		(uuid "a1644ab2-1119-4e3c-8e82-f78f1c9e8a01")
 	)
 	(pad "N1" smd circle
 		(at 0 9.6)
@@ -1788,7 +1788,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a00e8f84-ceee-4ab3-8ee5-352c8179dad6")
+		(uuid "4bcd3f50-c146-43d6-867c-a0c2914c857d")
 	)
 	(pad "N2" smd circle
 		(at 0.8 9.6)
@@ -1796,7 +1796,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2d047664-25f1-4a8d-bfe3-e8e7e473c08e")
+		(uuid "4eb1e105-8793-4669-a389-e869877e7b98")
 	)
 	(pad "N3" smd circle
 		(at 1.6 9.6)
@@ -1804,7 +1804,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "45b5e1f5-9bfb-4ebf-8bca-94e63ff34c99")
+		(uuid "d1373d88-72a7-418c-9fc2-5b8a1ed99a26")
 	)
 	(pad "N4" smd circle
 		(at 2.4 9.6)
@@ -1812,7 +1812,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "039b30b3-ef08-439b-8c3e-d0d836285ef9")
+		(uuid "64d4d42d-ce4c-4323-b5e8-0a10e5329c84")
 	)
 	(pad "N5" smd circle
 		(at 3.2 9.6)
@@ -1820,7 +1820,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e232c90c-c182-4a32-bdda-1907249395cc")
+		(uuid "7a09f46c-7486-448e-9a59-412b5872457a")
 	)
 	(pad "N6" smd circle
 		(at 4 9.6)
@@ -1828,7 +1828,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7ae576cc-063b-4588-8175-63c249078c43")
+		(uuid "0e02bc99-ae50-4540-85d7-904f76c0e14e")
 	)
 	(pad "N7" smd circle
 		(at 4.8 9.6)
@@ -1836,7 +1836,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "531b01e1-c46e-462e-9cff-62a2d26061bc")
+		(uuid "6e31b021-67bb-4aab-8916-ef4a60b752b2")
 	)
 	(pad "N8" smd circle
 		(at 5.6 9.6)
@@ -1844,7 +1844,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "aa26f324-ed16-48ba-9fcc-0db76b6e4ea4")
+		(uuid "50ec381a-e16e-49d8-a4dd-bdcc3574ee7b")
 	)
 	(pad "N9" smd circle
 		(at 6.4 9.6)
@@ -1852,7 +1852,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "285efdf6-2e8d-4d28-aa4c-765677b1f9d2")
+		(uuid "7ba99efb-a863-46bb-b87d-2ad1de37ea0b")
 	)
 	(pad "N10" smd circle
 		(at 7.2 9.6)
@@ -1860,7 +1860,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c0a78d32-9e4a-452a-bd44-9306a566f50b")
+		(uuid "a74092a3-f446-4d56-8b16-aa499260431a")
 	)
 	(pad "N11" smd circle
 		(at 8 9.6)
@@ -1868,7 +1868,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cd434ad2-8111-4fa6-8195-8dcb2de79115")
+		(uuid "cb172787-9de6-4ae1-ad74-55fbdf21518f")
 	)
 	(pad "N12" smd circle
 		(at 8.8 9.6)
@@ -1876,7 +1876,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9317694d-72d1-4281-a3a4-7b2773677219")
+		(uuid "d7148a67-2d32-4eba-94b3-08ae23a268f4")
 	)
 	(pad "N13" smd circle
 		(at 9.6 9.6)
@@ -1884,7 +1884,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a6769196-bf65-45bc-aad1-d308524a939c")
+		(uuid "45266825-13e0-4791-857d-ee7376d976a4")
 	)
 	(pad "N14" smd circle
 		(at 10.4 9.6)
@@ -1892,7 +1892,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e94078b9-1013-4758-ad8e-b4ed01e67488")
+		(uuid "0d5c77e2-be5a-4e17-9d78-8ae8c5e68768")
 	)
 	(pad "N15" smd circle
 		(at 11.2 9.6)
@@ -1900,7 +1900,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4ae622d7-21b8-47ed-975c-4be9efea8c40")
+		(uuid "b61c4179-356e-4bc1-a44b-0b9d7e007bc5")
 	)
 	(pad "N16" smd circle
 		(at 12 9.6)
@@ -1908,7 +1908,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d6c45ebd-ed7e-4a75-ab99-2887a9a038d5")
+		(uuid "1da47eac-8a38-41df-b0b2-2d495b72523c")
 	)
 	(pad "N17" smd circle
 		(at 12.8 9.6)
@@ -1916,7 +1916,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7220065e-7610-4332-b37d-e14053b4ad03")
+		(uuid "407d1151-c123-4455-a815-35f710c46111")
 	)
 	(pad "P1" smd circle
 		(at 0 10.4)
@@ -1924,7 +1924,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "f4397a3b-f913-4338-bb70-d61b488c449e")
+		(uuid "147ffb29-27aa-40af-8da9-abfe91bc1375")
 	)
 	(pad "P2" smd circle
 		(at 0.8 10.4)
@@ -1932,7 +1932,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9dd521e1-7501-4039-942c-42b5832beda7")
+		(uuid "20e105ed-45ed-4324-bbd0-8c8ffddf5a4f")
 	)
 	(pad "P3" smd circle
 		(at 1.6 10.4)
@@ -1940,7 +1940,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "631ba216-fc14-4afc-961d-fba112925e3c")
+		(uuid "6cbb4341-c079-45ee-86a2-4b7cfaff4996")
 	)
 	(pad "P4" smd circle
 		(at 2.4 10.4)
@@ -1948,7 +1948,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "13d90037-4224-4441-afa0-fd3b9b756ff7")
+		(uuid "9fa698be-7438-4f1e-a127-f6eaca35adc8")
 	)
 	(pad "P5" smd circle
 		(at 3.2 10.4)
@@ -1956,7 +1956,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "326f0c1c-f25e-4a70-83db-d2bf8f71a6d3")
+		(uuid "42644b7a-ba1b-4d91-8fd4-f7b14e22154f")
 	)
 	(pad "P6" smd circle
 		(at 4 10.4)
@@ -1964,7 +1964,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5f2105c3-0b69-4d80-b3ea-bb477127e5a2")
+		(uuid "ddf43f6d-edc7-46d8-bc21-b35c27415808")
 	)
 	(pad "P7" smd circle
 		(at 4.8 10.4)
@@ -1972,7 +1972,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "b8f49197-b6cd-4966-bd63-faab2412d48a")
+		(uuid "e9e8a8a1-5580-45a9-a27f-1cf31534586a")
 	)
 	(pad "P8" smd circle
 		(at 5.6 10.4)
@@ -1980,7 +1980,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "03905128-052a-4bd7-a16e-e57422fae386")
+		(uuid "0d251bab-3406-48f9-bd0f-2f7a98759113")
 	)
 	(pad "P9" smd circle
 		(at 6.4 10.4)
@@ -1988,7 +1988,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "de73293a-5434-4406-bd47-f016c8c7823c")
+		(uuid "e57b2065-8e1c-4534-908d-84fe956eca5c")
 	)
 	(pad "P10" smd circle
 		(at 7.2 10.4)
@@ -1996,7 +1996,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a63631fb-03b3-425d-9234-a043ff3f1198")
+		(uuid "9e2d6f5b-f69a-41d9-8113-98b6f0690518")
 	)
 	(pad "P11" smd circle
 		(at 8 10.4)
@@ -2004,7 +2004,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "742e649b-1783-4be8-bed8-70e14774f482")
+		(uuid "ab8e1635-7437-494b-acf4-7d91e54235fa")
 	)
 	(pad "P12" smd circle
 		(at 8.8 10.4)
@@ -2012,7 +2012,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9849ca5b-4722-4fd3-b4bb-af4607719ec4")
+		(uuid "e67228ae-2af1-4245-ad31-5efb95a30f36")
 	)
 	(pad "P13" smd circle
 		(at 9.6 10.4)
@@ -2020,7 +2020,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ab17f820-2e67-4cac-9bd1-935dc76ae164")
+		(uuid "f0e4c16f-1128-4bbb-8f51-14082031af13")
 	)
 	(pad "P14" smd circle
 		(at 10.4 10.4)
@@ -2028,7 +2028,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cf41062f-e545-4498-84b4-e30367441eb2")
+		(uuid "75dc50d8-cffe-49f4-83c7-2ed57dd947c2")
 	)
 	(pad "P15" smd circle
 		(at 11.2 10.4)
@@ -2036,7 +2036,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "43486cc3-78f8-43a9-831c-f9dc9b342471")
+		(uuid "3302bc06-ed82-4c5a-9d02-56263195fd2e")
 	)
 	(pad "P16" smd circle
 		(at 12 10.4)
@@ -2044,7 +2044,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a8c16e93-210a-48ed-8a83-cb97c609d83a")
+		(uuid "7f81fab5-76d4-44ba-b670-e98a4198a50e")
 	)
 	(pad "P17" smd circle
 		(at 12.8 10.4)
@@ -2052,7 +2052,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ff55d9f4-2852-4315-a9ae-d9f44b5e4178")
+		(uuid "79ad9ea3-8e7e-4aee-9ec2-e5ab6c0e0541")
 	)
 	(pad "R1" smd circle
 		(at 0 11.2)
@@ -2060,7 +2060,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "76eb2aac-dbce-490e-8a74-0e6c8c01b274")
+		(uuid "a285232c-7cd9-48eb-aba3-6d8856c809df")
 	)
 	(pad "R2" smd circle
 		(at 0.8 11.2)
@@ -2068,7 +2068,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "932cc19b-6af6-443f-a606-ca901a8c9e77")
+		(uuid "5b7b3c28-21ea-4df4-9cd4-ed066fec23ff")
 	)
 	(pad "R3" smd circle
 		(at 1.6 11.2)
@@ -2076,7 +2076,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "35843a10-a55f-4f00-8d1f-59495ec9c125")
+		(uuid "be349f06-b119-411d-8e76-36f48fb8b82a")
 	)
 	(pad "R4" smd circle
 		(at 2.4 11.2)
@@ -2084,7 +2084,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "82f90ebb-c2ab-46cb-8cd1-87fa3b116bf7")
+		(uuid "ce61c00e-f91f-4fb9-8b98-4b2b86570c0b")
 	)
 	(pad "R5" smd circle
 		(at 3.2 11.2)
@@ -2092,7 +2092,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "1d8efbda-e7cd-49d1-bc3e-8c8b6cf3a81c")
+		(uuid "a3d770c7-9de9-4f5b-9a27-7c71ab267a7e")
 	)
 	(pad "R6" smd circle
 		(at 4 11.2)
@@ -2100,7 +2100,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "5693eb49-7c53-4542-a0d0-c390f812322f")
+		(uuid "b38a5f66-482a-41bd-b0d4-2bffd3e092a3")
 	)
 	(pad "R7" smd circle
 		(at 4.8 11.2)
@@ -2108,7 +2108,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "80c813bd-c7cc-479b-bbdc-19de0bccc956")
+		(uuid "de2f7b04-dd78-4132-ae3e-5648608afa8e")
 	)
 	(pad "R8" smd circle
 		(at 5.6 11.2)
@@ -2116,7 +2116,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "f90ff547-1aae-4226-a265-5e861b575ec0")
+		(uuid "3a3364a8-9f19-463d-bd56-721ffa50450f")
 	)
 	(pad "R9" smd circle
 		(at 6.4 11.2)
@@ -2124,7 +2124,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "ef8f3c20-fc8f-47a3-89ba-3acea5c19b47")
+		(uuid "ec82dde5-3e0e-43b4-b821-3693ee4124b9")
 	)
 	(pad "R10" smd circle
 		(at 7.2 11.2)
@@ -2132,7 +2132,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "bed20472-74d4-43dc-8d57-242b8b26f007")
+		(uuid "fa1fef99-67e8-44ac-8e6d-567490bf1cb1")
 	)
 	(pad "R11" smd circle
 		(at 8 11.2)
@@ -2140,7 +2140,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "b467b309-53c5-4135-9114-c179679e7689")
+		(uuid "49aab75e-36ab-4eda-9bc9-5bb8b114fa7f")
 	)
 	(pad "R12" smd circle
 		(at 8.8 11.2)
@@ -2148,7 +2148,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "41626ed0-6ef4-4005-b5e6-e246548e90c3")
+		(uuid "074754f8-586a-4517-88ff-72d667048f2f")
 	)
 	(pad "R13" smd circle
 		(at 9.6 11.2)
@@ -2156,7 +2156,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "235935f7-a3f8-4465-a6b8-4e0ff6091249")
+		(uuid "f36a992f-1808-4985-9393-65aeda463c67")
 	)
 	(pad "R14" smd circle
 		(at 10.4 11.2)
@@ -2164,7 +2164,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "2128fa0e-9c7f-4e62-a0bf-3c0e6e8072f8")
+		(uuid "f2088658-8e0f-4a67-9ce9-f07ecbeeccc9")
 	)
 	(pad "R15" smd circle
 		(at 11.2 11.2)
@@ -2172,7 +2172,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c92b9ad4-53b5-499f-9da8-a28e34d16353")
+		(uuid "12f1050c-1872-47de-b1ba-81475efa01da")
 	)
 	(pad "R16" smd circle
 		(at 12 11.2)
@@ -2180,7 +2180,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "efa54cad-6acb-45da-b783-abc0863b1840")
+		(uuid "e0b4e670-ab2f-4e8c-ac42-9cd2e2af8424")
 	)
 	(pad "R17" smd circle
 		(at 12.8 11.2)
@@ -2188,7 +2188,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "16fa7f4e-af74-49a6-946f-9f4868b8dc2b")
+		(uuid "a3636cbe-606a-451b-a6b8-9b2848ad2898")
 	)
 	(pad "T1" smd circle
 		(at 0 12)
@@ -2196,7 +2196,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "547dc488-efd6-4036-85a8-ecce13da6df9")
+		(uuid "191bacaf-b226-4304-b2e8-019f9e9bbd8c")
 	)
 	(pad "T2" smd circle
 		(at 0.8 12)
@@ -2204,7 +2204,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "51ae3c73-9872-43bf-87e1-3d350416e963")
+		(uuid "9ce89c0f-d421-4db3-96d6-0d207532da7e")
 	)
 	(pad "T3" smd circle
 		(at 1.6 12)
@@ -2212,7 +2212,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9dfcb69b-7842-4e8c-9016-6639c7837811")
+		(uuid "430c3a85-a05b-41b3-a302-f9950a3d10e5")
 	)
 	(pad "T4" smd circle
 		(at 2.4 12)
@@ -2220,7 +2220,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "6f2ddfe0-ddeb-43ab-9f6e-49ca6f963771")
+		(uuid "ffdf3afd-042f-48a2-99c2-aaa83ac6d67a")
 	)
 	(pad "T5" smd circle
 		(at 3.2 12)
@@ -2228,7 +2228,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "fc6faa3d-c116-40e3-a35f-b493bc3cc481")
+		(uuid "2b6e5579-5fe2-4cdd-9dd5-0c6789bab23c")
 	)
 	(pad "T6" smd circle
 		(at 4 12)
@@ -2236,7 +2236,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "75700494-2172-479e-a362-4c1c3fba5116")
+		(uuid "ef668543-83d2-4566-aa30-54a80ce9cc32")
 	)
 	(pad "T7" smd circle
 		(at 4.8 12)
@@ -2244,7 +2244,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "45ec184f-14ce-465b-9454-e61737148131")
+		(uuid "38bd41f6-72a1-4e46-830c-56ba18fd08e9")
 	)
 	(pad "T8" smd circle
 		(at 5.6 12)
@@ -2252,7 +2252,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0412a7f0-0714-4d12-913e-17ed94dd0e49")
+		(uuid "3df41d7c-9566-4c08-8b67-70ba19572806")
 	)
 	(pad "T9" smd circle
 		(at 6.4 12)
@@ -2260,7 +2260,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "1e0c870e-c9e7-47df-ba21-651f7d43cce5")
+		(uuid "8779553e-b963-48f9-9653-61444ff0ca53")
 	)
 	(pad "T10" smd circle
 		(at 7.2 12)
@@ -2268,7 +2268,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "85f9f2bc-301a-4bc3-9045-50e4bdf2f4ca")
+		(uuid "099c024c-04c7-4cbf-a84d-4751e7856c60")
 	)
 	(pad "T11" smd circle
 		(at 8 12)
@@ -2276,7 +2276,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "6e0fbdd9-3bc9-4aaf-99b5-a38b1ac301d5")
+		(uuid "a2152e9e-f6b7-4768-a63b-91a88037f6d2")
 	)
 	(pad "T12" smd circle
 		(at 8.8 12)
@@ -2284,7 +2284,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "0d947087-c5c4-4248-8d56-d14f3213221b")
+		(uuid "f868d534-caf2-4391-82e7-c0998060c223")
 	)
 	(pad "T13" smd circle
 		(at 9.6 12)
@@ -2292,7 +2292,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "df604e3a-2c97-4605-a45a-33baa3f3d908")
+		(uuid "e727661e-ba4d-4f51-aa6d-e31855efb68b")
 	)
 	(pad "T14" smd circle
 		(at 10.4 12)
@@ -2300,7 +2300,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a8045844-7fe6-42a2-8f7c-9e8dd095ae30")
+		(uuid "9a889e25-609a-4020-a17d-8ddd1c2ba702")
 	)
 	(pad "T15" smd circle
 		(at 11.2 12)
@@ -2308,7 +2308,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8e198a2e-5455-49ca-a672-9dd8a5561248")
+		(uuid "47babc86-041e-4040-bb51-34147768f8b4")
 	)
 	(pad "T16" smd circle
 		(at 12 12)
@@ -2316,7 +2316,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "7891cdb0-f493-4d95-94ef-24cb6f1e3e8c")
+		(uuid "01fd162f-2200-4445-99cd-0443c06b0974")
 	)
 	(pad "T17" smd circle
 		(at 12.8 12)
@@ -2324,7 +2324,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "76352a6e-b12b-4a36-be28-b4dcd0a9685a")
+		(uuid "29a6edc3-10d1-4a31-a616-f8e0cb39dcfe")
 	)
 	(pad "U1" smd circle
 		(at 0 12.8)
@@ -2332,7 +2332,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "d522e24a-70ec-45ac-a21f-c0be8584b253")
+		(uuid "74b933cc-cdbd-418d-bd5d-5bd71485cddf")
 	)
 	(pad "U2" smd circle
 		(at 0.8 12.8)
@@ -2340,7 +2340,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a834bdbf-8866-4de5-95ff-9f9b693ceb7a")
+		(uuid "933751a3-1da8-45ba-89f8-62efc08b83a2")
 	)
 	(pad "U3" smd circle
 		(at 1.6 12.8)
@@ -2348,7 +2348,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e215985c-fcde-4415-bb46-c2682809035a")
+		(uuid "5230bfca-6698-4395-8377-0b579e34c944")
 	)
 	(pad "U4" smd circle
 		(at 2.4 12.8)
@@ -2356,7 +2356,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4a25c72d-f548-411a-9ad4-7ca01830aa92")
+		(uuid "9ba4df21-b404-4927-84fb-e639f8e455d1")
 	)
 	(pad "U5" smd circle
 		(at 3.2 12.8)
@@ -2364,7 +2364,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "79017876-d810-417d-b760-1fd97a0bd97c")
+		(uuid "5411cebe-52f6-4e79-9693-792356754f04")
 	)
 	(pad "U6" smd circle
 		(at 4 12.8)
@@ -2372,7 +2372,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cdd19031-3022-4191-8678-d91b297fe6a8")
+		(uuid "d67c61f9-f655-43d9-ae8a-e1175827e756")
 	)
 	(pad "U7" smd circle
 		(at 4.8 12.8)
@@ -2380,7 +2380,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "4bbcf1e5-5a03-4aae-89c7-1440196d9ea1")
+		(uuid "5474b095-bf4f-4920-ac04-35f09827e352")
 	)
 	(pad "U8" smd circle
 		(at 5.6 12.8)
@@ -2388,7 +2388,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "9eb80611-26f6-4df5-a38e-40cb741bdc93")
+		(uuid "3ac81115-b4e0-4f8b-9757-4fd78a5df9fb")
 	)
 	(pad "U9" smd circle
 		(at 6.4 12.8)
@@ -2396,7 +2396,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "c923c534-09cf-46b6-9a24-d5d580937bd5")
+		(uuid "cdcd767e-3c0b-4803-9a30-216d45c5b74f")
 	)
 	(pad "U10" smd circle
 		(at 7.2 12.8)
@@ -2404,7 +2404,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "a67934f7-3dc1-407a-90e9-d7fb4d387112")
+		(uuid "0b0ff99a-8e0d-48b5-a7ac-1518b44ed4e5")
 	)
 	(pad "U11" smd circle
 		(at 8 12.8)
@@ -2412,7 +2412,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "8f82e56c-f402-458c-9fe6-4abf7d395817")
+		(uuid "cc5a972d-e550-4954-b28d-ec95ed334692")
 	)
 	(pad "U12" smd circle
 		(at 8.8 12.8)
@@ -2420,7 +2420,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "e496f67f-088f-4d57-b8ad-66c7310fa840")
+		(uuid "45ca944b-e144-4b00-b9f0-90cf6092eae3")
 	)
 	(pad "U13" smd circle
 		(at 9.6 12.8)
@@ -2428,7 +2428,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "cf90ae06-6c29-4692-ac70-7b4a2da716dd")
+		(uuid "b24c19c6-1759-4fc8-9278-89ae2144325d")
 	)
 	(pad "U14" smd circle
 		(at 10.4 12.8)
@@ -2436,7 +2436,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "30449fd6-29c5-446e-8746-656a8e101ec9")
+		(uuid "7196e837-116d-43ba-be66-138a7bbecb1a")
 	)
 	(pad "U15" smd circle
 		(at 11.2 12.8)
@@ -2444,7 +2444,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "3fea6c0a-6a09-40b3-97a5-855bb4f8f627")
+		(uuid "83e3e834-5f38-4fb0-acba-be819c427890")
 	)
 	(pad "U16" smd circle
 		(at 12 12.8)
@@ -2452,7 +2452,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "08f62735-f6e0-45de-8e46-5eddcf6d1072")
+		(uuid "c7cbde74-e1ce-446a-a501-46986d5ba196")
 	)
 	(pad "U17" smd circle
 		(at 12.8 12.8)
@@ -2460,7 +2460,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(thermal_bridge_angle 90)
-		(uuid "fdcfab08-db49-4f7a-a62c-e717a410fd5a")
+		(uuid "dde9fc27-fe61-426a-b7cb-9412ac83710a")
 	)
 	(embedded_fonts no)
 	(embedded_files

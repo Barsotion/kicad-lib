@@ -1,4 +1,4 @@
-# KiCad preparing for work (rev 1.1)
+# KiCad preparing for work (rev 1.2)
 
 ## 1. Obtain Barsotion KiCad libraries
 
@@ -28,6 +28,8 @@ On the main KiCad menu, Preferences -> Manage Footprint Libraries...:
 
 ![](./photos/p3.png)
 
+## Set working parameters
+
 On the main KiCad menu, Preferences -> Preferences...:
 
 ![](./photos/p4.jpg)
@@ -45,5 +47,7 @@ You should to install a [GOST type B](./gost_type_b.ttf) font.
 ![](./photos/p9.jpg)
 
 ![](./photos/p10.jpg)
+
+![](./photos/p11.png)
 
 Then, your KiCad is ready to work.
