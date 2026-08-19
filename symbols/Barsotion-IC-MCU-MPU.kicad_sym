@@ -11362,7 +11362,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "D"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11372,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Barsotion:RV1126_BGA-491_14x14mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11394,7 +11394,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad core + NPU video AI processor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Rockchip"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr.Part" "RV1126B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "BGA-491 14x14mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11406,6 +11439,1104 @@
 			)
 		)
 		(symbol "RV1126B_1_1"
+			(pin input line
+				(at -157.5 -150 0)
+				(length 5.0038)
+				(name "VSS_31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -152.5 0)
+				(length 5.0038)
+				(name "DDR3_A7/DDR4_A11/LPDDR3_A7/LPDDR4_A2_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -155 0)
+				(length 5.0038)
+				(name "SPI1_CLK_M1/SAI2_SCLK_M0/PWM2_CH2_M0/UART1_RTSN_M1/I2C4_SCL_M0/FEPHY_LEDLINK_M0/GPIO3_B4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -157.5 0)
+				(length 5.0038)
+				(name "SPI1_CSN0_M1/SAI2_LRCK_M0/PWM2_CH3_M0/UART1_CTSN_M1/I2C4_SDA_M0/FEPHY_LEDSPD_M0/GPIO3_B5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -160 0)
+				(length 5.0038)
+				(name "SARADC0_IN2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -162.5 0)
+				(length 5.0038)
+				(name "SARADC0_IN7_BOOT"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -165 0)
+				(length 5.0038)
+				(name "UART0_TX_M1/JTAG_TCK_M2/CAN1_RXD_M0/PWM2_CH6_M0/GPIO5_D6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 7.5 0)
+				(length 5.0038)
+				(name "USB_DRD_VBUSDET"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 5 0)
+				(length 5.0038)
+				(name "FSPI1_D1_M0/SPI0_MISO_M0/GPIO0_B1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 2.5 0)
+				(length 5.0038)
+				(name "FSPI1_D2_M0/SPI0_CSN1_M0/GPIO0_A6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 0 0)
+				(length 5.0038)
+				(name "I2C2_SCL_M0/PWM0_CH4_M0/GPIO0_D0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -2.5 0)
+				(length 5.0038)
+				(name "SPI2AHB_D2/PWM0_CH1_M0/UART1_RX_M0/I2C5_SDA_M0/GPIO0_C5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -5 0)
+				(length 5.0038)
+				(name "SPI2AHB_CSN0/I2C0_SCL_M0/GPIO0_C2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -7.5 0)
+				(length 5.0038)
+				(name "SAI0_SDI3_M0/SAI0_SDO1_M0/PDM_SDI3_M0/UART2_RTSN_M1/GPIO7_A7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -10 0)
+				(length 5.0038)
+				(name "SAI0_MCLK_M0/PWM2_CH6_M1/GPIO7_A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -12.5 0)
+				(length 5.0038)
+				(name "SDMMC0_D3/UART3_TX_M0/UART4_CTSN_M3/JTAG_TMS_M1/GPIO2_A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -15 0)
+				(length 5.0038)
+				(name "SDMMC0_D1/UART0_TX_M0/I2C0_SCL_M1/GPIO2_A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -17.5 0)
+				(length 5.0038)
+				(name "I2C4_SCL_M3/PDM_CLK1_M0/PWM2_CH5_M1/GPIO7_A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AA22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -20 0)
+				(length 5.0038)
+				(name "USB_DRD_ID"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -22.5 0)
+				(length 5.0038)
+				(name "FSPI1_D0_M0/SPI0_MOSI_M0/GPIO0_B0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -25 0)
+				(length 5.0038)
+				(name "PWR_CTRL1/GPIO0_A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -27.5 0)
+				(length 5.0038)
+				(name "SPI2AHB_D0/PWM0_CH3_M0/UART1_CTSN_M0/GPIO0_C7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -30 0)
+				(length 5.0038)
+				(name "SPI2AHB_D1/PWM0_CH2_M0/UART1_RTSN_M0/GPIO0_C6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -32.5 0)
+				(length 5.0038)
+				(name "SPI2AHB_CLK/I2C0_SDA_M0/GPIO0_C3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -35 0)
+				(length 5.0038)
+				(name "SAI0_SDI2_M0/SAI0_SDO2_M0/PDM_SDI2_M0/DSM_AUD_RN/I2C1_SCL_M3/UART2_RX_M1/GPIO7_B0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -37.5 0)
+				(length 5.0038)
+				(name "SAI0_SDI0_M0/PDM_SDI0_M0/GPIO7_A6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -40 0)
+				(length 5.0038)
+				(name "SDMMC0_D2/UART3_RX_M0/UART4_RSTN_M3/JTAG_TCK_M1/TEST_CLK1_OUT/GPIO2_A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -42.5 0)
+				(length 5.0038)
+				(name "SDMMC0_D0/UART0_RX_M0/I2C0_SDA_M1/GPIO2_A0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -45 0)
+				(length 5.0038)
+				(name "SAI0_LRCK_M0/DSM_AUD_LN/PWM2_CH7_M1/GPIO7_A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AB22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -47.5 0)
+				(length 5.0038)
+				(name "FSPI1_CLK_M0/SPI0_CLK_M0/GPIO0_B2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -50 0)
+				(length 5.0038)
+				(name "FSPI1_CSN0_M0/SPI0_CSN0_M0/GPIO0_A7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -52.5 0)
+				(length 5.0038)
+				(name "I2C2_SDA_M0/PWM0_CH5_M0/GPIO0_D1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -55 0)
+				(length 5.0038)
+				(name "SPI2AHB_D3/PWM0_CH0_M0/UART1_TX_M0/I2C5_SCL_M0/GPIO0_C4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 20 0)
+				(length 5.0038)
+				(name "I2C3_SDA_M0/PWM0_CH6_M0/PWR_CTRL2/GPIO0_C1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 17.5 0)
+				(length 5.0038)
+				(name "I2C3_SCL_M0/PWM0_CH7_M0/GPIO0_C0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 15 0)
+				(length 5.0038)
+				(name "SAI0_SDI1_M0/SAI0_SDO3_M0/PDM_SDI1_M0/DSM_AUD_RP/I2C1_SDA_M3/UART2_TX_M1/GPIO7_B1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 12.5 0)
+				(length 5.0038)
+				(name "I2C4_SDA_M3/PDM_CLK0_M0/UART2_CTSN_M1/GPIO7_A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 10 0)
+				(length 5.0038)
+				(name "SDMMC0_CMD/UART3_CTSN_M0/UART4_TX_M3/GPIO2_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 7.5 0)
+				(length 5.0038)
+				(name "SDMMC0_CLK/UART3_RTSN_M0/UART4_RX_M3/GPIO2_A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 5 0)
+				(length 5.0038)
+				(name "SAI0_SDO0_M0/DSM_AUD_LP/GPIO7_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1AC22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -170 0)
+				(length 5.0038)
+				(name "VSS_32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -172.5 0)
+				(length 5.0038)
+				(name "VSS_33"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -175 0)
+				(length 5.0038)
+				(name "VSS_34"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -182.5 0)
+				(length 5.0038)
+				(name "SPI1_MISO_M1/SAI2_SDI0_M0/PWM2_CH1_M0/PRELIGHT_TRIG_OUT/GPIO3_B3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -185 0)
+				(length 5.0038)
+				(name "SPI1_MOSI_M1/SAI2_SDO_M0/PWM2_CH0_M0/FLASH_TRIG_OUT/GPIO3_B2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -187.5 0)
+				(length 5.0038)
+				(name "SARADC0_IN3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -190 0)
+				(length 5.0038)
+				(name "SARADC0_IN0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -192.5 0)
+				(length 5.0038)
+				(name "UART0_RX_M1/JTAG_TMS_M2/CAN1_TXD_M0/PWM2_CH7_M0/GPIO5_D7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -195 0)
+				(length 5.0038)
+				(name "VSS_35"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -210 0)
+				(length 5.0038)
+				(name "VSS_36"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -212.5 0)
+				(length 5.0038)
+				(name "SARADC0_IN5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -215 0)
+				(length 5.0038)
+				(name "SARADC0_IN1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -217.5 0)
+				(length 5.0038)
+				(name "AVSS1_3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -220 0)
+				(length 5.0038)
+				(name "FEPHY_LEDSPD_M1/CAN0_TXD_M0/IR_FPA_MCLK/I2C2_SDA_M1/PWM1_CH3_M1/UART3_RX_M1/GPIO5_D5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -227.5 0)
+				(length 5.0038)
+				(name "VSS_37"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1D3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -230 0)
+				(length 5.0038)
+				(name "VO_LCDC_D23/ETH_RXCLK_M1/VI_CIF_HSYNC_M1/DSMC_D0/SAI1_SDI_M2/PWM3_CH7_M1/GPIO5_C7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1D21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -232.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D22/ETH_TXCLK_M1/VI_CIF_CLKIN_M1/DSMC_D1/SAI1_LRCK_M2/PWM3_CH6_M1/GPIO5_C6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1D22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -235 0)
+				(length 5.0038)
+				(name "VO_LCDC_D21/ETH_TXD2_M1/VI_CIF_CLKOUT_M1/DSMC_D2/SAI1_SCLK_M2/PWM3_CH5_M1/GPIO5_C5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1D23"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -242.5 0)
+				(length 5.0038)
+				(name "VSS_38"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1F3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -245 0)
+				(length 5.0038)
+				(name "VSS_39"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1F21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -247.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D17/ETH_CLK_25M_OUT_M1/VI_CIF_D13_M1/DSMC_D6/IR_FPA_SDA5/PWM3_CH1_M1/GPIO5_C1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1F22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 75 15 0)
 				(length 5.0038)
@@ -11497,24 +12628,6 @@
 				)
 			)
 			(pin input line
-				(at -90 17.5 0)
-				(length 5.0038)
-				(name "DDR3_DQS0N/DDR4_DQSL_N_A/LPDDR3_DQS0N/LPDDR4_DQS1N"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "1K2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -90 15 0)
 				(length 5.0038)
 				(name "VSS_41"
@@ -11587,24 +12700,6 @@
 				)
 			)
 			(pin input line
-				(at -90 5 0)
-				(length 5.0038)
-				(name "DDR3_DM0/DDR4_DML_A/LPDDR3_DM0/LPDDR4_DM1_A"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "1M1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -90 2.5 0)
 				(length 5.0038)
 				(name "VSS_43"
@@ -11615,24 +12710,6 @@
 					)
 				)
 				(number "1M2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -90 0 0)
-				(length 5.0038)
-				(name "DDR3_DQ1/DDR4_DQL1_A/LPDDR3_DQ6/LPDDR4_DQ9_A"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "1M3"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -11687,24 +12764,6 @@
 					)
 				)
 				(number "1M23"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -90 -10 0)
-				(length 5.0038)
-				(name "DDR3_DQ7/DDR4_DQL7_A/LPDDR3_DQ1/LPDDR4_DQ15_A"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "1P1"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -12037,6 +13096,1734 @@
 				)
 			)
 			(pin input line
+				(at -302.5 20 0)
+				(length 5.0038)
+				(name "VSS_47"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1Y2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 17.5 0)
+				(length 5.0038)
+				(name "VSS_48"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1Y3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 15 0)
+				(length 5.0038)
+				(name "SAI0_SCLK_M0/PWM2_CH4_M1/GPIO7_A0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1Y21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 12.5 0)
+				(length 5.0038)
+				(name "VSS_49"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1Y22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 10 0)
+				(length 5.0038)
+				(name "PWM0_CH4_M1/UART4_RX_M0/GPIO4_A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1Y23"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 2.5 0)
+				(length 5.0038)
+				(name "DDR3_RESETN/DDR4_RESETN/LPDDR4_RESETN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 0 0)
+				(length 5.0038)
+				(name "DDR_RZQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -2.5 0)
+				(length 5.0038)
+				(name "VSS_50"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -5 0)
+				(length 5.0038)
+				(name "VSS_51"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -7.5 0)
+				(length 5.0038)
+				(name "VSS_52"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -10 0)
+				(length 5.0038)
+				(name "VSS_53"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -12.5 0)
+				(length 5.0038)
+				(name "VSS_54"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -15 0)
+				(length 5.0038)
+				(name "VSS_55"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -17.5 0)
+				(length 5.0038)
+				(name "VSS_56"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -20 0)
+				(length 5.0038)
+				(name "SARADC0_IN6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -22.5 0)
+				(length 5.0038)
+				(name "FEPHY_REXT"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -25 0)
+				(length 5.0038)
+				(name "FEPHY_AVDD_0V9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -27.5 0)
+				(length 5.0038)
+				(name "AVSS1_4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2A13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -30 0)
+				(length 5.0038)
+				(name "VSS_57"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -32.5 0)
+				(length 5.0038)
+				(name "VSS_58"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -35 0)
+				(length 5.0038)
+				(name "VSS_59"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -37.5 0)
+				(length 5.0038)
+				(name "VSS_60"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -40 0)
+				(length 5.0038)
+				(name "VSS_61"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -42.5 0)
+				(length 5.0038)
+				(name "VSS_62"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -45 0)
+				(length 5.0038)
+				(name "VSS_63"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -47.5 0)
+				(length 5.0038)
+				(name "VCCIO3_VCC"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -50 0)
+				(length 5.0038)
+				(name "SARADC0_AVDD_1V8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -52.5 0)
+				(length 5.0038)
+				(name "FEPHY_AVDD_3V3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -55 0)
+				(length 5.0038)
+				(name "SARADC0_IN4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -57.5 0)
+				(length 5.0038)
+				(name "MIPI_DSI_TX0_AVDD_0V9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -60 0)
+				(length 5.0038)
+				(name "AVSS1_5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2B13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -62.5 0)
+				(length 5.0038)
+				(name "VSS_64"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -65 0)
+				(length 5.0038)
+				(name "VSS_65"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -67.5 0)
+				(length 5.0038)
+				(name "DDR_VDDQ_0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -70 0)
+				(length 5.0038)
+				(name "DDR_VDDQ_1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -72.5 0)
+				(length 5.0038)
+				(name "DDR_VDDQ_2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -75 0)
+				(length 5.0038)
+				(name "VSS_66"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -77.5 0)
+				(length 5.0038)
+				(name "VSS_67"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -80 0)
+				(length 5.0038)
+				(name "VSS_68"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -82.5 0)
+				(length 5.0038)
+				(name "VSS_69"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -85 0)
+				(length 5.0038)
+				(name "VSS_70"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -87.5 0)
+				(length 5.0038)
+				(name "FEPHY_AVDD_1V8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -90 0)
+				(length 5.0038)
+				(name "MIPI_DSI_TX0_AVDD_1V8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -92.5 0)
+				(length 5.0038)
+				(name "OTP_VCC_1V8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2C13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -95 0)
+				(length 5.0038)
+				(name "VSS_71"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -97.5 0)
+				(length 5.0038)
+				(name "VSS_72"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -100 0)
+				(length 5.0038)
+				(name "DDR_VDDQ_3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -102.5 0)
+				(length 5.0038)
+				(name "VSS_73"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -105 0)
+				(length 5.0038)
+				(name "VSS_74"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -107.5 0)
+				(length 5.0038)
+				(name "NPU_DVDD_0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -110 0)
+				(length 5.0038)
+				(name "NPU_DVDD_1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -112.5 0)
+				(length 5.0038)
+				(name "NPU_DVDD_2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -115 0)
+				(length 5.0038)
+				(name "VSS_75"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -117.5 0)
+				(length 5.0038)
+				(name "VSS_76"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -120 0)
+				(length 5.0038)
+				(name "VSS_77"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -122.5 0)
+				(length 5.0038)
+				(name "VSS_78"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -125 0)
+				(length 5.0038)
+				(name "FEPHY_LEDLINK_M1/SPI1_CSN1_M2/CAN0_RXD_M0/IR_FPA_FSYNC/I2C2_SCL_M1/PWM0_CH7_M2/UART3_TX_M1/GPIO5_D4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2D13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -127.5 0)
+				(length 5.0038)
+				(name "VSS_79"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -130 0)
+				(length 5.0038)
+				(name "VSS_80"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -132.5 0)
+				(length 5.0038)
+				(name "DDR_VDDQ_4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -135 0)
+				(length 5.0038)
+				(name "DDR_VDDQL_0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -137.5 0)
+				(length 5.0038)
+				(name "LOGIC_DVDD_0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -140 0)
+				(length 5.0038)
+				(name "NPU_DVDD_3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -142.5 0)
+				(length 5.0038)
+				(name "NPU_DVDD_4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -145 0)
+				(length 5.0038)
+				(name "NPU_DVDD_5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -147.5 0)
+				(length 5.0038)
+				(name "VSS_81"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -150 0)
+				(length 5.0038)
+				(name "LOGIC_DVDD_3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -152.5 0)
+				(length 5.0038)
+				(name "VSS_82"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -155 0)
+				(length 5.0038)
+				(name "VCCIO5_VCC_0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -157.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D11/ETH_MCLK_M1/VI_CIF_D7_M1/DSMC_RDYN/PWM2_CH1_M1/UART6_CTSN_M0/GPIO5_B3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2E13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -160 0)
+				(length 5.0038)
+				(name "VSS_83"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -162.5 0)
+				(length 5.0038)
+				(name "VSS_84"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -165 0)
+				(length 5.0038)
+				(name "DDR_VDDQ_5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -167.5 0)
+				(length 5.0038)
+				(name "DDR_VDDQL_1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -170 0)
+				(length 5.0038)
+				(name "LOGIC_DVDD_1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -172.5 0)
+				(length 5.0038)
+				(name "VSS_85"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -175 0)
+				(length 5.0038)
+				(name "VSS_86"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -177.5 0)
+				(length 5.0038)
+				(name "VSS_87"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -180 0)
+				(length 5.0038)
+				(name "VSS_88"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -182.5 0)
+				(length 5.0038)
+				(name "LOGIC_DVDD_4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -185 0)
+				(length 5.0038)
+				(name "VSS_89"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -187.5 0)
+				(length 5.0038)
+				(name "VCCIO5_VCC_1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -190 0)
+				(length 5.0038)
+				(name "VSS_90"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2F13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -192.5 0)
+				(length 5.0038)
+				(name "VSS_91"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -195 0)
+				(length 5.0038)
+				(name "VSS_92"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -197.5 0)
+				(length 5.0038)
+				(name "VSS_93"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -200 0)
+				(length 5.0038)
+				(name "VSS_94"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -202.5 0)
+				(length 5.0038)
+				(name "LOGIC_DVDD_2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -205 0)
+				(length 5.0038)
+				(name "VSS_95"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -207.5 0)
+				(length 5.0038)
+				(name "VSS_96"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -210 0)
+				(length 5.0038)
+				(name "VSS_97"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -212.5 0)
+				(length 5.0038)
+				(name "VSS_98"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -215 0)
+				(length 5.0038)
+				(name "LOGIC_DVDD_5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -217.5 0)
+				(length 5.0038)
+				(name "VSS_99"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -220 0)
+				(length 5.0038)
+				(name "VCCIO6_VCC"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -377.5 -222.5 0)
+				(length 5.0038)
+				(name "VSS_100"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2G13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 5 15 0)
 				(length 5.0038)
 				(name "VSS_0"
@@ -12271,6 +15058,1482 @@
 				)
 			)
 			(pin input line
+				(at -327.5 -170 0)
+				(length 5.0038)
+				(name "VSS_18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -177.5 0)
+				(length 5.0038)
+				(name "SARADC1_IN5/VI_CIF_D5_M0/ETH_TXD2_M0/PWM2_CH1_M2/UART5_CTSN_M2/I2C5_SDA_M3/GPIO6_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -180 0)
+				(length 5.0038)
+				(name "SARADC1_IN6/VI_CIF_D6_M0/ETH_TXD3_M0/PWM2_CH2_M2/UART4_RTSN_M2/GPIO6_A6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -265 0)
+				(length 5.0038)
+				(name "VSS_19"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -175 0)
+				(length 5.0038)
+				(name "SARADC1_IN4/VI_CIF_D4_M0/ETH_RXD3_M0/SAI0_MCLK_M1/PWM2_CH0_M2/UART5_RTSN_M2/I2C5_SCL_M3/GPIO6_A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -172.5 0)
+				(length 5.0038)
+				(name "SARADC1_IN3/VI_CIF_D3_M0/ETH_RXD2_M0/CAN1_TXD_M1/SAI0_SDI0_M1/PWM1_CH3_M2/UART5_RX_M2/I2C4_SDA_M1/GPIO6_A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AC31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -170 0)
+				(length 5.0038)
+				(name "SARADC1_IN2/VI_CIF_D2_M0/ETH_PPSCLK_M0/CAN1_RXD_M1/SAI0_SDO0_M1/PWM1_CH2_M2/UART5_TX_M2/I2C4_SCL_M1/GPIO6_A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AC32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -267.5 0)
+				(length 5.0038)
+				(name "VSS_20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AD31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -167.5 0)
+				(length 5.0038)
+				(name "SARADC1_IN1/VI_CIF_D1_M0/ETH_PTP_REFCLK_M0/CAN0_TXD_M1/SAI0_LRCK_M1/PWM1_CH1_M2/UART4_RX_M2/I2C3_SDA_M3/GPIO6_A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AD32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -270 0)
+				(length 5.0038)
+				(name "VSS_21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AE2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -252.5 0)
+				(length 5.0038)
+				(name "CAM_CLK0_OUT/UART5_CTSN_M0/GPIO4_B1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AE31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -257.5 0)
+				(length 5.0038)
+				(name "EMMC_CLK/FSPI1_CLK_M1/GPIO1_B3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AF2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -257.5 0)
+				(length 5.0038)
+				(name "CAM_CLK1_OUT/UART5_RTSN_M0/GPIO4_B0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AF31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -260 0)
+				(length 5.0038)
+				(name "SPI0_MISO_M1/SAI1_LRCK_M1/I2C3_SDA_M1/GPIO4_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AF32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -255 0)
+				(length 5.0038)
+				(name "EMMC_CMD/FSPI1_CSN0_M1/GPIO1_B1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AG1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -265 0)
+				(length 5.0038)
+				(name "FSPI0_CLK/GPIO1_B7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AG2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -267.5 0)
+				(length 5.0038)
+				(name "CAM_CLK3_OUT/UART4_RTSN_M0/I2C1_SDA_M2/GPIO4_A0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AG31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -270 0)
+				(length 5.0038)
+				(name "CAM_CLK2_OUT/UART4_CTSN_M0/I2C1_SCL_M2/GPIO4_A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AG32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -277.5 0)
+				(length 5.0038)
+				(name "EMMC_D7/PWM3_CH7_M0/GPIO1_A7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AH1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -275 0)
+				(length 5.0038)
+				(name "EMMC_D6/PWM3_CH6_M0/GPIO1_A6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AH2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -272.5 0)
+				(length 5.0038)
+				(name "VSS_22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AH31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -272.5 0)
+				(length 5.0038)
+				(name "EMMC_D5/FSPI0_CSN1/PWM3_CH5_M0/GPIO1_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AJ2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -282.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D0N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AJ31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -285 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D0P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AJ32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -270 0)
+				(length 5.0038)
+				(name "EMMC_D4/PWM3_CH4_M0/GPIO1_A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AK1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -267.5 0)
+				(length 5.0038)
+				(name "EMMC_D3/FSPI1_D3_M1/PWM3_CH3_M0/GPIO1_A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AK2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -275 0)
+				(length 5.0038)
+				(name "VSS_23"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AK31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -295 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D1N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AK32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -210 -262.5 0)
+				(length 5.0038)
+				(name "EMMC_D0/FSPI1_D0_M1/PWM3_CH0_M0/GPIO1_A0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -340 -300 0)
+				(length 5.0038)
+				(name "USB_DRD_DP"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -340 -305 0)
+				(length 5.0038)
+				(name "USB_HOST_DM"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -340 -307.5 0)
+				(length 5.0038)
+				(name "USB_HOST_DP"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -277.5 0)
+				(length 5.0038)
+				(name "VSS_24"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -340 -312.5 0)
+				(length 5.0038)
+				(name "USB_DRD_SSRXP"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -340 -315 0)
+				(length 5.0038)
+				(name "USB_DRD_SSRXN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -280 0)
+				(length 5.0038)
+				(name "VSS_25"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -317.5 0)
+				(length 5.0038)
+				(name "UART0_RX_M2/PWM1_CH3_M0/I2C1_SDA_M0/JTAG_TMS_M0/GPIO0_B4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -320 0)
+				(length 5.0038)
+				(name "SDMMC0_DETN/PWM1_CH0_M0/GPIO0_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -322.5 0)
+				(length 5.0038)
+				(name "FSPI1_D3_M0/PWM1_CH1_M0/TSADC_SHUT/TSADC_SHUTORG/GPIO0_A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -325 0)
+				(length 5.0038)
+				(name "RTC_32K_OUT/CLK_32K/GPIO0_A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -327.5 0)
+				(length 5.0038)
+				(name "NPOR_DET"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -330 0)
+				(length 5.0038)
+				(name "OSC_XOUT"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -332.5 0)
+				(length 5.0038)
+				(name "OSC_XIN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL15"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -335 0)
+				(length 5.0038)
+				(name "AVSS3_0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -337.5 0)
+				(length 5.0038)
+				(name "AUDIO_ADC1_MICP"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL17"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -340 0)
+				(length 5.0038)
+				(name "AUDIO_ADC1_MICN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -282.5 0)
+				(length 5.0038)
+				(name "VSS_26"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL19"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -345 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D3P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -347.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D3N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -350 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_CLK1P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -352.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_CLK0N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL23"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -355 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D1P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL24"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -292.5 -357.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D1N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL25"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -317.5 -285 0)
+				(length 5.0038)
+				(name "VSS_27"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL26"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -70 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D2P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL27"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -72.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D2N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL28"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -75 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_CLK1P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL29"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -77.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_CLK1N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL30"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -80 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_CLK0P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -82.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D1P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AL32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -85 0)
+				(length 5.0038)
+				(name "VSS_28"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -87.5 0)
+				(length 5.0038)
+				(name "USB_DRD_DM"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -90 0)
+				(length 5.0038)
+				(name "USB_DRD_SSTXP"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -92.5 0)
+				(length 5.0038)
+				(name "USB_DRD_SSTXN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -95 0)
+				(length 5.0038)
+				(name "OSC_RTC_XOUT"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -97.5 0)
+				(length 5.0038)
+				(name "OSC_RTC_XIN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -100 0)
+				(length 5.0038)
+				(name "UART0_TX_M2/PWM1_CH2_M0/I2C1_SCL_M0/JTAG_TCK_M0/GPIO0_B3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -102.5 0)
+				(length 5.0038)
+				(name "PWR_CTRL0/GPIO0_A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -105 0)
+				(length 5.0038)
+				(name "REF_CLK0_OUT/TEST_CLK0_OUT/GPIO0_A0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -107.5 0)
+				(length 5.0038)
+				(name "VSS_29"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -110 0)
+				(length 5.0038)
+				(name "AUDIO_ADC0_MICP"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -112.5 0)
+				(length 5.0038)
+				(name "AUDIO_ADC0_MICN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM17"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -115 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D2P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM19"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -117.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D2N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -120 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_CLK1N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -122.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_CLK0P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM23"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -125 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D0P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM25"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -127.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX0_D0N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM26"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -130 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D3P"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM28"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -132.5 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_D3N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM29"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -135 0)
+				(length 5.0038)
+				(name "MIPI_DPHY_CSI_RX1_CLK0N"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -157.5 -137.5 0)
+				(length 5.0038)
+				(name "VSS_30"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AM32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 97.5 -115 0)
 				(length 5.0038)
 				(name "SPI1_CSN1_M1/SAI2_MCLK_M0/SDMMC1_DETN/UART1_TX_M1/I2C5_SCL_M1/GPIO3_B6"
@@ -12289,7 +16552,7 @@
 				)
 			)
 			(pin input line
-				(at -165 17.5 0)
+				(at -205 20 0)
 				(length 5.0038)
 				(name "UART2_RX_M0/GPIO3_B0"
 					(effects
@@ -12307,7 +16570,7 @@
 				)
 			)
 			(pin input line
-				(at -165 15 0)
+				(at -205 17.5 0)
 				(length 5.0038)
 				(name "UART2_CTSN_M0/GPIO3_A7"
 					(effects
@@ -12325,7 +16588,7 @@
 				)
 			)
 			(pin input line
-				(at -165 12.5 0)
+				(at -205 15 0)
 				(length 5.0038)
 				(name "UART2_RTSN_M0/GPIO3_A6"
 					(effects
@@ -12343,7 +16606,7 @@
 				)
 			)
 			(pin input line
-				(at -165 10 0)
+				(at -205 12.5 0)
 				(length 5.0038)
 				(name "SDMMC1_D3/GPIO3_A5"
 					(effects
@@ -12361,7 +16624,7 @@
 				)
 			)
 			(pin input line
-				(at -165 7.5 0)
+				(at -205 10 0)
 				(length 5.0038)
 				(name "SDMMC1_CMD/GPIO3_A1"
 					(effects
@@ -12379,7 +16642,7 @@
 				)
 			)
 			(pin input line
-				(at -165 5 0)
+				(at -205 7.5 0)
 				(length 5.0038)
 				(name "SDMMC_CLK/GPIO3_A0"
 					(effects
@@ -12397,7 +16660,7 @@
 				)
 			)
 			(pin input line
-				(at -165 2.5 0)
+				(at -205 5 0)
 				(length 5.0038)
 				(name "VSS_7"
 					(effects
@@ -12415,7 +16678,7 @@
 				)
 			)
 			(pin input line
-				(at -165 0 0)
+				(at -205 2.5 0)
 				(length 5.0038)
 				(name "FEPHY_RXN"
 					(effects
@@ -12433,7 +16696,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -2.5 0)
+				(at -205 0 0)
 				(length 5.0038)
 				(name "FEPHY_RXP"
 					(effects
@@ -12451,7 +16714,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -5 0)
+				(at -205 -2.5 0)
 				(length 5.0038)
 				(name "AVSS1_1"
 					(effects
@@ -12469,7 +16732,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -7.5 0)
+				(at -205 -5 0)
 				(length 5.0038)
 				(name "MIPI_DPHY_DSI_TX_D0N"
 					(effects
@@ -12487,7 +16750,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -10 0)
+				(at -205 -7.5 0)
 				(length 5.0038)
 				(name "MIPI_DPHY_DSI_TX_D0P"
 					(effects
@@ -12505,7 +16768,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -12.5 0)
+				(at -205 -10 0)
 				(length 5.0038)
 				(name "MIPI_DPHY_DSI_TX_CLKN"
 					(effects
@@ -12523,7 +16786,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -15 0)
+				(at -205 -12.5 0)
 				(length 5.0038)
 				(name "MIPI_DPHY_DSI_TX_CLKP"
 					(effects
@@ -12541,7 +16804,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -17.5 0)
+				(at -205 -15 0)
 				(length 5.0038)
 				(name "MIPI_DPHY_DSI_TX_D2N"
 					(effects
@@ -12559,7 +16822,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -20 0)
+				(at -205 -17.5 0)
 				(length 5.0038)
 				(name "MIPI_DPHY_DSI_TX_D3N"
 					(effects
@@ -12577,25 +16840,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -22.5 0)
-				(length 5.0038)
-				(name "DDR3_DQ24/DDR4_DQU0_B/LPDDR3_DQ30/LPDDR4_DQ8_B"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -165 -25 0)
+				(at -205 -22.5 0)
 				(length 5.0038)
 				(name "VSS_8"
 					(effects
@@ -12613,7 +16858,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -27.5 0)
+				(at -205 -25 0)
 				(length 5.0038)
 				(name "AVSS1_2"
 					(effects
@@ -12631,7 +16876,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -30 0)
+				(at -205 -27.5 0)
 				(length 5.0038)
 				(name "MIPI_DPHY_DSI_TX_D3P"
 					(effects
@@ -12649,7 +16894,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -32.5 0)
+				(at -205 -30 0)
 				(length 5.0038)
 				(name "VSS_9"
 					(effects
@@ -12667,25 +16912,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -35 0)
-				(length 5.0038)
-				(name "DDR3_DM3/DDR4_DMU_B/LPDDR3_DM3/LPDDR4_DM1_B"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -165 -37.5 0)
+				(at -205 -35 0)
 				(length 5.0038)
 				(name "VO_LCDC_CLK/SPI1_MISO_M2/DSMC_INT2/PWM1_CH0_M1/UART3_CTSN_M1/GPIO3_D3"
 					(effects
@@ -12703,25 +16930,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -40 0)
-				(length 5.0038)
-				(name "DDR3_DQ31/DDR4_DQU5_B/LPDDR3_DQ27/LPDDR4_DQ15_B"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "E2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -165 -42.5 0)
+				(at -205 -40 0)
 				(length 5.0038)
 				(name "VO_LCDC_HSYNC/SPI1_CLK_M2/ETH_PPSTRIG_M1/DSMC_CSN2/I2C3_SDA_M2/PWM1_CH2_M1/GPIO5_D1"
 					(effects
@@ -12739,7 +16948,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -45 0)
+				(at -205 -42.5 0)
 				(length 5.0038)
 				(name "VO_LCDC_VSYNC/SPI1_MOSI_M2/DSMC_INT3/PWM1_CH1_M1/UART3_RTSN_M1/GPIO5_D2"
 					(effects
@@ -12757,43 +16966,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -47.5 0)
-				(length 5.0038)
-				(name "DDR3_DQ29/DDR4_DQU5_B/LPDDR3_DQ25/LPDDR4_DQ13_B"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -165 -50 0)
-				(length 5.0038)
-				(name "DDR3_DQ30/DDR4_DQU6_B/LPDDR3_DQ26/LPDDR4_DQ14_B"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -165 -52.5 0)
+				(at -205 -50 0)
 				(length 5.0038)
 				(name "VO_LCDC_D20/ETH_RXD3_M1/VI_CIF_VSYNC_M1/DSMC_D3/SAI1_SDO_M2/PWM3_CH4_M1/GPIO5_C4"
 					(effects
@@ -12811,7 +16984,7 @@
 				)
 			)
 			(pin input line
-				(at -165 -55 0)
+				(at -205 -52.5 0)
 				(length 5.0038)
 				(name "VO_LCDC_DEN/SPI1_CSN0_M2/ETH_PTP_REFCLK_M1/DSMC_CSN3/I2C3_SCL_M2/PWM0_CH6_M2/GPIO5_D0"
 					(effects
@@ -12829,16 +17002,484 @@
 				)
 			)
 			(pin input line
-				(at -165 -57.5 0)
+				(at -327.5 -150 0)
 				(length 5.0038)
-				(name "DDR3_DQ28/DDR4_DQU4_B/LPDDR3_DQ24/LPDDR4_DQ12_B"
+				(name "VSS_10"
 					(effects
 						(font
 							(size 1.6002 1.6002)
 						)
 					)
 				)
-				(number "G1"
+				(number "G2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -87.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D19/ETH_RXD2_M1/VI_CIF_D15_M1/DSMC_D4/SAI1_MCLK_M2/PWM3_CH3_M1/GPIO5_C3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -327.5 -152.5 0)
+				(length 5.0038)
+				(name "VSS_11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "H31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -305 -145 0)
+				(length 5.0038)
+				(name "VO_LCDC_D15/ETH_TXD0_M1/VI_CIF_D11_M1/DSMC_CLKP/PWM2_CH3_M1/UART7_CTSN_M0/GPIO5_B7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "H32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -305 -142.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D14/ETH_MDC_M1/VI_CIF_D10_M1/DSMC_CLKN/DSMC_INT0/PWM2_CH2_M1/UART7_RTSN_M0/GPIO5_B6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -80 0)
+				(length 5.0038)
+				(name "VO_LCDC_D16/ETH_TXD1_M1/VI_CIF_D12_M1/DSMC_D7/IR_FPA_SDA4/PWM3_CH0_M1/GPIO5_C0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -127.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D8/ETH_RXCTL_M1/VI_CIF_D4_M1/DSMC_D9/IR_FPA_SDA2/UART6_TX_M0/GPIO5_B0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -327.5 -155 0)
+				(length 5.0038)
+				(name "VSS_12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -122.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D7/SPI0_CSN1_M2/VI_CIF_D3_M1/DSMC_D10/SAI2_LRCK_M1/I2C5_SDA_M2/PWM0_CH0_M1/UART5_CTSN_M1/GPIO5_A7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "L31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -120 0)
+				(length 5.0038)
+				(name "VO_LCDC_D6/SPI0_CLK_M2/DSMC_D11/SAI2_SDI0_M1/PWM0_CH1_/UART5_RTSN_M1/GPIO5_A6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "L32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -327.5 -157.5 0)
+				(length 5.0038)
+				(name "VSS_13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "M31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -117.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D5/SPI0_MISO_M2/DSMC_D12/SAI2_SCLK_M1/PWM0_CH2_M1/UART5_RX_M1/GPIO5_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "M32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -115 0)
+				(length 5.0038)
+				(name "VO_LCDC_D4/SPI0_MOSI_M2/DSMC_D13/SAI2_SDO_M1/PWM0_CH3_M1/UART5_TX_M1/GPIO5_A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -327.5 -160 0)
+				(length 5.0038)
+				(name "VSS_14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "P2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -112.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D3/SPI0_CSN0_M2/DSMC_D14/SAI2_MCLK_M1/PWM0_CH4_M2/UART4_RX_M1/GPIO5_A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "P31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -110 0)
+				(length 5.0038)
+				(name "VO_LCDC_D2/ETH_PPSCLK_M1/VI_CIF_D2_M1/DSMC_D15/SAI2_SDI1_M1/PWM0_CH5_M2/UART4_TX_M1/GPIO5_A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "P32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -105 0)
+				(length 5.0038)
+				(name "VO_LCDC_D0/ETH_TXD3_M1/VI_CIF_D0_M1/DSMC_CSN1/IR_FPA_SDA0/PWM2_CH4_M0/UART4_RTSN_M1/GPIO5_A0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -302.5 -107.5 0)
+				(length 5.0038)
+				(name "VO_LCDC_D1/I2C5_SCL_M2/VI_CIF_D1_M1/DSMC_DQS1/SAI2_SDI2_M1/IR_FPA_SDA1/PWM2_CH5_M0/UART4_CTSN_M1/GPIO5_A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -327.5 -162.5 0)
+				(length 5.0038)
+				(name "VSS_15"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -327.5 -165 0)
+				(length 5.0038)
+				(name "VSS_16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -197.5 0)
+				(length 5.0038)
+				(name "SARADC2_IN6/VI_CIF_CLKOUT_M0/ETH_TXCLK_M0/FEPHY_LEDLINK_M2/PWM0_CH2_M2/UART3_TX_M2/GPIO6_C2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -195 0)
+				(length 5.0038)
+				(name "SARADC2_IN5/VI_CIF_CLKIN_M0/ETH_CLK_25M_OUT_M0/PWM0_CH1_M1/UART3_CTSN_M2/GPIO6_C1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -200 0)
+				(length 5.0038)
+				(name "SARADC2_IN7/VI_CIF_HSYNC_M0/ETH_RXCLK_M0/FEPHY_LEDSPD_M2/PWM0_CH3_M2/UART3_RX_M2/I2C2_SDA_M2/GPIO6_C3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -192.5 0)
+				(length 5.0038)
+				(name "SARADC2_IN4/VI_CIF_VSYNC_M0/ETH_MDC_M0/PWM0_CH0_M2/UART3_RTSN_M2/I2C2_SCL_M2/GPIO6_C0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V32"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -207.5 0)
+				(length 5.0038)
+				(name "SARADC2_IN0/VI_CIF_D8_M0/ETH_TXD1_M0/SPI1_CSN1_M0/SAI0_SDI2_M1/SAI0_SDO2_M1/UART6_TX_M1/GPIO6_B0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -327.5 -167.5 0)
+				(length 5.0038)
+				(name "VSS_17"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "Y31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -290 -182.5 0)
+				(length 5.0038)
+				(name "SARADC1_IN7/VI_CIF_D7_M0/ETH_TXD0_M0/PWM2_CH3_M2/SAI0_SDI3_M1/SAI0_SDO1_M1/UART4_CTSN_M2/GPIO6_A7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "Y32"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -12849,7 +17490,295 @@
 		)
 		(symbol "RV1126B_2_1"
 			(pin input line
-				(at 95 17.5 0)
+				(at 250 75 0)
+				(length 5.0038)
+				(name "DDR3_CLKN/DDR4_CLKN/LPDDR3_CLKN/LPDDR4_CLKN_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 245 -12.5 0)
+				(length 5.0038)
+				(name "DDR3_A10/DDR4_A15_CASN/LPDDR4_A0_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 245 -25 0)
+				(length 5.0038)
+				(name "DDR3_A15/DDR4_A3/LPDDR4_A5_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 282.5 -40 0)
+				(length 5.0038)
+				(name "DDR3_A4/DDR4_A7/LPDDR3_A4/LPDDR4_ODT0_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1A8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 77.5 0)
+				(length 5.0038)
+				(name "DDR3_CLKP/DDR4_CLKP/LPDDR3_CLKP/LPDDR4_CLKP_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 77.5 0)
+				(length 5.0038)
+				(name "DDR3_A6/DDR4_A4/LPDDR3_A6/LPDDR4_CLKP_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 185 -22.5 0)
+				(length 5.0038)
+				(name "DDR3_A9/DDR4_A2/LPDDR3_A9/LPDDR4_A4_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1B12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 185 -15 0)
+				(length 5.0038)
+				(name "DDR3_RASN/DDR4_A12/LPDDR4_A1_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 210 -102.5 0)
+				(length 5.0038)
+				(name "DDR3_WEN/DDR4_BA1/LPDDR4_CKE1_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 210 -105 0)
+				(length 5.0038)
+				(name "DDR3_BA1/DDR4_A1/LPDDR4_CKE0_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 75 0)
+				(length 5.0038)
+				(name "DDR3_A8/DDR4_A10/LPDDR3_A8/LPDDR4_CLKN_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 210 -110 0)
+				(length 5.0038)
+				(name "DDR3_A2/DDR4_BG1/LPDDR3_A2/LPDDR4_ODT1_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1C12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 85 0)
+				(length 5.0038)
+				(name "DDR3_DQS3P/DDR4_DQSU_P_B/LPDDR3_DQS3P/LPDDR4_DQS1P_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1D1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 82.5 0)
+				(length 5.0038)
+				(name "DDR3_DQS3N/DDR4_DQSU_N_B/LPDDR3_DQS3N/LPDDR4_DQS1N_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1D2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 92.5 0)
+				(length 5.0038)
+				(name "DDR3_DQS1P/DDR4_DQSU_P_A/LPDDR3_DQS1P/LPDDR4_DQS0P_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1F1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 90 0)
+				(length 5.0038)
+				(name "DDR3_DQS1N/DDR4_DQSU_N_A/LPDDR3_DQS1N/LPDDR4_DQS0N_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1F2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 42.5 0)
 				(length 5.0038)
 				(name "DDR3_DQ3/DDR4_DQL3_A/LPDDR3_DQ0/LPDDR4_DQ11_A"
 					(effects
@@ -12867,7 +17796,7 @@
 				)
 			)
 			(pin input line
-				(at 95 15 0)
+				(at 182.5 35 0)
 				(length 5.0038)
 				(name "DDR3_DQ6/DDR4_DQL6_A/LPDDR3_DQ5/LPDDR4_DQ14_A"
 					(effects
@@ -12885,7 +17814,7 @@
 				)
 			)
 			(pin input line
-				(at 95 12.5 0)
+				(at 177.5 15 0)
 				(length 5.0038)
 				(name "DDR3_DQS0P/DDR4_DQSL_P_A/LPDDR3_DQS0P/LPDDR4_DQS1P_A"
 					(effects
@@ -12903,7 +17832,79 @@
 				)
 			)
 			(pin input line
-				(at 95 35 0)
+				(at 177.5 12.5 0)
+				(length 5.0038)
+				(name "DDR3_DQS0N/DDR4_DQSL_N_A/LPDDR3_DQS0N/LPDDR4_DQS1N_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1K2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 260 5 0)
+				(length 5.0038)
+				(name "DDR3_DM0/DDR4_DML_A/LPDDR3_DM0/LPDDR4_DM1_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1M1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 47.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ1/DDR4_DQL1_A/LPDDR3_DQ6/LPDDR4_DQ9_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1M3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 32.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ7/DDR4_DQL7_A/LPDDR3_DQ1/LPDDR4_DQ15_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1P1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 45 0)
 				(length 5.0038)
 				(name "DDR3_DQ26/DDR4_DQU2_B/LPDDR3_DQ28/LPDDR4_DQ10_B"
 					(effects
@@ -12921,9 +17922,9 @@
 				)
 			)
 			(pin input line
-				(at 95 32.5 0)
+				(at 245 -17.5 0)
 				(length 5.0038)
-				(name "DDR3_ODT0/DDR4_CSN0/LPDDR3_ODT0/LPDDR4_A3_B"
+				(name "DDR3_ODT0/DDR4_CSN0/LPDDR3_ODT0/LPDDR4_A2_B"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -12939,7 +17940,7 @@
 				)
 			)
 			(pin input line
-				(at 95 30 0)
+				(at 245 -20 0)
 				(length 5.0038)
 				(name "DDR3_ODT1/DDR4_BG0/LPDDR4_CKE/LPDDR4_A3_B"
 					(effects
@@ -12957,9 +17958,9 @@
 				)
 			)
 			(pin input line
-				(at 95 27.5 0)
+				(at 100 50 0)
 				(length 5.0038)
-				(name "DDR3_A12/DDR4_A5/LPDDR4_ODT0_B"
+				(name "DDR3_ODT1/DDR4_BG0/LPDDR3_ODT1/LPDDR4_CSN1_A"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -12975,7 +17976,7 @@
 				)
 			)
 			(pin input line
-				(at 95 25 0)
+				(at 100 35 0)
 				(length 5.0038)
 				(name "DDR3_A12/DDR4_A5/LPDDR4_ODT0_B"
 					(effects
@@ -13011,7 +18012,7 @@
 				)
 			)
 			(pin input line
-				(at 95 20 0)
+				(at 185 -25 0)
 				(length 5.0038)
 				(name "DDR3_A5/DDR4_A9/LPDDR3_A5/LPDDR4_A5_A"
 					(effects
@@ -13029,7 +18030,7 @@
 				)
 			)
 			(pin input line
-				(at 95 7.5 0)
+				(at 100 32.5 0)
 				(length 5.0038)
 				(name "DDR3_A0/DDR4_ODT1/LPDDR3_A0/LPDDR4_ODT1_B"
 					(effects
@@ -13047,7 +18048,7 @@
 				)
 			)
 			(pin input line
-				(at 95 5 0)
+				(at 100 47.5 0)
 				(length 5.0038)
 				(name "DDR3_A14/DDR4_A14_WEN/LPDDR4_CSN1_B"
 					(effects
@@ -13065,7 +18066,115 @@
 				)
 			)
 			(pin input line
-				(at 95 0 0)
+				(at 177.5 20 0)
+				(length 5.0038)
+				(name "DDR3_DQS2N/DDR4_DQSL_N_B/LPDDR3_DQS2N/LPDDR4_DQS0N_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 177.5 22.5 0)
+				(length 5.0038)
+				(name "DDR3_DQS2P/DDR4_DQSL_P_B/LPDDR3_DQS2P/LPDDR4_DQS0P_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 52.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ23/DDR4_DQL7_B/LPDDR3_DQ20/LPDDR4_DQ7_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AC2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 57.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ21/DDR4_DQL5_B/LPDDR3_DQ16/LPDDR4_DQ5_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 55 0)
+				(length 5.0038)
+				(name "DDR3_DQ22/DDR4_DQL6_B/LPDDR3_DQ17/LPDDR4_DQ6_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 60 0)
+				(length 5.0038)
+				(name "DDR3_DQ20/DDR4_DQL4_B/LPDDR3_DQ21/LPDDR4_DQ4_A_"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AE1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 47.5 0)
 				(length 5.0038)
 				(name "DDR3_DQ25/DDR4_DQU1_B/LPDDR3_DQ31/LPDDR4_DQ9_B"
 					(effects
@@ -13083,7 +18192,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -2.5 0)
+				(at 250 42.5 0)
 				(length 5.0038)
 				(name "DDR3_DQ27/DDR4_DQU3_B/LPDDR3_DQ29/LPDDR4_DQ11_B"
 					(effects
@@ -13101,7 +18210,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -5 0)
+				(at 92.5 -42.5 0)
 				(length 5.0038)
 				(name "VSS_2"
 					(effects
@@ -13119,7 +18228,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -7.5 0)
+				(at 245 -15 0)
 				(length 5.0038)
 				(name "DDR3_CASN/DDR4_CKE/LPDDR_A1_B"
 					(effects
@@ -13137,7 +18246,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -10 0)
+				(at 245 -22.5 0)
 				(length 5.0038)
 				(name "DDR3_CSN0/DDR4_ODT0/LPDDR3_CSN0/LPDDR4_A4_B"
 					(effects
@@ -13155,7 +18264,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -12.5 0)
+				(at 92.5 -45 0)
 				(length 5.0038)
 				(name "VSS_3"
 					(effects
@@ -13173,9 +18282,9 @@
 				)
 			)
 			(pin input line
-				(at 95 -15 0)
+				(at 95 -27.5 0)
 				(length 5.0038)
-				(name "DDR3_A11/DDR4_A16_RASN/LPDDR4_CSN0"
+				(name "DDR3_A11/DDR4_A16_RASN/LPDDR4_CSN0_B"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -13191,7 +18300,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -17.5 0)
+				(at 185 -12.5 0)
 				(length 5.0038)
 				(name "DDR3_BA2/DDR4_A6/LPDDR4_A0_A"
 					(effects
@@ -13209,7 +18318,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -20 0)
+				(at 92.5 -47.5 0)
 				(length 5.0038)
 				(name "VSS_4"
 					(effects
@@ -13263,7 +18372,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -27.5 0)
+				(at 92.5 -50 0)
 				(length 5.0038)
 				(name "VSS_5"
 					(effects
@@ -13281,7 +18390,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -30 0)
+				(at 120 -5 0)
 				(length 5.0038)
 				(name "DDR3_A3/DDR4_A0/LPDDR3_A3/LPDDR4_CKE1_A"
 					(effects
@@ -13299,7 +18408,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -32.5 0)
+				(at 185 -20 0)
 				(length 5.0038)
 				(name "DDR3_A13/DDR4_A13/LPDDR4_A3_A"
 					(effects
@@ -13317,7 +18426,7 @@
 				)
 			)
 			(pin input line
-				(at 95 -35 0)
+				(at 92.5 -52.5 0)
 				(length 5.0038)
 				(name "VSS_6"
 					(effects
@@ -13327,6 +18436,438 @@
 					)
 				)
 				(number "B15"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 50 0)
+				(length 5.0038)
+				(name "DDR3_DQ24/DDR4_DQU0_B/LPDDR3_DQ30/LPDDR4_DQ8_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 192.5 0 0)
+				(length 5.0038)
+				(name "DDR3_DM3/DDR4_DMU_B/LPDDR3_DM3/LPDDR4_DM1_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 32.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ31/DDR4_DQU5_B/LPDDR3_DQ27/LPDDR4_DQ15_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 37.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ29/DDR4_DQU5_B/LPDDR3_DQ25/LPDDR4_DQ13_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 35 0)
+				(length 5.0038)
+				(name "DDR3_DQ30/DDR4_DQU6_B/LPDDR3_DQ26/LPDDR4_DQ14_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 40 0)
+				(length 5.0038)
+				(name "DDR3_DQ28/DDR4_DQU4_B/LPDDR3_DQ24/LPDDR4_DQ12_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 60 0)
+				(length 5.0038)
+				(name "DDR3_DQ12/DDR4_DQU4_A/LPDDR3_DQ12/LPDDR4_DQ4_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 55 0)
+				(length 5.0038)
+				(name "DDR3_DQ14/DDR4_DQU6_A/LPDDR3_DQ14/LPDDR4_DQ6_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 57.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ13/DDR4_DQU5_A/LPDDR3_DQ13/LPDDR4_DQ5_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 52.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ15/DDR4_DQU7_A/LPDDR3_DQ15/LPDDR4_DQ7_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 260 -2.5 0)
+				(length 5.0038)
+				(name "DDR3_DM1/DDR4_DMU_A/LPDDR3_DM1/LPDDR4_DM0_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 67.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ9/DDR4_DQU1_A/LPDDR3_DQ11/LPDDR4_DQ1_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 70 0)
+				(length 5.0038)
+				(name "DDR3_DQ8/DDR4_DQU0_A/LPDDR3_DQ10/LPDDR4_DQ0_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 65 0)
+				(length 5.0038)
+				(name "DDR3_DQ10/DDR4_DQU2_A/LPDDR3_DQ8/LPDDR4_DQ2_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 250 62.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ11/DDR4_DQU3_A/LPDDR3_DQ9/LPDDR4_DQ3_B"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 50 0)
+				(length 5.0038)
+				(name "DDR3_DQ0/DDR4_DQL0_A/LPDDR3_DQ2/LPDDR4_DQ8_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 45 0)
+				(length 5.0038)
+				(name "DDR3_DQ2/DDR4_DQL2_A/LPDDR3_DQ4/LPDDR4_DQ10_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 37.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ5/DDR4_DQL5_A/LPDDR3_DQ7/LPDDR4_DQ13_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 40 0)
+				(length 5.0038)
+				(name "DDR3_DQ4/DDR4_DQL4_A/LPDDR3_DQ3/LPDDR4_DQ12_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 65 0)
+				(length 5.0038)
+				(name "DDR3_DQ18/DDR4_DQL2_B/LPDDR3_DQ23/LPDDR4_DQ2_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 62.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ19/DDR4_DQL3_B/LPDDR3_DQ22/LPDDR4_DQ3_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 67.5 0)
+				(length 5.0038)
+				(name "DDR3_DQ17/DDR4_DQL1_B/LPDDR3_DQ18/LPDDR4_DQ1_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 260 7.5 0)
+				(length 5.0038)
+				(name "DDR3_DM2/DDR4_DML_B/LPDDR3_DM2/LPDDR4_DM0_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 182.5 70 0)
+				(length 5.0038)
+				(name "DDR3_DQ16/DDR4_DQL0_B/LPDDR3_DQ19/LPDDR4_DQ0_A"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "Y2"
 					(effects
 						(font
 							(size 1.6002 1.6002)
