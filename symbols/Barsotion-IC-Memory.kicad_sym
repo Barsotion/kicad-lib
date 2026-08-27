@@ -9,9 +9,10 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 0 0 0)
+			(at 15.5 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,81 +63,44 @@
 			)
 		)
 		(symbol "K4UCE3Q4AB-MGCL_1_1"
-			(pin input line
-				(at 65 57.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
+			(rectangle
+				(start 7.4962 2.5)
+				(end 37.4962 -125)
+				(stroke
+					(width 0.5)
+					(type solid)
 				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.4962 -12.5) (xy 37.4962 -12.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.4962 -12.5) (xy 22.4962 -125)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin input line
-				(at 65 55 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "A2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -75 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "A3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -2.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "A4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -25 0)
-				(length 5.0038)
+				(at 0 -5 0)
+				(length 7.5)
 				(name "ZQ0"
 					(effects
 						(font
@@ -153,8 +117,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -27.5 0)
-				(length 5.0038)
+				(at 0 -7.5 0)
+				(length 7.5)
 				(name "ZQ1"
 					(effects
 						(font
@@ -171,98 +135,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -77.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "A10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 52.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "A11"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 50 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "A12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 30 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AA1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -180 0)
-				(length 5.0038)
+				(at 45 -85 180)
+				(length 7.5)
 				(name "DQ0_B"
 					(effects
 						(font
@@ -279,26 +153,8 @@
 				)
 			)
 			(pin input line
-				(at 15 35 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AA3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -197.5 0)
-				(length 5.0038)
+				(at 45 -102.5 180)
+				(length 7.5)
 				(name "DQ7_B"
 					(effects
 						(font
@@ -315,44 +171,8 @@
 				)
 			)
 			(pin input line
-				(at 15 32.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AA5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 30 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AA8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -217.5 0)
-				(length 5.0038)
+				(at 45 -122.5 180)
+				(length 7.5)
 				(name "DQ15_B"
 					(effects
 						(font
@@ -369,26 +189,8 @@
 				)
 			)
 			(pin input line
-				(at 15 27.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AA10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -200 0)
-				(length 5.0038)
+				(at 45 -105 180)
+				(length 7.5)
 				(name "DQ8_B"
 					(effects
 						(font
@@ -405,224 +207,8 @@
 				)
 			)
 			(pin input line
-				(at 65 27.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AA12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 25 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 22.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -210 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -57.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -212.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -215 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -60 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -217.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 20 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB11"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 17.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "AB12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 47.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -85 0)
-				(length 5.0038)
+				(at 0 -85 0)
+				(length 7.5)
 				(name "DQ0_A"
 					(effects
 						(font
@@ -639,26 +225,8 @@
 				)
 			)
 			(pin input line
-				(at 15 75 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "B3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -102.5 0)
-				(length 5.0038)
+				(at 0 -102.5 0)
+				(length 7.5)
 				(name "DQ7_A"
 					(effects
 						(font
@@ -675,44 +243,8 @@
 				)
 			)
 			(pin input line
-				(at 15 72.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "B5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 70 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "B8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -122.5 0)
-				(length 5.0038)
+				(at 0 -122.5 0)
+				(length 7.5)
 				(name "DQ15_A"
 					(effects
 						(font
@@ -729,26 +261,8 @@
 				)
 			)
 			(pin input line
-				(at 15 67.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "B10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -105 0)
-				(length 5.0038)
+				(at 0 -105 0)
+				(length 7.5)
 				(name "DQ8_A"
 					(effects
 						(font
@@ -765,44 +279,8 @@
 				)
 			)
 			(pin input line
-				(at 65 45 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "B12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -80 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -87.5 0)
-				(length 5.0038)
+				(at 0 -87.5 0)
+				(length 7.5)
 				(name "DQ1_A"
 					(effects
 						(font
@@ -819,8 +297,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -77.5 0)
-				(length 5.0038)
+				(at 0 -77.5 0)
+				(length 7.5)
 				(name "DMI0_A"
 					(effects
 						(font
@@ -837,8 +315,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -100 0)
-				(length 5.0038)
+				(at 0 -100 0)
+				(length 7.5)
 				(name "DQ6_A"
 					(effects
 						(font
@@ -855,44 +333,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -82.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "C5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -85 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "C8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -120 0)
-				(length 5.0038)
+				(at 0 -120 0)
+				(length 7.5)
 				(name "DQ14_A"
 					(effects
 						(font
@@ -909,8 +351,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -80 0)
-				(length 5.0038)
+				(at 0 -80 0)
+				(length 7.5)
 				(name "DMI1_A"
 					(effects
 						(font
@@ -927,8 +369,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -107.5 0)
-				(length 5.0038)
+				(at 0 -107.5 0)
+				(length 7.5)
 				(name "DQ9_A"
 					(effects
 						(font
@@ -945,62 +387,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -87.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "C12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 65 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -90 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -62.5 0)
-				(length 5.0038)
+				(at 0 -62.5 0)
+				(length 7.5)
 				(name "DQS0_T_A"
 					(effects
 						(font
@@ -1017,80 +405,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -92.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 62.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 60 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -95 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -65 0)
-				(length 5.0038)
+				(at 0 -65 0)
+				(length 7.5)
 				(name "DQS1_T_A"
 					(effects
 						(font
@@ -1107,44 +423,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -97.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "D11"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -100 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "E1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -90 0)
-				(length 5.0038)
+				(at 0 -90 0)
+				(length 7.5)
 				(name "DQ2_A"
 					(effects
 						(font
@@ -1161,8 +441,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -70 0)
-				(length 5.0038)
+				(at 0 -70 0)
+				(length 7.5)
 				(name "DQS0_C_A"
 					(effects
 						(font
@@ -1179,8 +459,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -97.5 0)
-				(length 5.0038)
+				(at 0 -97.5 0)
+				(length 7.5)
 				(name "DQ5_A"
 					(effects
 						(font
@@ -1197,44 +477,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -102.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "E5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -105 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "E8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -117.5 0)
-				(length 5.0038)
+				(at 0 -117.5 0)
+				(length 7.5)
 				(name "DQ13_A"
 					(effects
 						(font
@@ -1251,8 +495,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -72.5 0)
-				(length 5.0038)
+				(at 0 -72.5 0)
+				(length 7.5)
 				(name "DQS1_C_A"
 					(effects
 						(font
@@ -1269,8 +513,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -110 0)
-				(length 5.0038)
+				(at 0 -110 0)
+				(length 7.5)
 				(name "DQ10_A"
 					(effects
 						(font
@@ -1287,44 +531,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -107.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "E12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 135 30 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -92.5 0)
-				(length 5.0038)
+				(at 0 -92.5 0)
+				(length 7.5)
 				(name "DQ3_A"
 					(effects
 						(font
@@ -1341,26 +549,8 @@
 				)
 			)
 			(pin input line
-				(at 15 55 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -95 0)
-				(length 5.0038)
+				(at 0 -95 0)
+				(length 7.5)
 				(name "DQ4_A"
 					(effects
 						(font
@@ -1377,44 +567,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -7.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -10 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -115 0)
-				(length 5.0038)
+				(at 0 -115 0)
+				(length 7.5)
 				(name "DQ12_A"
 					(effects
 						(font
@@ -1431,26 +585,8 @@
 				)
 			)
 			(pin input line
-				(at 15 52.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -112.5 0)
-				(length 5.0038)
+				(at 0 -112.5 0)
+				(length 7.5)
 				(name "DQ11_A"
 					(effects
 						(font
@@ -1467,44 +603,8 @@
 				)
 			)
 			(pin input line
-				(at 135 27.5 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "F12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -110 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -42.5 0)
-				(length 5.0038)
+				(at 0 -42.5 0)
+				(length 7.5)
 				(name "ODT_CA_A"
 					(effects
 						(font
@@ -1521,170 +621,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -112.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 135 25 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -115 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -117.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 135 22.5 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -120 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 42.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G11"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -122.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "G12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -12.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "H1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 137.5 57.5 0)
-				(length 5.0038)
+				(at 0 -17.5 0)
+				(length 7.5)
 				(name "CA0_A"
 					(effects
 						(font
@@ -1701,8 +639,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -37.5 0)
-				(length 5.0038)
+				(at 0 -37.5 0)
+				(length 7.5)
 				(name "CS1_A"
 					(effects
 						(font
@@ -1719,8 +657,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -35 0)
-				(length 5.0038)
+				(at 0 -35 0)
+				(length 7.5)
 				(name "CS0_A"
 					(effects
 						(font
@@ -1737,44 +675,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -15 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "H5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -17.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "H8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 137.5 52.5 0)
-				(length 5.0038)
+				(at 0 -22.5 0)
+				(length 7.5)
 				(name "CA2_A"
 					(effects
 						(font
@@ -1791,8 +693,8 @@
 				)
 			)
 			(pin input line
-				(at 137.5 50 0)
-				(length 5.0038)
+				(at 0 -25 0)
+				(length 7.5)
 				(name "CA3_A"
 					(effects
 						(font
@@ -1809,8 +711,8 @@
 				)
 			)
 			(pin input line
-				(at 137.5 47.5 0)
-				(length 5.0038)
+				(at 0 -27.5 0)
+				(length 7.5)
 				(name "CA4_A"
 					(effects
 						(font
@@ -1827,44 +729,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -20 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "H12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -125 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "J1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 137.5 55 0)
-				(length 5.0038)
+				(at 0 -20 0)
+				(length 7.5)
 				(name "CA1_A"
 					(effects
 						(font
@@ -1881,26 +747,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -127.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "J3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -55 0)
-				(length 5.0038)
+				(at 0 -55 0)
+				(length 7.5)
 				(name "CKE0_A"
 					(effects
 						(font
@@ -1917,8 +765,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -57.5 0)
-				(length 5.0038)
+				(at 0 -57.5 0)
+				(length 7.5)
 				(name "CKE1_A"
 					(effects
 						(font
@@ -1935,8 +783,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -47.5 0)
-				(length 5.0038)
+				(at 0 -47.5 0)
+				(length 7.5)
 				(name "CK_T_A"
 					(effects
 						(font
@@ -1953,8 +801,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -50 0)
-				(length 5.0038)
+				(at 0 -50 0)
+				(length 7.5)
 				(name "CK_C_A"
 					(effects
 						(font
@@ -1971,26 +819,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -130 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "J10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 137.5 45 0)
-				(length 5.0038)
+				(at 0 -30 0)
+				(length 7.5)
 				(name "CA5_A"
 					(effects
 						(font
@@ -2007,404 +837,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -132.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "J12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -22.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -135 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -25 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -137.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 40 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 37.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -140 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -27.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -142.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K11"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -30 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "K12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -32.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -145 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -35 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -147.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 35 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 65 32.5 0)
-				(length 5.0038)
-				(name "DNU"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -150 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -37.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -152.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N11"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -40 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "N12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -155 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "P1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -10 0)
-				(length 5.0038)
+				(at 45 -20 180)
+				(length 7.5)
 				(name "CA1_B"
 					(effects
 						(font
@@ -2421,26 +855,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -157.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "P3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -150 0)
-				(length 5.0038)
+				(at 45 -55 180)
+				(length 7.5)
 				(name "CKE0_B"
 					(effects
 						(font
@@ -2457,8 +873,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -152.5 0)
-				(length 5.0038)
+				(at 45 -57.5 180)
+				(length 7.5)
 				(name "CKE1_B"
 					(effects
 						(font
@@ -2475,8 +891,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -142.5 0)
-				(length 5.0038)
+				(at 45 -47.5 180)
+				(length 7.5)
 				(name "CK_T_B"
 					(effects
 						(font
@@ -2493,8 +909,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -145 0)
-				(length 5.0038)
+				(at 45 -50 180)
+				(length 7.5)
 				(name "CK_C_B"
 					(effects
 						(font
@@ -2511,26 +927,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -160 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "P10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -20 0)
-				(length 5.0038)
+				(at 45 -30 180)
+				(length 7.5)
 				(name "CA5_B"
 					(effects
 						(font
@@ -2547,44 +945,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -162.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "P12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -42.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "R1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -7.5 0)
-				(length 5.0038)
+				(at 45 -17.5 180)
+				(length 7.5)
 				(name "CA0_B"
 					(effects
 						(font
@@ -2601,8 +963,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -132.5 0)
-				(length 5.0038)
+				(at 45 -37.5 180)
+				(length 7.5)
 				(name "CS1_B"
 					(effects
 						(font
@@ -2619,8 +981,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -130 0)
-				(length 5.0038)
+				(at 45 -35 180)
+				(length 7.5)
 				(name "CS0_B"
 					(effects
 						(font
@@ -2637,44 +999,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -45 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "R5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -47.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "R8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -12.5 0)
-				(length 5.0038)
+				(at 45 -22.5 180)
+				(length 7.5)
 				(name "CA2_B"
 					(effects
 						(font
@@ -2691,8 +1017,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -15 0)
-				(length 5.0038)
+				(at 45 -25 180)
+				(length 7.5)
 				(name "CA3_B"
 					(effects
 						(font
@@ -2709,8 +1035,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -17.5 0)
-				(length 5.0038)
+				(at 45 -27.5 180)
+				(length 7.5)
 				(name "CA4_B"
 					(effects
 						(font
@@ -2727,62 +1053,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -50 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "R12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 57.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "S12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -165 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -137.5 0)
-				(length 5.0038)
+				(at 45 -42.5 180)
+				(length 7.5)
 				(name "ODT_CA_B"
 					(effects
 						(font
@@ -2799,116 +1071,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -167.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 122.5 -40 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -170 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -172.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 122.5 -42.5 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -175 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -2.5 0)
-				(length 5.0038)
+				(at 0 0 0)
+				(length 7.5)
 				(name "RESET_N"
 					(effects
 						(font
@@ -2925,44 +1089,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -177.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "T12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 122.5 -45 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "U1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -187.5 0)
-				(length 5.0038)
+				(at 45 -92.5 180)
+				(length 7.5)
 				(name "DQ3_B"
 					(effects
 						(font
@@ -2979,26 +1107,8 @@
 				)
 			)
 			(pin input line
-				(at 15 50 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "U3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -190 0)
-				(length 5.0038)
+				(at 45 -95 180)
+				(length 7.5)
 				(name "DQ4_B"
 					(effects
 						(font
@@ -3015,44 +1125,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -52.5 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "U5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -55 180)
-				(length 5.0038)
-				(name "VDD2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "U8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -210 0)
-				(length 5.0038)
+				(at 45 -115 180)
+				(length 7.5)
 				(name "DQ12_B"
 					(effects
 						(font
@@ -3069,26 +1143,8 @@
 				)
 			)
 			(pin input line
-				(at 15 47.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "U10"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -207.5 0)
-				(length 5.0038)
+				(at 45 -112.5 180)
+				(length 7.5)
 				(name "DQ11_B"
 					(effects
 						(font
@@ -3105,44 +1161,8 @@
 				)
 			)
 			(pin input line
-				(at 122.5 -47.5 0)
-				(length 5.0038)
-				(name "VDD1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "U12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -180 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "V1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -185 0)
-				(length 5.0038)
+				(at 45 -90 180)
+				(length 7.5)
 				(name "DQ2_B"
 					(effects
 						(font
@@ -3159,8 +1179,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -165 0)
-				(length 5.0038)
+				(at 45 -70 180)
+				(length 7.5)
 				(name "DQS0_C_B"
 					(effects
 						(font
@@ -3177,8 +1197,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -192.5 0)
-				(length 5.0038)
+				(at 45 -97.5 180)
+				(length 7.5)
 				(name "DQ5_B"
 					(effects
 						(font
@@ -3195,44 +1215,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -182.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "V5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -185 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "V8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -212.5 0)
-				(length 5.0038)
+				(at 45 -117.5 180)
+				(length 7.5)
 				(name "DQ13_B"
 					(effects
 						(font
@@ -3249,8 +1233,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -167.5 0)
-				(length 5.0038)
+				(at 45 -72.5 180)
+				(length 7.5)
 				(name "DQS1_C_B"
 					(effects
 						(font
@@ -3267,8 +1251,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -205 0)
-				(length 5.0038)
+				(at 45 -110 180)
+				(length 7.5)
 				(name "DQ10_B"
 					(effects
 						(font
@@ -3285,62 +1269,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -187.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "V12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 45 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -190 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -157.5 0)
-				(length 5.0038)
+				(at 45 -62.5 180)
+				(length 7.5)
 				(name "DQS0_T_B"
 					(effects
 						(font
@@ -3357,80 +1287,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -192.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 42.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 40 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -195 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -160 0)
-				(length 5.0038)
+				(at 45 -65 180)
+				(length 7.5)
 				(name "DQS1_T_B"
 					(effects
 						(font
@@ -3447,62 +1305,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -197.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W11"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15 37.5 0)
-				(length 5.0038)
-				(name "VDDQ"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "W12"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -200 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "Y1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -182.5 0)
-				(length 5.0038)
+				(at 45 -87.5 180)
+				(length 7.5)
 				(name "DQ1_B"
 					(effects
 						(font
@@ -3519,8 +1323,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -172.5 0)
-				(length 5.0038)
+				(at 45 -77.5 180)
+				(length 7.5)
 				(name "DMI0_B"
 					(effects
 						(font
@@ -3537,8 +1341,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -195 0)
-				(length 5.0038)
+				(at 45 -100 180)
+				(length 7.5)
 				(name "DQ6_B"
 					(effects
 						(font
@@ -3555,44 +1359,8 @@
 				)
 			)
 			(pin input line
-				(at 52.5 -202.5 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "Y5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 52.5 -205 180)
-				(length 5.0038)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "Y8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.5 -215 0)
-				(length 5.0038)
+				(at 45 -120 180)
+				(length 7.5)
 				(name "DQ14_B"
 					(effects
 						(font
@@ -3609,8 +1377,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -175 0)
-				(length 5.0038)
+				(at 45 -80 180)
+				(length 7.5)
 				(name "DMI1_B"
 					(effects
 						(font
@@ -3627,8 +1395,8 @@
 				)
 			)
 			(pin input line
-				(at 22.5 -202.5 0)
-				(length 5.0038)
+				(at 45 -107.5 180)
+				(length 7.5)
 				(name "DQ9_B"
 					(effects
 						(font
@@ -3644,9 +1412,1985 @@
 					)
 				)
 			)
+		)
+		(symbol "K4UCE3Q4AB-MGCL_2_1"
+			(unit_name "Power")
+			(rectangle
+				(start 7.4962 2.5)
+				(end 22.4962 -145)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin input line
-				(at 52.5 -207.5 180)
-				(length 5.0038)
+				(at 29.9962 0 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -75 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -77.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -2.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -40 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -42.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -45 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -47.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -135 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -130 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -137.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -140 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -132.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -142.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -7.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -10 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -12.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "C12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -15 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -17.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -20 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -22.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "D11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -25 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -27.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -30 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -32.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "E12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -52.5 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -20 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -80 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -82.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -22.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -55 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "F12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -35 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -37.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -57.5 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -40 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -42.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -60 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -45 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -47.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -85 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -87.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -90 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "H8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -92.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "H12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -50 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -52.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -55 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -57.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "J12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -95 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -60 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -97.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -62.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -65 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -100 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -67.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -102.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -105 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -70 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -107.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -72.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -75 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -110 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -77.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -112.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -80 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -82.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "P3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -85 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "P10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -87.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "P12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -115 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -117.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -120 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -122.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -17.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "S12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -90 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -92.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0076 -62.5 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -95 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -97.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0076 -65 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -100 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -102.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0076 -67.5 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -25 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -125 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0038 -127.5 0)
+				(length 7.5)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -27.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -0.0076 -70 0)
+				(length 7.5)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "U12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -105 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -107.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -110 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -112.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "V12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -30 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -115 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -117.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -32.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -35 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -120 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -122.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -37.5 0)
+				(length 7.5)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "W12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -125 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "Y1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -127.5 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "Y5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -130 180)
+				(length 7.5)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "Y8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.9962 -132.5 180)
+				(length 7.5)
 				(name "VSS"
 					(effects
 						(font
@@ -3655,6 +3399,325 @@
 					)
 				)
 				(number "Y12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(symbol "K4UCE3Q4AB-MGCL_3_1"
+			(rectangle
+				(start 7.5 2.5)
+				(end 17.5 -42.5)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -27.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -30 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AA12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -32.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -35 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -37.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -40 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "AB12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "G11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -17.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -20 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -22.5 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -25 0)
+				(length 7.5)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "N8"
 					(effects
 						(font
 							(size 1.6002 1.6002)

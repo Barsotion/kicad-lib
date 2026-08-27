@@ -1,0 +1,1081 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "0.9V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.9V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "0.9V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0.9V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "1.2V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "1.2V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1.2V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "12V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "12V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "12V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "3.7V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.7V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "3.7V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "3.7V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "5V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "5V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "5V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GND"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -6.5 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "GND_1_1"
+			(rectangle
+				(start -2.5 -2.5)
+				(end 2.5 -3.5)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin power_out line
+				(at 0 0 270)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VDD"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VDD_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VDD_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VDD_1.8V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_1.8V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VDD_1.8V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VDD_1.8V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VDD_3.3V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_3.3V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VDD_3.3V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VDD_3.3V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VDD_5V"
+		(power global)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at -4 4.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_5V"
+			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VDD_5V_0_1"
+			(polyline
+				(pts
+					(xy -1 1) (xy 0 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.5) (xy 1 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VDD_5V_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
