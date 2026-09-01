@@ -2361,6 +2361,620 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Connector_OS08A10"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 8 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+			)
+		)
+		(property "Value" "OS08A10"
+			(at 15.5 4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "OS08A10 3840H*2160V 4K 8MP HD MIPI camera"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_OS08A10_1_1"
+			(rectangle
+				(start 7.5 2.5)
+				(end 17.5 -75)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 7.5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.5 0)
+				(length 7.5)
+				(name "AF-VDD"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5 0)
+				(length 7.5)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.5 0)
+				(length 7.5)
+				(name "D0VDD"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10 0)
+				(length 7.5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.5 0)
+				(length 7.5)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15 0)
+				(length 7.5)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -17.5 0)
+				(length 7.5)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -20 0)
+				(length 7.5)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -22.5 0)
+				(length 7.5)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -25 0)
+				(length 7.5)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -27.5 0)
+				(length 7.5)
+				(name "NC"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -30 0)
+				(length 7.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -32.5 0)
+				(length 7.5)
+				(name "XCLK"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -35 0)
+				(length 7.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -37.5 0)
+				(length 7.5)
+				(name "DP3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -40 0)
+				(length 7.5)
+				(name "DN3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -42.5 0)
+				(length 7.5)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -45 0)
+				(length 7.5)
+				(name "DP2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -47.5 0)
+				(length 7.5)
+				(name "DN2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -50 0)
+				(length 7.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -52.5 0)
+				(length 7.5)
+				(name "DP1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -55 0)
+				(length 7.5)
+				(name "DN1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -57.5 0)
+				(length 7.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -60 0)
+				(length 7.5)
+				(name "CP"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -62.5 0)
+				(length 7.5)
+				(name "CN"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -65 0)
+				(length 7.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -67.5 0)
+				(length 7.5)
+				(name "DP0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -70 0)
+				(length 7.5)
+				(name "DN0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -72.5 0)
+				(length 7.5)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Connector_OV5640"
 		(pin_numbers
 			(hide yes)

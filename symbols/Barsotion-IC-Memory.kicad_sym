@@ -405,7 +405,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -65 0)
+				(at 0 -70 0)
 				(length 7.5)
 				(name "DQS1_T_A"
 					(effects
@@ -441,7 +441,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -70 0)
+				(at 0 -65 0)
 				(length 7.5)
 				(name "DQS0_C_A"
 					(effects
@@ -1179,7 +1179,7 @@
 				)
 			)
 			(pin input line
-				(at 45 -70 180)
+				(at 45 -65 180)
 				(length 7.5)
 				(name "DQS0_C_B"
 					(effects
@@ -1287,7 +1287,7 @@
 				)
 			)
 			(pin input line
-				(at 45 -65 180)
+				(at 45 -70 180)
 				(length 7.5)
 				(name "DQS1_T_B"
 					(effects
