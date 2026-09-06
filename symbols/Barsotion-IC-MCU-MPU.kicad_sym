@@ -99510,6 +99510,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Rockchip"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr.Part" "RV1126B-P"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "FCCSG-409_14x14mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(show_name no)
@@ -99836,7 +99869,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 -10 0)
+				(at 0 -10 0)
 				(length 7.5)
 				(name "DDR3_A4/DDR4_A7/LPDDR3_A4/LPDDR4_ODT0_A"
 					(effects
@@ -100840,7 +100873,7 @@
 				)
 			)
 			(pin input line
-				(at -0.0038 -12.5 0)
+				(at 0 -12.5 0)
 				(length 7.5)
 				(name "DDR3_A0/DDR4_ODT1/LPDDR3_A0/LPDDR4_ODT1_B"
 					(effects
