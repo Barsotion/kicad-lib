@@ -12276,7 +12276,7 @@
 		(symbol "RK809-9_2_1"
 			(rectangle
 				(start 7.5 2.5)
-				(end 30 -152.5)
+				(end 30 -77.5)
 				(stroke
 					(width 0.5)
 					(type solid)
@@ -12331,126 +12331,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 -80) (xy 7.5 -80)
-				)
-				(stroke
-					(width 0.5)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 -105) (xy 7.5 -105)
-				)
-				(stroke
-					(width 0.5)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 -125) (xy 7.5 -125)
-				)
-				(stroke
-					(width 0.5)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 -145) (xy 7.5 -145)
-				)
-				(stroke
-					(width 0.5)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -127.5 180)
-				(length 7.5)
-				(name "LDO7"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -127.5 0)
-				(length 7.5)
-				(name "VCC7"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -132.5 180)
-				(length 7.5)
-				(name "LDO8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -137.5 180)
-				(length 7.5)
-				(name "LDO9"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
 				)
 			)
 			(pin power_out line
@@ -12561,78 +12441,6 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 37.5 -92.5 180)
-				(length 7.5)
-				(name "LDO3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -87.5 180)
-				(length 7.5)
-				(name "LDO2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -82.5 0)
-				(length 7.5)
-				(name "VCC5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -82.5 180)
-				(length 7.5)
-				(name "LDO1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 -30 0)
 				(length 7.5)
@@ -12706,78 +12514,6 @@
 				)
 			)
 			(pin power_out line
-				(at 37.5 -107.5 180)
-				(length 7.5)
-				(name "LDO4"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -112.5 180)
-				(length 7.5)
-				(name "LDO5"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -107.5 0)
-				(length 7.5)
-				(name "VCC6"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -117.5 180)
-				(length 7.5)
-				(name "LDO6"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
 				(at 37.5 -67.5 180)
 				(length 7.5)
 				(name "SW5"
@@ -12806,60 +12542,6 @@
 					)
 				)
 				(number "54"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -97.5 180)
-				(length 7.5)
-				(name "SWOUT1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "55"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -147.5 0)
-				(length 7.5)
-				(name "VCC8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 37.5 -147.5 180)
-				(length 7.5)
-				(name "SWOUT2"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "58"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -12932,6 +12614,325 @@
 					)
 				)
 				(number "66"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RK809-9_3_1"
+			(rectangle
+				(start 7.5 5)
+				(end 30 -70)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -22.5) (xy 7.5 -22.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -42.5) (xy 7.5 -42.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30 -62.5) (xy 7.5 -62.5)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -45 180)
+				(length 7.5)
+				(name "LDO7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -45 0)
+				(length 7.5)
+				(name "VCC7"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -50 180)
+				(length 7.5)
+				(name "LDO8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -55 180)
+				(length 7.5)
+				(name "LDO9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -10 180)
+				(length 7.5)
+				(name "LDO3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -5 180)
+				(length 7.5)
+				(name "LDO2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 7.5)
+				(name "VCC5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 0 180)
+				(length 7.5)
+				(name "LDO1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -25 180)
+				(length 7.5)
+				(name "LDO4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -30 180)
+				(length 7.5)
+				(name "LDO5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25 0)
+				(length 7.5)
+				(name "VCC6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -35 180)
+				(length 7.5)
+				(name "LDO6"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -15 180)
+				(length 7.5)
+				(name "SWOUT1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -65 0)
+				(length 7.5)
+				(name "VCC8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 37.5 -65 180)
+				(length 7.5)
+				(name "SWOUT2"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "58"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -105581,7 +105582,7 @@
 				)
 			)
 			(pin input line
-				(at 35.0038 -100 180)
+				(at 35 -100 180)
 				(length 7.5)
 				(name "VSS_101"
 					(effects
@@ -105599,7 +105600,7 @@
 				)
 			)
 			(pin input line
-				(at 35.0038 -102.5 180)
+				(at 35 -102.5 180)
 				(length 7.5)
 				(name "VSS_102"
 					(effects
