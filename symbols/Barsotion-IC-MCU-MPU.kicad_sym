@@ -99640,7 +99640,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 0 0)
+				(at 0 0 0)
 				(length 7.5)
 				(name "DDR_VDD_0"
 					(effects
@@ -99658,7 +99658,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 -2.5 0)
+				(at 0 -2.5 0)
 				(length 7.5)
 				(name "DDR_VDD_1"
 					(effects
@@ -99676,7 +99676,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 -5 0)
+				(at 0 -5 0)
 				(length 7.5)
 				(name "DDR_VDD_2"
 					(effects
@@ -99694,7 +99694,7 @@
 				)
 			)
 			(pin input line
-				(at -0.0038 -17.5 0)
+				(at 0 -17.5 0)
 				(length 7.5)
 				(name "DDR_VDDL_0"
 					(effects
@@ -105364,7 +105364,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 -42.5 0)
+				(at 0 -42.5 0)
 				(length 7.5)
 				(name "LOGIC_DVDD_2"
 					(effects
