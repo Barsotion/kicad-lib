@@ -99459,7 +99459,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 9.5 5.5 0)
+			(at 18 5.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -99469,7 +99469,7 @@
 			)
 		)
 		(property "Value" "RV1126B-P"
-			(at 37 5.5 0)
+			(at 45.5 5.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -99512,7 +99512,7 @@
 			)
 		)
 		(property "Manufacturer" "Rockchip"
-			(at 0 0 0)
+			(at 0 -12.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99523,7 +99523,7 @@
 			)
 		)
 		(property "Mfr.Part" "RV1126B-P"
-			(at 0 0 0)
+			(at 0 -12.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -102374,7 +102374,7 @@
 			(unit_name "GPIO_0")
 			(rectangle
 				(start 7.5 2.5)
-				(end 62.5 -70)
+				(end 62.5 -82.5)
 				(stroke
 					(width 0.5)
 					(type solid)
@@ -102385,7 +102385,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.5 -17.5) (xy 62.5 -17.5)
+					(xy 7.5 -7.5) (xy 62.5 -7.5)
 				)
 				(stroke
 					(width 0.5)
@@ -102397,7 +102397,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.5 -32.5) (xy 62.5 -32.5)
+					(xy 7.5 -30) (xy 62.5 -30)
 				)
 				(stroke
 					(width 0.5)
@@ -102409,7 +102409,19 @@
 			)
 			(polyline
 				(pts
-					(xy 7.5 -60) (xy 62.5 -60)
+					(xy 7.5 -45) (xy 62.5 -45)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.5 -72.5) (xy 62.5 -72.5)
 				)
 				(stroke
 					(width 0.5)
@@ -102420,7 +102432,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.5 0)
+				(at 0 -25 0)
 				(length 7.5)
 				(name "SPI0_CSN0_M0/GPIO0_A7"
 					(effects
@@ -102438,7 +102450,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -5 0)
+				(at 0 -17.5 0)
 				(length 7.5)
 				(name "CLK_32K/GPIO0_A2"
 					(effects
@@ -102456,7 +102468,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -55 0)
+				(at 0 -67.5 0)
 				(length 7.5)
 				(name "PWM0_CH3_M0/UART1_CTSN_M0/GPIO0_C7"
 					(effects
@@ -102474,7 +102486,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -65 0)
+				(at 0 -77.5 0)
 				(length 7.5)
 				(name "I2C2_SCL_M0/PWM0_CH4_M0/GPIO0_D0"
 					(effects
@@ -102492,7 +102504,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -42.5 0)
+				(at 0 -55 0)
 				(length 7.5)
 				(name "I2C0_SCL_M0/GPIO0_C2"
 					(effects
@@ -102510,7 +102522,43 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.5 0)
+				(at 0 -2.5 0)
+				(length 7.5)
+				(name "PMUIO1_VCC"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R8"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 7.5)
+				(name "PMUIO0_VCC3V3"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "R9"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -20 0)
 				(length 7.5)
 				(name "SDMMC0_DETN/PWM1_CH0_M0/GPIO0_A5"
 					(effects
@@ -102528,7 +102576,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -52.5 0)
+				(at 0 -65 0)
 				(length 7.5)
 				(name "PWM0_CH2_M0/UART1_RTSN_M0/GPIO0_C6"
 					(effects
@@ -102546,7 +102594,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -22.5 0)
+				(at 0 -35 0)
 				(length 7.5)
 				(name "SPI0_MOSI_M0/GPIO0_B0"
 					(effects
@@ -102564,7 +102612,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10 0)
+				(at 0 -22.5 0)
 				(length 7.5)
 				(name "SPI0_CSN1_M0/GPIO0_A6"
 					(effects
@@ -102582,7 +102630,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -50 0)
+				(at 0 -62.5 0)
 				(length 7.5)
 				(name "PWM0_CH1_M0/UART1_RX_M0/I2C5_SDA_M0/GPIO0_C5"
 					(effects
@@ -102600,7 +102648,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -25 0)
+				(at 0 -37.5 0)
 				(length 7.5)
 				(name "SPI0_MISO_M0/GPIO0_B1"
 					(effects
@@ -102618,7 +102666,7 @@
 				)
 			)
 			(pin input line
-				(at 0 0 0)
+				(at 0 -12.5 0)
 				(length 7.5)
 				(name "REF_CLK0_OUT/TEST_CLK0_OUT/GPIO0_A0"
 					(effects
@@ -102636,7 +102684,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -47.5 0)
+				(at 0 -60 0)
 				(length 7.5)
 				(name "PWM0_CH0_M0/UART1_TX_M0/I2C5_SCL_M0/GPIO0_C4"
 					(effects
@@ -102654,7 +102702,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -37.5 0)
+				(at 0 -50 0)
 				(length 7.5)
 				(name "I2C3_SCL_M0/PWM0_CH7_M0/GPIO0_C0"
 					(effects
@@ -102672,7 +102720,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -27.5 0)
+				(at 0 -40 0)
 				(length 7.5)
 				(name "SPI0_CLK_M0/GPIO0_B2"
 					(effects
@@ -102690,7 +102738,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -2.5 0)
+				(at 0 -15 0)
 				(length 7.5)
 				(name "PWM1_CH1_M0/TSADC_SHUT/TSADC_SHUTORG/GPIO0_A1"
 					(effects
@@ -102708,7 +102756,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -67.5 0)
+				(at 0 -80 0)
 				(length 7.5)
 				(name "I2C2_SDA_M0/PWM0_CH5_M0/GPIO0_D1"
 					(effects
@@ -102726,7 +102774,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -45 0)
+				(at 0 -57.5 0)
 				(length 7.5)
 				(name "I2C0_SDA_M0/GPIO0_C3"
 					(effects
@@ -102744,7 +102792,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -40 0)
+				(at 0 -52.5 0)
 				(length 7.5)
 				(name "I2C3_SDA_M0/PWM0_CH6_M0/PWR_CTRL2/GPIO0_C1"
 					(effects
@@ -105434,42 +105482,6 @@
 					)
 				)
 				(number "P13"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -82.5 0)
-				(length 7.5)
-				(name "PMUIO1_VCC"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "R8"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -80 0)
-				(length 7.5)
-				(name "PMUIO0_VCC3V3"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "R9"
 					(effects
 						(font
 							(size 1.6002 1.6002)
