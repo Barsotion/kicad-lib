@@ -105156,7 +105156,7 @@
 			(unit_name "Power")
 			(rectangle
 				(start 7.5 2.5)
-				(end 35 -105)
+				(end 35 -100)
 				(stroke
 					(width 0.5)
 					(type solid)
@@ -105238,7 +105238,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -60 0)
+				(at 0 -82.5 0)
 				(length 7.5)
 				(name "OTP_VCC_1V8"
 					(effects
@@ -105418,7 +105418,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -87.5 0)
+				(at 0 -75 0)
 				(length 7.5)
 				(name "PMUIO_VDD_0V9"
 					(effects
@@ -105436,7 +105436,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -102.5 0)
+				(at 0 -72.5 0)
 				(length 7.5)
 				(name "PLL_AVDD_0V9"
 					(effects
@@ -105490,7 +105490,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -97.5 0)
+				(at 0 -67.5 0)
 				(length 7.5)
 				(name "PLL_AVDD_1V8"
 					(effects
@@ -105508,7 +105508,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -70 0)
+				(at 0 -97.5 0)
 				(length 7.5)
 				(name "TVSS"
 					(effects

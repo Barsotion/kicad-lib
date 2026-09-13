@@ -646,7 +646,6 @@
 			(at 5.5 -9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.8288 1.8288)
