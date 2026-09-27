@@ -20,18 +20,19 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "\"Кнопка\""
+		(property "Value" "1TS009A-1800-5000-CT"
 			(at 0 -10 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
@@ -58,7 +59,7 @@
 				)
 			)
 		)
-		(property "Description" "Микропереключатель SMD, 6x6мм силикон"
+		(property "Description" "Tactile Switch SPST 180gf 5mm J-Lead 6mm x 6mm Surface Mount"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -104,14 +105,13 @@
 				)
 			)
 		)
-		(property "Comment" "Tactile Switch SPST 180gf 5mm J-Lead 6mm x 6mm Surface Mount"
-			(at 0 0 0)
+		(property "Comment" "\"Кнопка\""
+			(at 3.5 -8.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
@@ -230,8 +230,8 @@
 				)
 			)
 			(pin passive line
-				(at 9 -5 180)
-				(length 2.5)
+				(at 10 -5 180)
+				(length 3.5)
 				(name "2"
 					(effects
 						(font
@@ -268,18 +268,19 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "\"Кнопка\""
+		(property "Value" "GT-TC048D-H025-L1"
 			(at 0 -10 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
@@ -306,7 +307,7 @@
 				)
 			)
 		)
-		(property "Description" "Микропереключатель SMD, SMD-4P,4.2x3.2mm"
+		(property "Description" "Tactile Switch SPST 400gf 2.5mm 4.2mm x 3.2mm Surface Mount"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -352,14 +353,13 @@
 				)
 			)
 		)
-		(property "Comment" "Tactile Switch SPST 400gf 2.5mm 4.2mm x 3.2mm Surface Mount"
-			(at 0 0 0)
+		(property "Comment" "\"Кнопка\""
+			(at 0 -12.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
@@ -478,8 +478,8 @@
 				)
 			)
 			(pin passive line
-				(at 9 -5 180)
-				(length 2.5)
+				(at 10 -5 180)
+				(length 3.5)
 				(name "2"
 					(effects
 						(font
