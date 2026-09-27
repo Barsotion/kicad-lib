@@ -102176,7 +102176,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 0 0)
+				(at 0 0 0)
 				(length 7.5)
 				(name "SARADC_AVDD_1V8"
 					(effects

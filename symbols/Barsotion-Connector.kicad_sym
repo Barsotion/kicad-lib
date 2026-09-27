@@ -8080,6 +8080,9 @@
 		(pin_numbers
 			(hide yes)
 		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8091,7 +8094,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
@@ -8102,13 +8105,13 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Barsotion:CONN_4x1.27мм_NO_SOLDERING"
-			(at 0 0 0)
+			(at 1.5 16.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -8152,9 +8155,21 @@
 			)
 		)
 		(symbol "Connector_UART_4_1_0"
+			(rectangle
+				(start 5 7.5)
+				(end 30 -17.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy 5 2.5) (xy 35 2.5)
+					(xy 5 2.5) (xy 30 2.5)
 				)
 				(stroke
 					(width 0)
@@ -8166,7 +8181,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5 -2.5) (xy 35 -2.5)
+					(xy 5 -2.5) (xy 30 -2.5)
 				)
 				(stroke
 					(width 0)
@@ -8178,7 +8193,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5 -7.5) (xy 35 -7.5)
+					(xy 5 -7.5) (xy 30 -7.5)
 				)
 				(stroke
 					(width 0)
@@ -8190,7 +8205,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5 -12.5) (xy 35 -12.5)
+					(xy 5 -12.5) (xy 30 -12.5)
 				)
 				(stroke
 					(width 0)
@@ -8212,70 +8227,50 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 35 7.5)
-				(end 5 -17.5)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 128 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "Конт."
-				(at 10 5 0)
-				(effects
-					(font
-						(size 2.24 2.24)
-					)
-				)
-			)
 			(text "Цепь"
-				(at 24.5 5 0)
+				(at 22 5 0)
 				(effects
 					(font
-						(size 2.24 2.24)
+						(size 1.6 1.6)
 					)
 				)
 			)
 			(text "+3.3 В"
-				(at 25 0 0)
+				(at 22.5 0 0)
 				(effects
 					(font
-						(size 2.24 2.24)
+						(size 1.6 1.6)
 					)
 				)
 			)
 			(text "GND"
-				(at 25 -5 0)
+				(at 22.5 -5 0)
 				(effects
 					(font
-						(size 2.24 2.24)
+						(size 1.6 1.6)
 					)
 				)
 			)
 			(text "RXD"
-				(at 25 -10 0)
+				(at 22.5 -10 0)
 				(effects
 					(font
-						(size 2.24 2.24)
+						(size 1.6 1.6)
 					)
 				)
 			)
 			(text "TXD"
-				(at 25 -15 0)
+				(at 22.5 -15 0)
 				(effects
 					(font
-						(size 2.24 2.24)
+						(size 1.6 1.6)
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 0 0)
 				(length 5)
-				(name "1"
+				(name "3V3"
 					(effects
 						(font
 							(size 1.6 1.6)
@@ -8290,10 +8285,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -5 0)
 				(length 5)
-				(name "2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.6 1.6)
@@ -8308,10 +8303,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 0 -10 0)
 				(length 5)
-				(name "3"
+				(name "RXD"
 					(effects
 						(font
 							(size 1.6 1.6)
@@ -8326,10 +8321,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 0 -15 0)
 				(length 5)
-				(name "4"
+				(name "TXD"
 					(effects
 						(font
 							(size 1.6 1.6)
@@ -8341,6 +8336,48 @@
 						(font
 							(size 1.6 1.6)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_UART_4_1_1"
+			(text "Конт."
+				(at 10 5 0)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+				)
+			)
+			(text "1"
+				(at 10 0 0)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+				)
+			)
+			(text "2"
+				(at 10 -5 0)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+				)
+			)
+			(text "3"
+				(at 10 -10 0)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+				)
+			)
+			(text "4"
+				(at 10 -15 0)
+				(effects
+					(font
+						(size 1.6 1.6)
 					)
 				)
 			)
