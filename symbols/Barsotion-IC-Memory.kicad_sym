@@ -29,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Barsotion:FBGA-200_LPDDR4"
+		(property "Footprint" "Barsotion-IC-BGA-CSG:FBGA-200_LPDDR4"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29690,7 +29690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Barsotion:FBGA-200_LPDDR4"
+		(property "Footprint" "Barsotion-IC-BGA-CSG:FBGA-200_LPDDR4"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33406,7 +33406,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${MFR.PART}"
+		(property "Value" "H26M51002KPR"
 			(at 30 4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33417,7 +33417,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion:eMMC_13x11.5mm"
+		(property "Footprint" "Barsotion-IC-BGA-CSG:eMMC_13x11.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36491,7 +36491,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion:eMMC_9x7.5mm"
+		(property "Footprint" "Barsotion-IC-BGA-CSG:eMMC_13x11.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

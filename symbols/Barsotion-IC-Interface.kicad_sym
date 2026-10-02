@@ -1191,7 +1191,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "${MFR.PART}"
+		(property "Value" "USBLC6-2P6"
 			(at 14.5 4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1202,7 +1202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion_PcbLib.PcbLib:SOT-666"
+		(property "Footprint" "Barsotion:SOT-666"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

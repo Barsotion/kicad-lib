@@ -310,7 +310,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion:OSC_2016"
+		(property "Footprint" "Barsotion-OSC:OSC_2016"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -601,7 +601,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Barsotion:OSC_2016"
+		(property "Footprint" "Barsotion-OSC:OSC_2016"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

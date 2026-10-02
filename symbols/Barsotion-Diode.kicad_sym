@@ -740,17 +740,18 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "ESD5Z3.3T1G-MS"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Barsotion:SOD-523"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -772,7 +773,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD DIODE 3.3VWM 14.1VC SOD-523"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MSKSEMI"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr.Part" "ESD5Z3.3T1G-MS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOD-523"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C3008119.html"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

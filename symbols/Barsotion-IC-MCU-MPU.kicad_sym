@@ -11372,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Barsotion:QFN-68-EP_7x7mm_RK809"
+		(property "Footprint" "Barsotion-IC-QFN-DFN:QFN-68-EP_7x7mm_RK809"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -99478,7 +99478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Barsotion:RV1126B-P_FCCSG-409_14x14mm"
+		(property "Footprint" "Barsotion-IC-BGA-CSG:RV1126B-P_FCCSG-409_14x14mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
