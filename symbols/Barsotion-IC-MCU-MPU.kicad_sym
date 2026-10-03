@@ -11438,6 +11438,17 @@
 				)
 			)
 		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C54771187.html"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(show_name no)
@@ -99534,6 +99545,17 @@
 			)
 		)
 		(property "Package" "FCCSG-409_14x14mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C54771186.html"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
