@@ -11373,7 +11373,7 @@
 			)
 		)
 		(property "Footprint" "Barsotion-IC-QFN-DFN:QFN-68-EP_7x7mm_RK809"
-			(at 0 0 0)
+			(at 2.5 23.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11384,7 +11384,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://RK809.pdf"
-			(at 0 0 0)
+			(at 1 24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11395,7 +11395,7 @@
 			)
 		)
 		(property "Description" "Rockchip PMIC"
-			(at 0 0 0)
+			(at 1 24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11406,7 +11406,7 @@
 			)
 		)
 		(property "Manufacturer" "Rockchip"
-			(at 0 0 0)
+			(at 1 24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11417,7 +11417,7 @@
 			)
 		)
 		(property "Mfr.Part" "RK809-9"
-			(at 0 0 0)
+			(at 1 24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Package" "QFN-68-EP(7x7)"
-			(at 0 0 0)
+			(at 1 24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11439,7 +11439,7 @@
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C54771187.html"
-			(at 0 0 0)
+			(at 0.5 22.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11995,7 +11995,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -32.5 0)
 				(length 7.5)
 				(name "VCC_1P8A"
@@ -12013,7 +12013,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 0)
 				(length 7.5)
 				(name "VCC_RTC"
@@ -12067,7 +12067,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -25 0)
 				(length 7.5)
 				(name "VCC_1P8D"
@@ -12344,7 +12344,7 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 37.5 -20 180)
 				(length 7.5)
 				(name "FB2"
@@ -12434,7 +12434,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 37.5 -5 180)
 				(length 7.5)
 				(name "FB1"
@@ -12488,7 +12488,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 37.5 -35 180)
 				(length 7.5)
 				(name "VBUCK3"
@@ -12506,7 +12506,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 37.5 -40 180)
 				(length 7.5)
 				(name "FB3"
@@ -12560,7 +12560,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 37.5 -72.5 180)
 				(length 7.5)
 				(name "FB5"
@@ -12578,7 +12578,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 37.5 -55 180)
 				(length 7.5)
 				(name "FB4"
@@ -99490,7 +99490,7 @@
 			)
 		)
 		(property "Footprint" "Barsotion-IC-BGA-CSG:RV1126B-P_FCCSG-409_14x14mm"
-			(at 0 0 0)
+			(at -10 15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99501,7 +99501,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://RV1126B-P datasheet V1.2.pdf"
-			(at 0 0 0)
+			(at -10 15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99512,7 +99512,7 @@
 			)
 		)
 		(property "Description" "Quad core + NPU video AI processor"
-			(at 0 0 0)
+			(at -10 15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99523,7 +99523,7 @@
 			)
 		)
 		(property "Manufacturer" "Rockchip"
-			(at 0 -12.5 0)
+			(at 18 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99534,7 +99534,7 @@
 			)
 		)
 		(property "Mfr.Part" "RV1126B-P"
-			(at 0 -12.5 0)
+			(at 18 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99545,7 +99545,7 @@
 			)
 		)
 		(property "Package" "FCCSG-409_14x14mm"
-			(at 0 0 0)
+			(at -10 15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99556,7 +99556,7 @@
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C54771186.html"
-			(at 0 0 0)
+			(at -10 15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -102108,7 +102108,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 -17.5 0)
+				(at 0 -17.5 0)
 				(length 7.5)
 				(name "SARADC_IN3"
 					(effects
@@ -102126,7 +102126,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0038 -22.5 0)
+				(at 0 -22.5 0)
 				(length 7.5)
 				(name "SARADC_IN5"
 					(effects
@@ -103402,7 +103402,7 @@
 				)
 			)
 			(pin input line
-				(at 0.0889 -12.7161 0)
+				(at 0 -12.5 0)
 				(length 7.5)
 				(name "SDMMC1_CMD/GPIO3_A1"
 					(effects
