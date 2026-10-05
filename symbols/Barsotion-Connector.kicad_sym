@@ -8222,7 +8222,7 @@
 		(symbol "Connector_UART_4_1_0"
 			(rectangle
 				(start 5 7.5)
-				(end 30 -17.5)
+				(end 30 -22.5)
 				(stroke
 					(width 0)
 					(type solid)
@@ -8282,7 +8282,19 @@
 			)
 			(polyline
 				(pts
-					(xy 15 7.5) (xy 15 -17.5)
+					(xy 5 -17.5) (xy 30 -17.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15 7.5) (xy 15 -22.5)
 				)
 				(stroke
 					(width 0)
@@ -8404,6 +8416,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -20 0)
+				(length 5)
+				(name "MOUNT"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Connector_UART_4_1_1"
 			(text "Конт."
@@ -8440,6 +8470,22 @@
 			)
 			(text "4"
 				(at 10 -15 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(text "5"
+				(at 10 -20 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(text "MOUNT"
+				(at 22.5 -20 0)
 				(effects
 					(font
 						(size 1.8 1.8)
@@ -10714,7 +10760,7 @@
 		(symbol "Connector_USB_Type_C_1_0"
 			(rectangle
 				(start 0 0)
-				(end 20 -65)
+				(end 20 -70)
 				(stroke
 					(width 0)
 					(type solid)
@@ -10726,7 +10772,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5 0) (xy 5 -65)
+					(xy 5 0) (xy 5 -70)
 				)
 				(stroke
 					(width 0)
@@ -10871,6 +10917,18 @@
 			(polyline
 				(pts
 					(xy 20 -60) (xy 0 -60)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 -65) (xy 0 -65)
 				)
 				(stroke
 					(width 0)
@@ -11213,6 +11271,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -5 -67.5 0)
+				(length 5)
+				(name "MOUNT"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+				(number "MH"
+					(effects
+						(font
+							(size 1.6 1.6)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Connector_USB_Type_C_1_1"
 			(text "Конт."
@@ -11315,6 +11391,23 @@
 				(at 2.5 -62.5 0)
 				(effects
 					(font
+						(size 1.6 1.6)
+					)
+				)
+			)
+			(text "MH"
+				(at 2.5 -67.5 0)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+				)
+			)
+			(text "MOUNT"
+				(at 12.5 -67.5 0)
+				(effects
+					(font
+						(face "GOST type B")
 						(size 1.6 1.6)
 					)
 				)
@@ -20232,7 +20325,7 @@
 		(symbol "EI_Bus_1_1"
 			(rectangle
 				(start 7.5 2.5)
-				(end 27.5 -135)
+				(end 27.5 -145)
 				(stroke
 					(width 0.5)
 					(type solid)
@@ -21134,6 +21227,42 @@
 					)
 				)
 				(number "50"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -140 0)
+				(length 7.5)
+				(name "MOUNT"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -142.5 0)
+				(length 7.5)
+				(name "MOUNT"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "52"
 					(effects
 						(font
 							(size 1.6002 1.6002)
