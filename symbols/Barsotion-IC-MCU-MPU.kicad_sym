@@ -99475,7 +99475,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.6 1.6)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -99485,7 +99485,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.6 1.6)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -104586,7 +104586,7 @@
 			(unit_name "GPIO_6")
 			(rectangle
 				(start 7.5 2.5)
-				(end 117.5 -65)
+				(end 117.5 -75)
 				(stroke
 					(width 0.5)
 					(type solid)
@@ -104609,7 +104609,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.5 -25) (xy 117.5 -25)
+					(xy 7.5 -32.5) (xy 117.5 -32.5)
 				)
 				(stroke
 					(width 0.5)
@@ -104621,7 +104621,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.5 -50) (xy 117.5 -50)
+					(xy 7.5 -60) (xy 117.5 -60)
 				)
 				(stroke
 					(width 0.5)
@@ -104650,7 +104650,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -40 0)
+				(at 0 -50 0)
 				(length 7.5)
 				(name "VI_CIF_D13_M0/ETH_RXCTL_M0/PDM_SDI0_M1/UART7_RX_M1/GPIO6_B5"
 					(effects
@@ -104668,7 +104668,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -42.5 0)
+				(at 0 -52.5 0)
 				(length 7.5)
 				(name "VI_CIF_D14_M0/PDM_SDI1_M1/UART7_RTSN_M1/GPIO6_B6"
 					(effects
@@ -104686,7 +104686,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -57.5 0)
+				(at 0 -67.5 0)
 				(length 7.5)
 				(name "VI_CIF_CLKIN_M0/ETH_CLK_25M_OUT_M0/PWM0_CH1_M2/UART3_CTSN_M2/GPIO6_C1"
 					(effects
@@ -104704,7 +104704,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -17.5 0)
+				(at 0 -25 0)
 				(length 7.5)
 				(name "VI_CIF_D6_M0/ETH_TXD3_M0/PWM2_CH2_M2/UART4_RTSN_M2/GPIO6_A6"
 					(effects
@@ -104722,7 +104722,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -30 0)
+				(at 0 -40 0)
 				(length 7.5)
 				(name "VI_CIF_D9_M0/ETH_TXCTL_M0/SPI1_CSN0_M0/SAI0_SDI1_M1/SAI0_SDO3_M1/UART6_RX_M1/GPIO6_B1"
 					(effects
@@ -104740,7 +104740,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -37.5 0)
+				(at 0 -47.5 0)
 				(length 7.5)
 				(name "VI_CIF_D12_M0/ETH_MCLK_M0/SPI1_CLK_M0/PDM_CLK0_M1/UART7_TX_M1/GPIO6_B4"
 					(effects
@@ -104758,7 +104758,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -45 0)
+				(at 0 -55 0)
 				(length 7.5)
 				(name "VI_CIF_D15_M0/ETH_MDIO_M0/PDM_CLK1_M1/UART7_CTSN_M1/GPIO6_B7"
 					(effects
@@ -104776,7 +104776,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -55 0)
+				(at 0 -65 0)
 				(length 7.5)
 				(name "VI_CIF_VSYNC_M0/ETH_MDC_M0/PWM0_CH0_M2/UART3_RTSN_M2/I2C2_SCL_M2/GPIO6_C0"
 					(effects
@@ -104794,7 +104794,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.5 0)
+				(at 0 -15 0)
 				(length 7.5)
 				(name "VI_CIF_D2_M0/CAN1_RXD_M1/SAI0_SDO0_M1/PWM1_CH2_M2/UART5_TX_M2/I2C4_SCL_M1/GPIO6_A2"
 					(effects
@@ -104812,7 +104812,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -60 0)
+				(at 0 -70 0)
 				(length 7.5)
 				(name "VI_CIF_CLKOUT_M0/ETH_TXCLK_M0/PWM0_CH2_M2/UART3_TX_M2/GPIO6_C2"
 					(effects
@@ -104830,7 +104830,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -62.5 0)
+				(at 0 -72.5 0)
 				(length 7.5)
 				(name "VI_CIF_HSYNC_M0/ETH_RXCLK_M0/PWM0_CH3_M2/UART3_RX_M2/I2C2_SDA_M2/GPIO6_C3"
 					(effects
@@ -104866,7 +104866,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -15 0)
+				(at 0 -17.5 0)
 				(length 7.5)
 				(name "VI_CIF_D3_M0/ETH_RXD2_M0/CAN1_TXD_M1/SAI0_SDI0_M1/PWM1_CH3_M2/UART5_RX_M2/I2C4_SDA_M1/GPIO6_A3"
 					(effects
@@ -104884,7 +104884,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -20 0)
+				(at 0 -27.5 0)
 				(length 7.5)
 				(name "VI_CIF_D7_M0/ETH_TXD0_M0/PWM2_CH3_M2/SAI0_SDI3_M1/SAI0_SDO1_M1/UART4_CTSN_M2/GPIO6_A7"
 					(effects
@@ -104902,7 +104902,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -32.5 0)
+				(at 0 -42.5 0)
 				(length 7.5)
 				(name "VI_CIF_D10_M0/ETH_RXD0_M0/SPI1_MOSI_M0/PDM_SDI2_M1/UART6_RTSN_M1/GPIO6_B2"
 					(effects
@@ -104920,7 +104920,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -35 0)
+				(at 0 -45 0)
 				(length 7.5)
 				(name "VI_CIF_D11_M0/ETH_RXD1_M0/SPI1_MISO_M0/PDM_SDI3_M1/UART6_CTSN_M1/GPIO6_B3"
 					(effects
@@ -104930,6 +104930,78 @@
 					)
 				)
 				(number "R21"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.5 0)
+				(length 7.5)
+				(name "VI_CIF_D1_M0/CAN0_TXD_M1/SAI0_LRCK_M1/PWM1_CH1_M2/UART4_RX_M2/I2C3_SDA_M3/GPIO6_A1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T18"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -20 0)
+				(length 7.5)
+				(name "VI_CIF_D4_M0/ETH_RXD3_M0/SAI0_MCLK_M1/PWM2_CH0_M2/UART5_RTSN_M2/I2C5_SCL_M3/GPIO6_A4"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T19"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -22.5 0)
+				(length 7.5)
+				(name "VI_CIF_D5_M0/ETH_TXD2_M0/PWM2_CH1_M2/UART5_CTSN_M2/I2C5_SDA_M3/GPIO6_A5"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T20"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -37.5 0)
+				(length 7.5)
+				(name "VI_CIF_D8_M0/ETH_TXD1_M0/SPI1_CSN1_M0/SAI0_SDI2_M1/SAI0_SDO2_M1/UART6_TX_M1/GPIO6_B0"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "T21"
 					(effects
 						(font
 							(size 1.6002 1.6002)
