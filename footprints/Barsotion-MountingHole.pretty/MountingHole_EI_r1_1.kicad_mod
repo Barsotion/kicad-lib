@@ -1,0 +1,157 @@
+(footprint "MountingHole_EI_r1_1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d7666eaa-a6e1-430c-99bb-2735e19c0490")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_EI_r1_1"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4899fcb1-dc04-4ea4-8647-000f2c80154b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e284230-51c8-4c3e-af3b-cd00b3aad251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9fe395b-ba47-4d9b-b8cc-94988c1627c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -2.5 -0.5) (xy -1 -2) (xy 1 -2) (xy 1.9 -1.1) (xy 1.9 2.9) (xy 1 2) (xy 0.5 2.5) (xy 0 2) (xy -0.5 2.5)
+			(xy -1.5 2.5) (xy -2 2) (xy -1.5 1.5) (xy -2.5 0.5) (xy -2 0)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "00e1806d-67f7-43c6-b7a0-fc809dd4ffc9")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8 -2) (xy 1.4 -1.6) (xy 1 -2) (xy -1 -2) (xy -2.5 -0.5) (xy -2 0) (xy -2.5 0.5) (xy -1.5 1.5)
+			(xy -2 2) (xy -1.5 2.5) (xy -0.5 2.5) (xy 0 2) (xy 0.5 2.5) (xy 1 2) (xy 1.9 2.9) (xy 1.9 -1.75)
+			(xy 1.9 -2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "36607da3-f3d2-466e-9c2b-d0bfe6797830")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8 -2) (xy 1.4 -1.6) (xy 1 -2) (xy -1 -2) (xy -2.5 -0.5) (xy -2 0) (xy -2.5 0.5) (xy -1.5 1.5)
+			(xy -2 2) (xy -1.5 2.5) (xy -0.5 2.5) (xy 0 2) (xy 0.5 2.5) (xy 1 2) (xy 2 3) (xy 2 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "0e3858be-b6d2-449b-9f30-83417b7a02aa")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8 -2) (xy 1.4 -1.6) (xy 1 -2) (xy -1 -2) (xy -2.5 -0.5) (xy -2 0) (xy -2.5 0.5) (xy -1.5 1.5)
+			(xy -2 2) (xy -1.5 2.5) (xy -0.5 2.5) (xy 0 2) (xy 0.5 2.5) (xy 1 2) (xy 1.9 2.9) (xy 1.9 -1.75)
+			(xy 1.9 -2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Cu")
+		(uuid "c8c6b70a-a815-4229-83a7-bbe1e6d4e1fb")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8 -2) (xy 1.4 -1.6) (xy 1 -2) (xy -1 -2) (xy -2.5 -0.5) (xy -2 0) (xy -2.5 0.5) (xy -1.5 1.5)
+			(xy -2 2) (xy -1.5 2.5) (xy -0.5 2.5) (xy 0 2) (xy 0.5 2.5) (xy 1 2) (xy 2 3) (xy 2 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "74092376-a1a4-4b79-bcb4-4818921bea5d")
+	)
+	(fp_line
+		(start 2 3.2)
+		(end 2 -2.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0392b17a-7af1-4acc-a517-b4e1a8e8b83f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50bb0180-a7a4-4511-b8e0-a591a32b1ab1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 2.1)
+		(layers "*.Mask")
+		(uuid "9347cefb-f2ed-43f9-aa8b-3862f6b43315")
+	)
+	(embedded_fonts no)
+)
