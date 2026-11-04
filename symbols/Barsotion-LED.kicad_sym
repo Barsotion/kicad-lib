@@ -1824,36 +1824,35 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "HL"
-			(at -7.5 0 0)
+		(property "Reference" "VD"
+			(at -6 6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "Emerald Green 525nm LED Indication - Discrete 3.3V 0603"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Barsotion-LED:LED_0603_Green"
-			(at 0 0 0)
+			(at 0 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" "Barsotion-LED:LED_0603_Green"
+			(at 0 14.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1868,73 +1867,69 @@
 				)
 			)
 		)
-		(property "Description" "Светодиод изумрудно-зеленый, 0603"
-			(at 0 0 0)
+		(property "Description" "Emerald Green 525nm LED Indication - Discrete 3.3V 0603"
+			(at 0 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at -1.27 -5.294 0)
+			(at 0 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "XL-1608UGC-04"
-			(at -1.27 -5.294 0)
+			(at 0 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "0603"
-			(at 0 0 0)
+			(at 0 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
-		(property "Comment" "Emerald Green 525nm LED Indication - Discrete 3.3V 0603"
-			(at 0 0 0)
+		(property "Comment" "\"Emerald green LED\""
+			(at 11.5 6 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C965804.html"
-			(at -10 -5.04 0)
+			(at 0 14.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ki_fp_filters" "*LED:{space}0603Y*"
@@ -2048,36 +2043,35 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "HL"
-			(at -7.5 0 0)
+		(property "Reference" "VD"
+			(at -6 6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "Ice Blue LED Indication - Discrete 2.8V~3.3V 0603"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Barsotion-LED:LED_0603_Blue"
-			(at 0 0 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" "Barsotion-LED:LED_0603_Blue"
+			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2092,73 +2086,69 @@
 				)
 			)
 		)
-		(property "Description" "Светодиод ледяной синий, 0603"
-			(at 0 0 0)
+		(property "Description" "Ice Blue LED Indication - Discrete 2.8V~3.3V 0603"
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Manufacturer" "Amicc"
-			(at -1.27 -5.294 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "A-SP192GB1D-A02-4T"
-			(at -1.27 -5.294 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "0603"
-			(at 0 0 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
-		(property "Comment" "Ice Blue LED Indication - Discrete 2.8V~3.3V 0603"
-			(at 0 0 0)
+		(property "Comment" "\"Ice blue LED\""
+			(at 7.5 6 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C5355458.html"
-			(at -10 -5.04 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ki_fp_filters" "*LED:{space}0603Y*"
@@ -2272,36 +2262,37 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "HL"
-			(at -7.5 0 0)
+		(property "Reference" "VD"
+			(at -4.5 6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "Red 625nm LED Indication - Discrete 2.3V 0603"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Barsotion-LED:LED_0603_Red"
-			(at 0 0 0)
+			(at -11 15.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion-LED:LED_0603_Red"
+			(at 0.5 16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.6 1.6)
 				)
 			)
 		)
@@ -2316,65 +2307,64 @@
 				)
 			)
 		)
-		(property "Description" "Светодиод красный, 0603"
-			(at 0 0 0)
+		(property "Description" "Red 625nm LED Indication - Discrete 2.3V 0603"
+			(at 0.5 16.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at -1.27 -5.294 0)
+			(at -11 15.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "XL-1608SURC-06"
-			(at -1.27 -5.294 0)
+			(at -11 15.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Package" "0603"
-			(at 0 0 0)
+			(at -1.5 16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
-		(property "Comment" "Red 625nm LED Indication - Discrete 2.3V 0603"
-			(at 0 0 0)
+		(property "Comment" "\"Red LED\""
+			(at 10 6.5 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C965799.html"
-			(at -10 -5.04 0)
+			(at -11 15.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2497,35 +2487,36 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
-			(at -7.5 0 0)
+			(at -1.5 5.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "451nm LED Indication - Discrete 2.9V 0603"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Barsotion-LED:LED_0603_Blue"
-			(at 0 0 0)
+			(at -10 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Barsotion-LED:LED_0603_Blue"
+			(at 2 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.6 1.6)
 				)
 			)
 		)
@@ -2540,71 +2531,70 @@
 				)
 			)
 		)
-		(property "Description" "Светодиод белый, 0603"
-			(at 0 0 0)
+		(property "Description" "451nm LED Indication - Discrete 2.9V 0603"
+			(at 1 11.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
 		(property "Manufacturer" "TUOZHAN"
-			(at -1.27 -5.294 0)
+			(at -6 11.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "TZ0603W3G-001/2#"
-			(at -1.27 -5.294 0)
+			(at -3.5 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Package" "0603"
-			(at 0 0 0)
+			(at 1.5 12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
-		(property "Comment" "451nm LED Indication - Discrete 2.9V 0603"
-			(at 0 0 0)
+		(property "Comment" "\"White LED\""
+			(at 10 6 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
 				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C3011232.html"
-			(at -10 -5.04 0)
+			(at -10 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.6 1.6)
 				)
 				(justify left bottom)
 			)
@@ -2721,35 +2711,34 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
-			(at -7.5 0 0)
+			(at -3 6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "Yellow 590nm LED Indication - Discrete 1.8V~2.4V 0603"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Barsotion-LED:LED_0603_Yellow"
-			(at 0 0 0)
+			(at 0 20 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" "Barsotion-LED:LED_0603_Yellow"
+			(at 0 20 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2764,62 +2753,69 @@
 				)
 			)
 		)
-		(property "Description" "Светодиод желтый, 0603"
-			(at 0 0 0)
+		(property "Description" "Yellow 590nm LED Indication - Discrete 1.8V~2.4V 0603"
+			(at 0 20 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Manufacturer" "TOGIALED"
-			(at -1.27 -5.294 0)
+			(at 0 20 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "TJ-S1608CY6T5ALC9Y-A5"
-			(at -1.27 -5.294 0)
+			(at 0 20 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Comment" "Yellow 590nm LED Indication - Discrete 1.8V~2.4V 0603"
-			(at 0 0 0)
+		(property "Comment" "\"Yellow LED\""
+			(at 9 6 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C2837010.html"
-			(at -10 -5.04 0)
+			(at 0 20 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 20 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
 			)
 		)
 		(property "ki_fp_filters" "*LED:{space}0603Y*"

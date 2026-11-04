@@ -112,39 +112,6 @@
 				)
 			)
 		)
-		(symbol "Testpoint_Circular_1mm_0_1"
-			(circle
-				(center 3.4962 0)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Testpoint_Circular_1mm_1_1"
-			(pin passive line
-				(at 0 0 0)
-				(length 2.5)
-				(name ""
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.6002 1.6002)
-						)
-					)
-				)
-			)
-		)
 		(embedded_fonts no)
 	)
 )

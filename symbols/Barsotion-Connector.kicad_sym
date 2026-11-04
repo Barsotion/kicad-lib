@@ -8086,6 +8086,201 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Connector_Single_Throug_hole"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 7 9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Barsotion-Connectors:Connector_Single_Through_hole_0.9mm"
+			(at 7 23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Connector_Single_Throug_hole_0_1"
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 5 7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 -2.5) (xy 25 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10 7.5) (xy 10 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 7.5) (xy 5 7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 2.5) (xy 5 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -2.5) (xy 25 7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Connector_Single_Throug_hole_1_1"
+			(text "Конт"
+				(at 7.5 5 0)
+				(effects
+					(font
+						(size 1.6002 1.6002)
+					)
+				)
+			)
+			(text "1"
+				(at 7.5 0 0)
+				(effects
+					(font
+						(size 1.6002 1.6002)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 17.5 5 0)
+				(effects
+					(font
+						(size 1.6002 1.6002)
+					)
+				)
+			)
+			(text "IR_CUT_DIS"
+				(at 17.5 0 0)
+				(effects
+					(font
+						(size 1.6002 1.6002)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.0038)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Connector_UART_4"
 		(pin_numbers
 			(hide yes)
