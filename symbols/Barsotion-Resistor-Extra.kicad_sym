@@ -20,7 +20,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -31,41 +31,41 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Barsotion-Resistors:Resistor_0402"
-			(at -4 14 0)
+			(at 0 13.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Datasheet" "kicad-embed://Fojan_FRC_series_chip_resistor.pdf"
-			(at 4 14 0)
+			(at 0 13.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Description" "RES 82kΩ ±1% 62.5mW 0402"
-			(at 2.5 14 0)
+			(at 0 13.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -76,33 +76,30 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "FRC0402F8202TS"
-			(at -6.5 13.5 0)
+			(at 0 13.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "0402"
-			(at -1.5 13.5 0)
+			(at 0 13.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Tolerance" "±1%"
@@ -112,21 +109,19 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C2909388.html"
-			(at -14.5 13.5 0)
+			(at 0 13.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ki_fp_filters" "*RES:{space}0402*"
