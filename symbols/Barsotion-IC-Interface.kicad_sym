@@ -14,7 +14,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -25,7 +25,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -37,7 +37,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -48,7 +48,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -59,7 +59,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -70,7 +70,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -82,7 +82,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -94,7 +94,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -105,7 +105,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -116,7 +116,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -128,7 +128,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1186,7 +1186,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify bottom)
 			)
@@ -1197,7 +1197,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1209,7 +1209,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1220,7 +1220,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1231,7 +1231,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1242,7 +1242,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1254,7 +1254,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify top)
 			)
@@ -1266,7 +1266,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1277,7 +1277,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1288,7 +1288,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1300,7 +1300,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1464,7 +1464,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify bottom)
 			)
@@ -1475,7 +1475,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1487,7 +1487,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1498,7 +1498,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1509,7 +1509,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1520,7 +1520,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1532,7 +1532,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify top)
 			)
@@ -1544,7 +1544,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1555,7 +1555,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1566,7 +1566,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1578,7 +1578,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)

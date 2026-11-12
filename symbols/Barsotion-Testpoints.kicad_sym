@@ -16,12 +16,12 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
-			(at 0 2.5 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.6 1.6)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -31,84 +31,117 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Footprint" "Barsotion-Testpoints:Testpoint_Circular_1mm"
-			(at 0 0 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Datasheet" "-"
-			(at 0 2.5 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Description" "-"
-			(at 0 2.5 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Manufacturer" "-"
-			(at 0 2.5 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Mfr.Part" "-"
-			(at 0 2.5 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "Package" "-"
-			(at 0 2.5 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
 		(property "HelpURL" "-"
-			(at 0 2.5 0)
+			(at 0 7.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(symbol "Testpoint_Circular_1mm_0_1"
+			(circle
+				(center 3.4962 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Testpoint_Circular_1mm_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
 				)
 			)
 		)

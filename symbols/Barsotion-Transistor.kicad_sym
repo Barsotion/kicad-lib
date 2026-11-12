@@ -20,7 +20,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -31,7 +31,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -43,7 +43,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -54,7 +54,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -65,7 +65,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -76,7 +76,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -88,7 +88,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -100,7 +100,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -111,7 +111,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -122,7 +122,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -134,7 +134,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -316,14 +316,14 @@
 				(name "G"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -334,14 +334,14 @@
 				(name "S"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -352,14 +352,14 @@
 				(name "D"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -385,7 +385,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -396,7 +396,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -408,7 +408,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -419,7 +419,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -430,7 +430,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -441,7 +441,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -453,7 +453,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -465,7 +465,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -476,7 +476,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -487,7 +487,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -499,7 +499,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -573,14 +573,14 @@
 				(name "B"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -591,14 +591,14 @@
 				(name "E"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -609,14 +609,14 @@
 				(name "C"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -642,7 +642,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -653,7 +653,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -665,7 +665,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -676,7 +676,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -687,7 +687,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -698,7 +698,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -710,7 +710,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -722,7 +722,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -733,7 +733,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -744,7 +744,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -756,7 +756,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -938,14 +938,14 @@
 				(name "D"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "D"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -956,14 +956,14 @@
 				(name "G"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "G"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -974,14 +974,14 @@
 				(name "S"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "S"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)

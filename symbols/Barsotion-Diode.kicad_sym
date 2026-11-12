@@ -20,7 +20,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -32,7 +32,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -44,7 +44,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -55,7 +55,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -66,7 +66,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -77,7 +77,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -89,7 +89,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -101,7 +101,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -112,7 +112,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -124,7 +124,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -159,14 +159,14 @@
 				(name "Anode"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -177,14 +177,14 @@
 				(name "Kathode"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "K"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -210,7 +210,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -222,7 +222,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -234,7 +234,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -245,7 +245,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -256,7 +256,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -267,7 +267,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -279,7 +279,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -291,7 +291,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -303,7 +303,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -315,7 +315,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -470,14 +470,14 @@
 				(name "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -488,14 +488,14 @@
 				(name "K"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "K"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -619,7 +619,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -678,14 +678,14 @@
 				(name "Anode"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -696,14 +696,14 @@
 				(name "Kathode"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "K"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -10681,7 +10681,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10692,7 +10692,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10703,7 +10703,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10714,7 +10714,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10725,7 +10725,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10736,7 +10736,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10747,7 +10747,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10758,7 +10758,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10807,14 +10807,14 @@
 				(name "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -10825,14 +10825,14 @@
 				(name "K"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "K"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -10956,7 +10956,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -11015,14 +11015,14 @@
 				(name "Anode"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "A"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -11033,14 +11033,14 @@
 				(name "Kathode"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "K"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)

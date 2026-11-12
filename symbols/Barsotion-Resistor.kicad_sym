@@ -20,7 +20,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -32,7 +32,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -44,7 +44,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -55,7 +55,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -66,7 +66,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -77,7 +77,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -89,7 +89,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -101,7 +101,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -113,7 +113,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -125,7 +125,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -137,7 +137,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -149,7 +149,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -160,7 +160,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -172,7 +172,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -195,14 +195,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -213,14 +213,14 @@
 				(name "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -245,14 +245,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -263,14 +263,14 @@
 				(name "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -295,14 +295,14 @@
 				(name "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -313,14 +313,14 @@
 				(name "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -345,14 +345,14 @@
 				(name "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -363,14 +363,14 @@
 				(name "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -396,7 +396,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -408,7 +408,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -420,7 +420,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -431,7 +431,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -442,7 +442,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -453,7 +453,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -465,7 +465,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -477,7 +477,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -501,7 +501,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -513,7 +513,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -525,7 +525,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -536,7 +536,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -548,7 +548,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -571,14 +571,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -589,14 +589,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -622,7 +622,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -634,7 +634,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -646,7 +646,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -657,7 +657,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -668,7 +668,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -679,7 +679,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -691,7 +691,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -703,7 +703,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -715,7 +715,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -727,7 +727,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -739,7 +739,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -751,7 +751,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -762,7 +762,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -774,7 +774,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -797,14 +797,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -815,14 +815,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -848,7 +848,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -860,7 +860,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -872,7 +872,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -883,7 +883,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -894,7 +894,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -905,7 +905,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -917,7 +917,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -929,7 +929,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -941,7 +941,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -953,7 +953,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -965,7 +965,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -988,7 +988,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1000,7 +1000,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1023,14 +1023,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1041,14 +1041,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1074,7 +1074,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1086,7 +1086,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1098,7 +1098,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1109,7 +1109,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1120,7 +1120,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1131,7 +1131,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1143,7 +1143,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1155,7 +1155,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1167,7 +1167,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1179,7 +1179,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1191,7 +1191,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1214,7 +1214,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1226,7 +1226,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1249,14 +1249,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1267,14 +1267,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1300,7 +1300,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left)
 			)
@@ -1312,7 +1312,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1324,7 +1324,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1335,7 +1335,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1346,7 +1346,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1357,7 +1357,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1369,7 +1369,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1381,7 +1381,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1393,7 +1393,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1405,7 +1405,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1417,7 +1417,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1440,7 +1440,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left)
 			)
@@ -1463,7 +1463,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1486,14 +1486,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1504,14 +1504,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1537,7 +1537,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1549,7 +1549,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1561,7 +1561,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1572,7 +1572,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1583,7 +1583,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1594,7 +1594,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1606,7 +1606,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1618,7 +1618,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1630,7 +1630,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1642,7 +1642,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1654,7 +1654,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1677,7 +1677,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1689,7 +1689,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1712,14 +1712,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1730,14 +1730,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1763,7 +1763,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1775,7 +1775,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1787,7 +1787,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1798,7 +1798,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1809,7 +1809,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1820,7 +1820,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1832,7 +1832,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1844,7 +1844,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1856,7 +1856,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1868,7 +1868,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1880,7 +1880,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1903,7 +1903,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -1915,7 +1915,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -1938,14 +1938,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1956,14 +1956,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -1989,7 +1989,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2001,7 +2001,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2013,7 +2013,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2024,7 +2024,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2035,7 +2035,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2046,7 +2046,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2058,7 +2058,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2070,7 +2070,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2082,7 +2082,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2094,7 +2094,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2106,7 +2106,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2129,7 +2129,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2141,7 +2141,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2164,14 +2164,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2182,14 +2182,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2215,7 +2215,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2227,7 +2227,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2239,7 +2239,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2250,7 +2250,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2261,7 +2261,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2272,7 +2272,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2284,7 +2284,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2296,7 +2296,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2308,7 +2308,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2320,7 +2320,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2332,7 +2332,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2355,7 +2355,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.8 1.8)
 				)
 				(justify left bottom)
 			)
@@ -2367,7 +2367,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -2390,14 +2390,14 @@
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2408,14 +2408,14 @@
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
