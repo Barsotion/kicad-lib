@@ -685,8 +685,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at -16 15.5 0)
+		(property "Value" "B9B-XH-A(LF)(SN)"
+			(at 0 19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -694,11 +694,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 1.5 16.5 0)
+		(property "Footprint" "Barsotion-Connectors:JST_XH_B9B-XH-A_1x09_P2.50mm_Vertical"
+			(at 0 19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -719,8 +718,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 2 15.5 0)
+		(property "Description" "CONN HEADER TH 9POS 2.5mm"
+			(at 0 19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -730,8 +729,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 0.5 17 0)
+		(property "Manufacturer" "JST"
+			(at 0.5 19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -741,8 +740,8 @@
 				)
 			)
 		)
-		(property "Mfr.Part" ""
-			(at -2.5 15 0)
+		(property "Mfr.Part" "B9B-XH-A(LF)(SN)"
+			(at 0 19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -752,8 +751,8 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at -5.5 18 0)
+		(property "Package" "B9B-XH-A(LF)(SN)"
+			(at 0 19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -773,8 +772,8 @@
 				)
 			)
 		)
-		(property "HelpURL" ""
-			(at 3.5 17 0)
+		(property "HelpURL" "https://www.lcsc.com/product-detail/C157966.html"
+			(at 0 19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1188,7 +1187,7 @@
 					)
 				)
 			)
-			(text "+1.8 В"
+			(text "VDD"
 				(at 22.5 0 0)
 				(effects
 					(font
