@@ -9493,13 +9493,13 @@
 			)
 		)
 		(property "Footprint" "Barsotion-IC-QFN-DFN:SON-20_2x4mm_TXB0108DQS"
-			(at 0 0 0)
+			(at 0 10.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
