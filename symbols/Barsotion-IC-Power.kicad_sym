@@ -19,7 +19,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${MFR.PART}"
+		(property "Value" "AP2112K-1.2TRG1"
 			(at 20 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "Barsotion:SOT-23-5"
-			(at 0 0 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -52,8 +52,8 @@
 				)
 			)
 		)
-		(property "Description" "Микросхема линейного стабилизатора напряжения 1,2В 600мА, SOT-23-5"
-			(at 0 0 0)
+		(property "Description" "1.2V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -64,7 +64,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes"
-			(at -1.27 -6.35 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -72,11 +72,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "AP2112K-1.2TRG1"
-			(at -1.27 -6.35 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -84,11 +83,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "SOT-23-5"
-			(at 0 0 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -98,7 +96,7 @@
 				)
 			)
 		)
-		(property "Comment" "1.2V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+		(property "Comment" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110,7 +108,7 @@
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C460310.html"
-			(at 0 0 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -127,7 +125,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -254,7 +252,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${MFR.PART}"
+		(property "Value" "AP2112K-1.8TRG1"
 			(at 20 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -266,7 +264,7 @@
 			)
 		)
 		(property "Footprint" "Barsotion:SOT-23-5"
-			(at 0 0 0)
+			(at 0 9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -287,8 +285,8 @@
 				)
 			)
 		)
-		(property "Description" "Микросхема линейного стабилизатора напряжения 1,8В 600мА, SOT-23-5"
-			(at 0 0 0)
+		(property "Description" "1.8V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+			(at 0 9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -299,7 +297,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes"
-			(at -1.27 -6.35 0)
+			(at 0 9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -307,11 +305,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "AP2112K-1.8TRG1"
-			(at -1.27 -6.35 0)
+			(at 0 9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -319,11 +316,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "SOT-23-5"
-			(at 0 0 0)
+			(at 0 9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -333,8 +329,8 @@
 				)
 			)
 		)
-		(property "Comment" "1.8V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
-			(at 0 0 0)
+		(property "Comment" ""
+			(at 4 9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -345,7 +341,7 @@
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C176944.html"
-			(at -0.508 -12.54 0)
+			(at 0 9.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -353,7 +349,6 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ki_fp_filters" "*SOT-23-5*"
@@ -363,7 +358,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -490,7 +485,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${MFR.PART}"
+		(property "Value" "AP2112K-2.5TRG1"
 			(at 20 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -502,7 +497,7 @@
 			)
 		)
 		(property "Footprint" "Barsotion:SOT-23-5"
-			(at 0 0 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -523,8 +518,8 @@
 				)
 			)
 		)
-		(property "Description" "Микросхема линейного стабилизатора напряжения 2,5В 600мА, SOT-23-5"
-			(at 0 0 0)
+		(property "Description" "2.5V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -535,7 +530,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes"
-			(at -1.27 -6.35 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -543,11 +538,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "AP2112K-2.5TRG1"
-			(at -1.27 -6.35 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -555,11 +549,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "SOT-23-5"
-			(at 0 0 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -569,7 +562,7 @@
 				)
 			)
 		)
-		(property "Comment" "2.5V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+		(property "Comment" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -581,7 +574,7 @@
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C176945.html"
-			(at -0.508 -12.54 0)
+			(at 0 11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -589,7 +582,6 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ki_fp_filters" "*SOT-23-5*"
@@ -599,7 +591,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -726,7 +718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${MFR.PART}"
+		(property "Value" "AP2112K-2.6TRG1"
 			(at 20 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -738,7 +730,7 @@
 			)
 		)
 		(property "Footprint" "Barsotion:SOT-23-5"
-			(at 0 0 0)
+			(at 0 10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -759,8 +751,8 @@
 				)
 			)
 		)
-		(property "Description" "Микросхема линейного стабилизатора напряжения 2,6В 600мА, SOT-23-5"
-			(at 0 0 0)
+		(property "Description" "2.6V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+			(at 0 10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -771,7 +763,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes"
-			(at -1.27 -6.35 0)
+			(at 0 10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -779,11 +771,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "AP2112K-2.6TRG1"
-			(at -1.27 -6.35 0)
+			(at 0 10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -791,11 +782,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "SOT-23-5"
-			(at 0 0 0)
+			(at 0 10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -805,7 +795,7 @@
 				)
 			)
 		)
-		(property "Comment" "2.6V Positive Fixed SOT-25 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+		(property "Comment" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -817,7 +807,7 @@
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C7076810.html"
-			(at -0.508 -12.54 0)
+			(at 0 10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -825,7 +815,6 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ki_fp_filters" "*SOT-23-5*"
@@ -835,7 +824,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -962,7 +951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${MFR.PART}"
+		(property "Value" "AP2112K-3.3TRG1"
 			(at 20 3.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -974,7 +963,7 @@
 			)
 		)
 		(property "Footprint" "Barsotion:SOT-23-5"
-			(at 0 0 0)
+			(at 0 10.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -995,8 +984,8 @@
 				)
 			)
 		)
-		(property "Description" "Микросхема линейного стабилизатора напряжения 3,3В 600мА, SOT-23-5"
-			(at 0 0 0)
+		(property "Description" "3.3V Positive Fixed SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+			(at 0 10.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1007,7 +996,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes"
-			(at -1.27 -6.35 0)
+			(at 0 10.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1015,11 +1004,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Mfr.Part" "AP2112K-3.3TRG1"
-			(at -1.27 -6.35 0)
+			(at 0 10.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1027,11 +1015,10 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Package" "SOT-23-5"
-			(at 0 0 0)
+			(at 0 10.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1041,7 +1028,7 @@
 				)
 			)
 		)
-		(property "Comment" "3.3V Positive Fixed SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+		(property "Comment" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1053,7 +1040,7 @@
 			)
 		)
 		(property "HelpURL" "https://www.lcsc.com/product-detail/C51118.html"
-			(at -0.508 -12.54 0)
+			(at 0 10.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1061,7 +1048,6 @@
 				(font
 					(size 1.8 1.8)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ki_fp_filters" "*SOT-23-5*"
@@ -1071,7 +1057,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13904,7 +13890,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34472,7 +34458,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34726,7 +34712,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34962,7 +34948,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35486,7 +35472,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35830,7 +35816,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
