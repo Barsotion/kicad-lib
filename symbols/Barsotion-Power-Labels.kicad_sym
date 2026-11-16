@@ -4,12 +4,19 @@
 	(generator_version "10.0")
 	(symbol "0.9V"
 		(power global)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,6 +70,17 @@
 				)
 			)
 		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "0.9V_0_1"
 			(polyline
 				(pts
@@ -90,7 +108,7 @@
 			)
 		)
 		(symbol "0.9V_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 90)
 				(length 2.5)
 				(name ""
@@ -100,7 +118,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -113,12 +131,19 @@
 	)
 	(symbol "1.2V"
 		(power global)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -172,6 +197,17 @@
 				)
 			)
 		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "1.2V_0_1"
 			(polyline
 				(pts
@@ -199,7 +235,7 @@
 			)
 		)
 		(symbol "1.2V_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 90)
 				(length 2.5)
 				(name ""
@@ -209,7 +245,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -222,12 +258,19 @@
 	)
 	(symbol "12V"
 		(power global)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -281,6 +324,17 @@
 				)
 			)
 		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "12V_0_1"
 			(polyline
 				(pts
@@ -308,7 +362,7 @@
 			)
 		)
 		(symbol "12V_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 90)
 				(length 2.5)
 				(name ""
@@ -318,7 +372,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -343,7 +397,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -404,7 +458,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -458,12 +512,19 @@
 	)
 	(symbol "5V"
 		(power global)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -517,6 +578,17 @@
 				)
 			)
 		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "5V_0_1"
 			(polyline
 				(pts
@@ -544,7 +616,7 @@
 			)
 		)
 		(symbol "5V_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 90)
 				(length 2.5)
 				(name ""
@@ -554,7 +626,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -641,7 +713,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -754,7 +826,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -869,7 +941,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -923,12 +995,19 @@
 	)
 	(symbol "VDD_1.8V"
 		(power global)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -982,6 +1061,17 @@
 				)
 			)
 		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "VDD_1.8V_0_1"
 			(polyline
 				(pts
@@ -1009,7 +1099,7 @@
 			)
 		)
 		(symbol "VDD_1.8V_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 90)
 				(length 2.5)
 				(name ""
@@ -1019,7 +1109,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.6002 1.6002)
@@ -1044,7 +1134,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1105,7 +1195,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.8 1.8)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1159,12 +1249,19 @@
 	)
 	(symbol "VDD_5V"
 		(power global)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "#PWR"
 			(at -4 4.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1218,6 +1315,17 @@
 				)
 			)
 		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "VDD_5V_0_1"
 			(polyline
 				(pts
@@ -1245,7 +1353,7 @@
 			)
 		)
 		(symbol "VDD_5V_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 90)
 				(length 2.5)
 				(name ""
@@ -1255,7 +1363,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.6002 1.6002)
